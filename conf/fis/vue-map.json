@@ -1,0 +1,3397 @@
+{
+    "res": {
+        "vue:page/index.tpl": {
+            "uri": "vue/page/index.tpl",
+            "type": "tpl",
+            "extras": {
+                "isPage": true
+            },
+            "subpath": "/views/vue/page/index.tpl"
+        },
+        "vue:page/layout.tpl": {
+            "uri": "vue/page/layout.tpl",
+            "type": "tpl",
+            "extras": {
+                "isPage": true
+            },
+            "deps": [
+                "vue:widget/config.js",
+                "vue:widget/app.js"
+            ],
+            "subpath": "/views/vue/page/layout.tpl"
+        },
+        "vue:static/js/bigpipe.js": {
+            "uri": "/static/vue/static/js/bigpipe.js",
+            "type": "js",
+            "subpath": "/static/vue/static/js/bigpipe.js"
+        },
+        "vue:static/js/index.js": {
+            "uri": "/static/vue/static/js/index.js",
+            "type": "js",
+            "subpath": "/static/vue/static/js/index.js"
+        },
+        "vue:static/js/lazyload.js": {
+            "uri": "/static/vue/static/js/lazyload.js",
+            "type": "js",
+            "subpath": "/static/vue/static/js/lazyload.js"
+        },
+        "vue:static/js/mod.js": {
+            "uri": "/static/vue/static/js/mod.js",
+            "type": "js",
+            "subpath": "/static/vue/static/js/mod.js"
+        },
+        "vue:static/js/page.js": {
+            "uri": "/static/vue/static/js/page.js",
+            "type": "js",
+            "deps": [
+                "vue:static/js/bigpipe.js"
+            ],
+            "subpath": "/static/vue/static/js/page.js"
+        },
+        "vue:widget/app.js": {
+            "uri": "/static/vue/widget/app.js",
+            "type": "js",
+            "deps": [
+                "vue:node_modules/vue/dist/vue.js",
+                "vue:widget/AppMain.vue",
+                "vue:widget/vuex/stores.js",
+                "vue:widget/routers.js"
+            ],
+            "subpath": "/static/vue/widget/app.js"
+        },
+        "vue:widget/AppMain.vue": {
+            "uri": "/static/vue/widget/AppMain.js",
+            "type": "js",
+            "deps": [
+                "vue:widget/components/home.vue",
+                "vue:node_modules/vue-router/dist/vue-router.js",
+                "vue:widget/AppMain.css"
+            ],
+            "subpath": "/static/vue/widget/AppMain.js"
+        },
+        "vue:widget/AppMain.css": {
+            "uri": "/static/vue/widget/AppMain.css",
+            "type": "css",
+            "subpath": "/static/vue/widget/AppMain.css"
+        },
+        "vue:widget/components/home.vue": {
+            "uri": "/static/vue/widget/components/home.js",
+            "type": "js",
+            "deps": [
+                "vue:widget/components/home.css"
+            ],
+            "subpath": "/static/vue/widget/components/home.js"
+        },
+        "vue:widget/components/home.css": {
+            "uri": "/static/vue/widget/components/home.css",
+            "type": "css",
+            "subpath": "/static/vue/widget/components/home.css"
+        },
+        "vue:widget/config.js": {
+            "uri": "/static/vue/widget/config.js",
+            "type": "js",
+            "subpath": "/static/vue/widget/config.js"
+        },
+        "vue:widget/routers.js": {
+            "uri": "/static/vue/widget/routers.js",
+            "type": "js",
+            "deps": [
+                "vue:node_modules/vue/dist/vue.js",
+                "vue:node_modules/vue-router/dist/vue-router.js"
+            ],
+            "subpath": "/static/vue/widget/routers.js"
+        },
+        "vue:widget/vuex/actions.js": {
+            "uri": "/static/vue/widget/vuex/actions.js",
+            "type": "js",
+            "subpath": "/static/vue/widget/vuex/actions.js"
+        },
+        "vue:widget/vuex/getters.js": {
+            "uri": "/static/vue/widget/vuex/getters.js",
+            "type": "js",
+            "subpath": "/static/vue/widget/vuex/getters.js"
+        },
+        "vue:widget/vuex/stores.js": {
+            "uri": "/static/vue/widget/vuex/stores.js",
+            "type": "js",
+            "deps": [
+                "vue:node_modules/vue/dist/vue.js",
+                "vue:node_modules/vuex/dist/vuex.common.js"
+            ],
+            "subpath": "/static/vue/widget/vuex/stores.js"
+        },
+        "vue:node_modules/acorn/dist/acorn_loose.es.js": {
+            "uri": "/app/vue/node_modules/acorn/dist/acorn_loose.es.js",
+            "type": "js",
+            "subpath": "/app/vue/node_modules/acorn/dist/acorn_loose.es.js"
+        },
+        "vue:node_modules/acorn/dist/acorn_loose.js": {
+            "uri": "/app/vue/node_modules/acorn/dist/acorn_loose.js",
+            "type": "js",
+            "subpath": "/app/vue/node_modules/acorn/dist/acorn_loose.js"
+        },
+        "vue:node_modules/acorn/dist/acorn.es.js": {
+            "uri": "/app/vue/node_modules/acorn/dist/acorn.es.js",
+            "type": "js",
+            "subpath": "/app/vue/node_modules/acorn/dist/acorn.es.js"
+        },
+        "vue:node_modules/acorn/dist/acorn.js": {
+            "uri": "/app/vue/node_modules/acorn/dist/acorn.js",
+            "type": "js",
+            "subpath": "/app/vue/node_modules/acorn/dist/acorn.js"
+        },
+        "vue:node_modules/acorn/dist/walk.es.js": {
+            "uri": "/app/vue/node_modules/acorn/dist/walk.es.js",
+            "type": "js",
+            "subpath": "/app/vue/node_modules/acorn/dist/walk.es.js"
+        },
+        "vue:node_modules/acorn/dist/walk.js": {
+            "uri": "/app/vue/node_modules/acorn/dist/walk.js",
+            "type": "js",
+            "subpath": "/app/vue/node_modules/acorn/dist/walk.js"
+        },
+        "vue:node_modules/acorn/src/bin/acorn.js": {
+            "uri": "/app/vue/node_modules/acorn/src/bin/acorn.js",
+            "type": "js",
+            "subpath": "/app/vue/node_modules/acorn/src/bin/acorn.js"
+        },
+        "vue:node_modules/acorn/src/expression.js": {
+            "uri": "/app/vue/node_modules/acorn/src/expression.js",
+            "type": "js",
+            "subpath": "/app/vue/node_modules/acorn/src/expression.js"
+        },
+        "vue:node_modules/acorn/src/identifier.js": {
+            "uri": "/app/vue/node_modules/acorn/src/identifier.js",
+            "type": "js",
+            "subpath": "/app/vue/node_modules/acorn/src/identifier.js"
+        },
+        "vue:node_modules/acorn/src/index.js": {
+            "uri": "/app/vue/node_modules/acorn/src/index.js",
+            "type": "js",
+            "subpath": "/app/vue/node_modules/acorn/src/index.js"
+        },
+        "vue:node_modules/acorn/src/location.js": {
+            "uri": "/app/vue/node_modules/acorn/src/location.js",
+            "type": "js",
+            "subpath": "/app/vue/node_modules/acorn/src/location.js"
+        },
+        "vue:node_modules/acorn/src/locutil.js": {
+            "uri": "/app/vue/node_modules/acorn/src/locutil.js",
+            "type": "js",
+            "subpath": "/app/vue/node_modules/acorn/src/locutil.js"
+        },
+        "vue:node_modules/acorn/src/loose/expression.js": {
+            "uri": "/app/vue/node_modules/acorn/src/loose/expression.js",
+            "type": "js",
+            "subpath": "/app/vue/node_modules/acorn/src/loose/expression.js"
+        },
+        "vue:node_modules/acorn/src/loose/index.js": {
+            "uri": "/app/vue/node_modules/acorn/src/loose/index.js",
+            "type": "js",
+            "subpath": "/app/vue/node_modules/acorn/src/loose/index.js"
+        },
+        "vue:node_modules/acorn/src/loose/parseutil.js": {
+            "uri": "/app/vue/node_modules/acorn/src/loose/parseutil.js",
+            "type": "js",
+            "subpath": "/app/vue/node_modules/acorn/src/loose/parseutil.js"
+        },
+        "vue:node_modules/acorn/src/loose/state.js": {
+            "uri": "/app/vue/node_modules/acorn/src/loose/state.js",
+            "type": "js",
+            "subpath": "/app/vue/node_modules/acorn/src/loose/state.js"
+        },
+        "vue:node_modules/acorn/src/loose/statement.js": {
+            "uri": "/app/vue/node_modules/acorn/src/loose/statement.js",
+            "type": "js",
+            "subpath": "/app/vue/node_modules/acorn/src/loose/statement.js"
+        },
+        "vue:node_modules/acorn/src/loose/tokenize.js": {
+            "uri": "/app/vue/node_modules/acorn/src/loose/tokenize.js",
+            "type": "js",
+            "subpath": "/app/vue/node_modules/acorn/src/loose/tokenize.js"
+        },
+        "vue:node_modules/acorn/src/lval.js": {
+            "uri": "/app/vue/node_modules/acorn/src/lval.js",
+            "type": "js",
+            "subpath": "/app/vue/node_modules/acorn/src/lval.js"
+        },
+        "vue:node_modules/acorn/src/node.js": {
+            "uri": "/app/vue/node_modules/acorn/src/node.js",
+            "type": "js",
+            "subpath": "/app/vue/node_modules/acorn/src/node.js"
+        },
+        "vue:node_modules/acorn/src/options.js": {
+            "uri": "/app/vue/node_modules/acorn/src/options.js",
+            "type": "js",
+            "subpath": "/app/vue/node_modules/acorn/src/options.js"
+        },
+        "vue:node_modules/acorn/src/parseutil.js": {
+            "uri": "/app/vue/node_modules/acorn/src/parseutil.js",
+            "type": "js",
+            "subpath": "/app/vue/node_modules/acorn/src/parseutil.js"
+        },
+        "vue:node_modules/acorn/src/state.js": {
+            "uri": "/app/vue/node_modules/acorn/src/state.js",
+            "type": "js",
+            "subpath": "/app/vue/node_modules/acorn/src/state.js"
+        },
+        "vue:node_modules/acorn/src/statement.js": {
+            "uri": "/app/vue/node_modules/acorn/src/statement.js",
+            "type": "js",
+            "subpath": "/app/vue/node_modules/acorn/src/statement.js"
+        },
+        "vue:node_modules/acorn/src/tokencontext.js": {
+            "uri": "/app/vue/node_modules/acorn/src/tokencontext.js",
+            "type": "js",
+            "subpath": "/app/vue/node_modules/acorn/src/tokencontext.js"
+        },
+        "vue:node_modules/acorn/src/tokenize.js": {
+            "uri": "/app/vue/node_modules/acorn/src/tokenize.js",
+            "type": "js",
+            "subpath": "/app/vue/node_modules/acorn/src/tokenize.js"
+        },
+        "vue:node_modules/acorn/src/tokentype.js": {
+            "uri": "/app/vue/node_modules/acorn/src/tokentype.js",
+            "type": "js",
+            "subpath": "/app/vue/node_modules/acorn/src/tokentype.js"
+        },
+        "vue:node_modules/acorn/src/util.js": {
+            "uri": "/app/vue/node_modules/acorn/src/util.js",
+            "type": "js",
+            "subpath": "/app/vue/node_modules/acorn/src/util.js"
+        },
+        "vue:node_modules/acorn/src/walk/index.js": {
+            "uri": "/app/vue/node_modules/acorn/src/walk/index.js",
+            "type": "js",
+            "subpath": "/app/vue/node_modules/acorn/src/walk/index.js"
+        },
+        "vue:node_modules/acorn/src/whitespace.js": {
+            "uri": "/app/vue/node_modules/acorn/src/whitespace.js",
+            "type": "js",
+            "subpath": "/app/vue/node_modules/acorn/src/whitespace.js"
+        },
+        "vue:node_modules/align-text/index.js": {
+            "uri": "/app/vue/node_modules/align-text/index.js",
+            "type": "js",
+            "subpath": "/app/vue/node_modules/align-text/index.js"
+        },
+        "vue:node_modules/amdefine/amdefine.js": {
+            "uri": "/app/vue/node_modules/amdefine/amdefine.js",
+            "type": "js",
+            "subpath": "/app/vue/node_modules/amdefine/amdefine.js"
+        },
+        "vue:node_modules/amdefine/intercept.js": {
+            "uri": "/app/vue/node_modules/amdefine/intercept.js",
+            "type": "js",
+            "subpath": "/app/vue/node_modules/amdefine/intercept.js"
+        },
+        "vue:node_modules/ansi-regex/index.js": {
+            "uri": "/app/vue/node_modules/ansi-regex/index.js",
+            "type": "js",
+            "subpath": "/app/vue/node_modules/ansi-regex/index.js"
+        },
+        "vue:node_modules/ansi-styles/index.js": {
+            "uri": "/app/vue/node_modules/ansi-styles/index.js",
+            "type": "js",
+            "subpath": "/app/vue/node_modules/ansi-styles/index.js"
+        },
+        "vue:node_modules/ast-types/def/babel.js": {
+            "uri": "/app/vue/node_modules/ast-types/def/babel.js",
+            "type": "js",
+            "subpath": "/app/vue/node_modules/ast-types/def/babel.js"
+        },
+        "vue:node_modules/ast-types/def/babel6.js": {
+            "uri": "/app/vue/node_modules/ast-types/def/babel6.js",
+            "type": "js",
+            "subpath": "/app/vue/node_modules/ast-types/def/babel6.js"
+        },
+        "vue:node_modules/ast-types/def/core.js": {
+            "uri": "/app/vue/node_modules/ast-types/def/core.js",
+            "type": "js",
+            "subpath": "/app/vue/node_modules/ast-types/def/core.js"
+        },
+        "vue:node_modules/ast-types/def/e4x.js": {
+            "uri": "/app/vue/node_modules/ast-types/def/e4x.js",
+            "type": "js",
+            "subpath": "/app/vue/node_modules/ast-types/def/e4x.js"
+        },
+        "vue:node_modules/ast-types/def/es6.js": {
+            "uri": "/app/vue/node_modules/ast-types/def/es6.js",
+            "type": "js",
+            "subpath": "/app/vue/node_modules/ast-types/def/es6.js"
+        },
+        "vue:node_modules/ast-types/def/es7.js": {
+            "uri": "/app/vue/node_modules/ast-types/def/es7.js",
+            "type": "js",
+            "subpath": "/app/vue/node_modules/ast-types/def/es7.js"
+        },
+        "vue:node_modules/ast-types/def/esprima.js": {
+            "uri": "/app/vue/node_modules/ast-types/def/esprima.js",
+            "type": "js",
+            "subpath": "/app/vue/node_modules/ast-types/def/esprima.js"
+        },
+        "vue:node_modules/ast-types/def/flow.js": {
+            "uri": "/app/vue/node_modules/ast-types/def/flow.js",
+            "type": "js",
+            "subpath": "/app/vue/node_modules/ast-types/def/flow.js"
+        },
+        "vue:node_modules/ast-types/def/jsx.js": {
+            "uri": "/app/vue/node_modules/ast-types/def/jsx.js",
+            "type": "js",
+            "subpath": "/app/vue/node_modules/ast-types/def/jsx.js"
+        },
+        "vue:node_modules/ast-types/def/mozilla.js": {
+            "uri": "/app/vue/node_modules/ast-types/def/mozilla.js",
+            "type": "js",
+            "subpath": "/app/vue/node_modules/ast-types/def/mozilla.js"
+        },
+        "vue:node_modules/ast-types/fork.js": {
+            "uri": "/app/vue/node_modules/ast-types/fork.js",
+            "type": "js",
+            "subpath": "/app/vue/node_modules/ast-types/fork.js"
+        },
+        "vue:node_modules/ast-types/lib/equiv.js": {
+            "uri": "/app/vue/node_modules/ast-types/lib/equiv.js",
+            "type": "js",
+            "subpath": "/app/vue/node_modules/ast-types/lib/equiv.js"
+        },
+        "vue:node_modules/ast-types/lib/node-path.js": {
+            "uri": "/app/vue/node_modules/ast-types/lib/node-path.js",
+            "type": "js",
+            "subpath": "/app/vue/node_modules/ast-types/lib/node-path.js"
+        },
+        "vue:node_modules/ast-types/lib/path-visitor.js": {
+            "uri": "/app/vue/node_modules/ast-types/lib/path-visitor.js",
+            "type": "js",
+            "subpath": "/app/vue/node_modules/ast-types/lib/path-visitor.js"
+        },
+        "vue:node_modules/ast-types/lib/path.js": {
+            "uri": "/app/vue/node_modules/ast-types/lib/path.js",
+            "type": "js",
+            "subpath": "/app/vue/node_modules/ast-types/lib/path.js"
+        },
+        "vue:node_modules/ast-types/lib/scope.js": {
+            "uri": "/app/vue/node_modules/ast-types/lib/scope.js",
+            "type": "js",
+            "subpath": "/app/vue/node_modules/ast-types/lib/scope.js"
+        },
+        "vue:node_modules/ast-types/lib/shared.js": {
+            "uri": "/app/vue/node_modules/ast-types/lib/shared.js",
+            "type": "js",
+            "subpath": "/app/vue/node_modules/ast-types/lib/shared.js"
+        },
+        "vue:node_modules/ast-types/lib/types.js": {
+            "uri": "/app/vue/node_modules/ast-types/lib/types.js",
+            "type": "js",
+            "subpath": "/app/vue/node_modules/ast-types/lib/types.js"
+        },
+        "vue:node_modules/ast-types/main.js": {
+            "uri": "/app/vue/node_modules/ast-types/main.js",
+            "type": "js",
+            "subpath": "/app/vue/node_modules/ast-types/main.js"
+        },
+        "vue:node_modules/balanced-match/index.js": {
+            "uri": "/app/vue/node_modules/balanced-match/index.js",
+            "type": "js",
+            "subpath": "/app/vue/node_modules/balanced-match/index.js"
+        },
+        "vue:node_modules/base62/base62.js": {
+            "uri": "/app/vue/node_modules/base62/base62.js",
+            "type": "js",
+            "subpath": "/app/vue/node_modules/base62/base62.js"
+        },
+        "vue:node_modules/base62/benchmark/benchmarks.js": {
+            "uri": "/app/vue/node_modules/base62/benchmark/benchmarks.js",
+            "type": "js",
+            "subpath": "/app/vue/node_modules/base62/benchmark/benchmarks.js"
+        },
+        "vue:node_modules/base62/test/test.js": {
+            "uri": "/app/vue/node_modules/base62/test/test.js",
+            "type": "js",
+            "subpath": "/app/vue/node_modules/base62/test/test.js"
+        },
+        "vue:node_modules/bindings/bindings.js": {
+            "uri": "/app/vue/node_modules/bindings/bindings.js",
+            "type": "js",
+            "subpath": "/app/vue/node_modules/bindings/bindings.js"
+        },
+        "vue:node_modules/brace-expansion/index.js": {
+            "uri": "/app/vue/node_modules/brace-expansion/index.js",
+            "type": "js",
+            "subpath": "/app/vue/node_modules/brace-expansion/index.js"
+        },
+        "vue:node_modules/camelcase/index.js": {
+            "uri": "/app/vue/node_modules/camelcase/index.js",
+            "type": "js",
+            "subpath": "/app/vue/node_modules/camelcase/index.js"
+        },
+        "vue:node_modules/center-align/index.js": {
+            "uri": "/app/vue/node_modules/center-align/index.js",
+            "type": "js",
+            "subpath": "/app/vue/node_modules/center-align/index.js"
+        },
+        "vue:node_modules/center-align/utils.js": {
+            "uri": "/app/vue/node_modules/center-align/utils.js",
+            "type": "js",
+            "subpath": "/app/vue/node_modules/center-align/utils.js"
+        },
+        "vue:node_modules/chalk/index.js": {
+            "uri": "/app/vue/node_modules/chalk/index.js",
+            "type": "js",
+            "subpath": "/app/vue/node_modules/chalk/index.js"
+        },
+        "vue:node_modules/cliui/index.js": {
+            "uri": "/app/vue/node_modules/cliui/index.js",
+            "type": "js",
+            "subpath": "/app/vue/node_modules/cliui/index.js"
+        },
+        "vue:node_modules/cliui/test/cliui.js": {
+            "uri": "/app/vue/node_modules/cliui/test/cliui.js",
+            "type": "js",
+            "subpath": "/app/vue/node_modules/cliui/test/cliui.js"
+        },
+        "vue:node_modules/commander/index.js": {
+            "uri": "/app/vue/node_modules/commander/index.js",
+            "type": "js",
+            "subpath": "/app/vue/node_modules/commander/index.js"
+        },
+        "vue:node_modules/commoner/lib/cache.js": {
+            "uri": "/app/vue/node_modules/commoner/lib/cache.js",
+            "type": "js",
+            "subpath": "/app/vue/node_modules/commoner/lib/cache.js"
+        },
+        "vue:node_modules/commoner/lib/commoner.js": {
+            "uri": "/app/vue/node_modules/commoner/lib/commoner.js",
+            "type": "js",
+            "subpath": "/app/vue/node_modules/commoner/lib/commoner.js"
+        },
+        "vue:node_modules/commoner/lib/context.js": {
+            "uri": "/app/vue/node_modules/commoner/lib/context.js",
+            "type": "js",
+            "subpath": "/app/vue/node_modules/commoner/lib/context.js"
+        },
+        "vue:node_modules/commoner/lib/grep.js": {
+            "uri": "/app/vue/node_modules/commoner/lib/grep.js",
+            "type": "js",
+            "subpath": "/app/vue/node_modules/commoner/lib/grep.js"
+        },
+        "vue:node_modules/commoner/lib/output.js": {
+            "uri": "/app/vue/node_modules/commoner/lib/output.js",
+            "type": "js",
+            "subpath": "/app/vue/node_modules/commoner/lib/output.js"
+        },
+        "vue:node_modules/commoner/lib/reader.js": {
+            "uri": "/app/vue/node_modules/commoner/lib/reader.js",
+            "type": "js",
+            "subpath": "/app/vue/node_modules/commoner/lib/reader.js"
+        },
+        "vue:node_modules/commoner/lib/relative.js": {
+            "uri": "/app/vue/node_modules/commoner/lib/relative.js",
+            "type": "js",
+            "subpath": "/app/vue/node_modules/commoner/lib/relative.js"
+        },
+        "vue:node_modules/commoner/lib/util.js": {
+            "uri": "/app/vue/node_modules/commoner/lib/util.js",
+            "type": "js",
+            "subpath": "/app/vue/node_modules/commoner/lib/util.js"
+        },
+        "vue:node_modules/commoner/lib/watcher.js": {
+            "uri": "/app/vue/node_modules/commoner/lib/watcher.js",
+            "type": "js",
+            "subpath": "/app/vue/node_modules/commoner/lib/watcher.js"
+        },
+        "vue:node_modules/commoner/main.js": {
+            "uri": "/app/vue/node_modules/commoner/main.js",
+            "type": "js",
+            "subpath": "/app/vue/node_modules/commoner/main.js"
+        },
+        "vue:node_modules/concat-map/example/map.js": {
+            "uri": "/app/vue/node_modules/concat-map/example/map.js",
+            "type": "js",
+            "subpath": "/app/vue/node_modules/concat-map/example/map.js"
+        },
+        "vue:node_modules/concat-map/index.js": {
+            "uri": "/app/vue/node_modules/concat-map/index.js",
+            "type": "js",
+            "subpath": "/app/vue/node_modules/concat-map/index.js"
+        },
+        "vue:node_modules/concat-map/test/map.js": {
+            "uri": "/app/vue/node_modules/concat-map/test/map.js",
+            "type": "js",
+            "subpath": "/app/vue/node_modules/concat-map/test/map.js"
+        },
+        "vue:node_modules/de-indent/index.js": {
+            "uri": "/app/vue/node_modules/de-indent/index.js",
+            "type": "js",
+            "subpath": "/app/vue/node_modules/de-indent/index.js"
+        },
+        "vue:node_modules/de-indent/test.js": {
+            "uri": "/app/vue/node_modules/de-indent/test.js",
+            "type": "js",
+            "subpath": "/app/vue/node_modules/de-indent/test.js"
+        },
+        "vue:node_modules/deasync/build.js": {
+            "uri": "/app/vue/node_modules/deasync/build.js",
+            "type": "js",
+            "subpath": "/app/vue/node_modules/deasync/build.js"
+        },
+        "vue:node_modules/deasync/index.js": {
+            "uri": "/app/vue/node_modules/deasync/index.js",
+            "type": "js",
+            "subpath": "/app/vue/node_modules/deasync/index.js"
+        },
+        "vue:node_modules/deasync/quick-test.js": {
+            "uri": "/app/vue/node_modules/deasync/quick-test.js",
+            "type": "js",
+            "subpath": "/app/vue/node_modules/deasync/quick-test.js"
+        },
+        "vue:node_modules/deasync/test.js": {
+            "uri": "/app/vue/node_modules/deasync/test.js",
+            "type": "js",
+            "subpath": "/app/vue/node_modules/deasync/test.js"
+        },
+        "vue:node_modules/decamelize/index.js": {
+            "uri": "/app/vue/node_modules/decamelize/index.js",
+            "type": "js",
+            "subpath": "/app/vue/node_modules/decamelize/index.js"
+        },
+        "vue:node_modules/defined/example/defined.js": {
+            "uri": "/app/vue/node_modules/defined/example/defined.js",
+            "type": "js",
+            "subpath": "/app/vue/node_modules/defined/example/defined.js"
+        },
+        "vue:node_modules/defined/index.js": {
+            "uri": "/app/vue/node_modules/defined/index.js",
+            "type": "js",
+            "subpath": "/app/vue/node_modules/defined/index.js"
+        },
+        "vue:node_modules/defined/test/def.js": {
+            "uri": "/app/vue/node_modules/defined/test/def.js",
+            "type": "js",
+            "subpath": "/app/vue/node_modules/defined/test/def.js"
+        },
+        "vue:node_modules/defined/test/falsy.js": {
+            "uri": "/app/vue/node_modules/defined/test/falsy.js",
+            "type": "js",
+            "subpath": "/app/vue/node_modules/defined/test/falsy.js"
+        },
+        "vue:node_modules/detective/bench/ddetect.js": {
+            "uri": "/app/vue/node_modules/detective/bench/ddetect.js",
+            "type": "js",
+            "subpath": "/app/vue/node_modules/detective/bench/ddetect.js"
+        },
+        "vue:node_modules/detective/bench/detect.js": {
+            "uri": "/app/vue/node_modules/detective/bench/detect.js",
+            "type": "js",
+            "subpath": "/app/vue/node_modules/detective/bench/detect.js"
+        },
+        "vue:node_modules/detective/example/strings_src.js": {
+            "uri": "/app/vue/node_modules/detective/example/strings_src.js",
+            "type": "js",
+            "subpath": "/app/vue/node_modules/detective/example/strings_src.js"
+        },
+        "vue:node_modules/detective/example/strings.js": {
+            "uri": "/app/vue/node_modules/detective/example/strings.js",
+            "type": "js",
+            "subpath": "/app/vue/node_modules/detective/example/strings.js"
+        },
+        "vue:node_modules/detective/index.js": {
+            "uri": "/app/vue/node_modules/detective/index.js",
+            "type": "js",
+            "subpath": "/app/vue/node_modules/detective/index.js"
+        },
+        "vue:node_modules/detective/test/both.js": {
+            "uri": "/app/vue/node_modules/detective/test/both.js",
+            "type": "js",
+            "subpath": "/app/vue/node_modules/detective/test/both.js"
+        },
+        "vue:node_modules/detective/test/chained.js": {
+            "uri": "/app/vue/node_modules/detective/test/chained.js",
+            "type": "js",
+            "subpath": "/app/vue/node_modules/detective/test/chained.js"
+        },
+        "vue:node_modules/detective/test/complicated.js": {
+            "uri": "/app/vue/node_modules/detective/test/complicated.js",
+            "type": "js",
+            "subpath": "/app/vue/node_modules/detective/test/complicated.js"
+        },
+        "vue:node_modules/detective/test/es6-module.js": {
+            "uri": "/app/vue/node_modules/detective/test/es6-module.js",
+            "type": "js",
+            "subpath": "/app/vue/node_modules/detective/test/es6-module.js"
+        },
+        "vue:node_modules/detective/test/files/both.js": {
+            "uri": "/app/vue/node_modules/detective/test/files/both.js",
+            "type": "js",
+            "subpath": "/app/vue/node_modules/detective/test/files/both.js"
+        },
+        "vue:node_modules/detective/test/files/chained.js": {
+            "uri": "/app/vue/node_modules/detective/test/files/chained.js",
+            "type": "js",
+            "subpath": "/app/vue/node_modules/detective/test/files/chained.js"
+        },
+        "vue:node_modules/detective/test/files/es6-module.js": {
+            "uri": "/app/vue/node_modules/detective/test/files/es6-module.js",
+            "type": "js",
+            "subpath": "/app/vue/node_modules/detective/test/files/es6-module.js"
+        },
+        "vue:node_modules/detective/test/files/generators.js": {
+            "uri": "/app/vue/node_modules/detective/test/files/generators.js",
+            "type": "js",
+            "subpath": "/app/vue/node_modules/detective/test/files/generators.js"
+        },
+        "vue:node_modules/detective/test/files/isrequire.js": {
+            "uri": "/app/vue/node_modules/detective/test/files/isrequire.js",
+            "type": "js",
+            "subpath": "/app/vue/node_modules/detective/test/files/isrequire.js"
+        },
+        "vue:node_modules/detective/test/files/nested.js": {
+            "uri": "/app/vue/node_modules/detective/test/files/nested.js",
+            "type": "js",
+            "subpath": "/app/vue/node_modules/detective/test/files/nested.js"
+        },
+        "vue:node_modules/detective/test/files/shebang.js": {
+            "uri": "/app/vue/node_modules/detective/test/files/shebang.js",
+            "type": "js",
+            "subpath": "/app/vue/node_modules/detective/test/files/shebang.js"
+        },
+        "vue:node_modules/detective/test/files/sparse-array.js": {
+            "uri": "/app/vue/node_modules/detective/test/files/sparse-array.js",
+            "type": "js",
+            "subpath": "/app/vue/node_modules/detective/test/files/sparse-array.js"
+        },
+        "vue:node_modules/detective/test/files/strings.js": {
+            "uri": "/app/vue/node_modules/detective/test/files/strings.js",
+            "type": "js",
+            "subpath": "/app/vue/node_modules/detective/test/files/strings.js"
+        },
+        "vue:node_modules/detective/test/files/word.js": {
+            "uri": "/app/vue/node_modules/detective/test/files/word.js",
+            "type": "js",
+            "subpath": "/app/vue/node_modules/detective/test/files/word.js"
+        },
+        "vue:node_modules/detective/test/files/yield.js": {
+            "uri": "/app/vue/node_modules/detective/test/files/yield.js",
+            "type": "js",
+            "subpath": "/app/vue/node_modules/detective/test/files/yield.js"
+        },
+        "vue:node_modules/detective/test/generators.js": {
+            "uri": "/app/vue/node_modules/detective/test/generators.js",
+            "type": "js",
+            "subpath": "/app/vue/node_modules/detective/test/generators.js"
+        },
+        "vue:node_modules/detective/test/isrequire.js": {
+            "uri": "/app/vue/node_modules/detective/test/isrequire.js",
+            "type": "js",
+            "subpath": "/app/vue/node_modules/detective/test/isrequire.js"
+        },
+        "vue:node_modules/detective/test/nested.js": {
+            "uri": "/app/vue/node_modules/detective/test/nested.js",
+            "type": "js",
+            "subpath": "/app/vue/node_modules/detective/test/nested.js"
+        },
+        "vue:node_modules/detective/test/noargs.js": {
+            "uri": "/app/vue/node_modules/detective/test/noargs.js",
+            "type": "js",
+            "subpath": "/app/vue/node_modules/detective/test/noargs.js"
+        },
+        "vue:node_modules/detective/test/parseopts.js": {
+            "uri": "/app/vue/node_modules/detective/test/parseopts.js",
+            "type": "js",
+            "subpath": "/app/vue/node_modules/detective/test/parseopts.js"
+        },
+        "vue:node_modules/detective/test/return.js": {
+            "uri": "/app/vue/node_modules/detective/test/return.js",
+            "type": "js",
+            "subpath": "/app/vue/node_modules/detective/test/return.js"
+        },
+        "vue:node_modules/detective/test/shebang.js": {
+            "uri": "/app/vue/node_modules/detective/test/shebang.js",
+            "type": "js",
+            "subpath": "/app/vue/node_modules/detective/test/shebang.js"
+        },
+        "vue:node_modules/detective/test/sparse-array.js": {
+            "uri": "/app/vue/node_modules/detective/test/sparse-array.js",
+            "type": "js",
+            "subpath": "/app/vue/node_modules/detective/test/sparse-array.js"
+        },
+        "vue:node_modules/detective/test/strings.js": {
+            "uri": "/app/vue/node_modules/detective/test/strings.js",
+            "type": "js",
+            "subpath": "/app/vue/node_modules/detective/test/strings.js"
+        },
+        "vue:node_modules/detective/test/word.js": {
+            "uri": "/app/vue/node_modules/detective/test/word.js",
+            "type": "js",
+            "subpath": "/app/vue/node_modules/detective/test/word.js"
+        },
+        "vue:node_modules/detective/test/yield.js": {
+            "uri": "/app/vue/node_modules/detective/test/yield.js",
+            "type": "js",
+            "subpath": "/app/vue/node_modules/detective/test/yield.js"
+        },
+        "vue:node_modules/es3ify/index.js": {
+            "uri": "/app/vue/node_modules/es3ify/index.js",
+            "type": "js",
+            "subpath": "/app/vue/node_modules/es3ify/index.js"
+        },
+        "vue:node_modules/es3ify/spec/es3ifyspec.js": {
+            "uri": "/app/vue/node_modules/es3ify/spec/es3ifyspec.js",
+            "type": "js",
+            "subpath": "/app/vue/node_modules/es3ify/spec/es3ifyspec.js"
+        },
+        "vue:node_modules/escape-string-regexp/index.js": {
+            "uri": "/app/vue/node_modules/escape-string-regexp/index.js",
+            "type": "js",
+            "subpath": "/app/vue/node_modules/escape-string-regexp/index.js"
+        },
+        "vue:node_modules/esprima/bin/esparse.js": {
+            "uri": "/app/vue/node_modules/esprima/bin/esparse.js",
+            "type": "js",
+            "subpath": "/app/vue/node_modules/esprima/bin/esparse.js"
+        },
+        "vue:node_modules/esprima/bin/esvalidate.js": {
+            "uri": "/app/vue/node_modules/esprima/bin/esvalidate.js",
+            "type": "js",
+            "subpath": "/app/vue/node_modules/esprima/bin/esvalidate.js"
+        },
+        "vue:node_modules/esprima/esprima.js": {
+            "uri": "/app/vue/node_modules/esprima/esprima.js",
+            "type": "js",
+            "subpath": "/app/vue/node_modules/esprima/esprima.js"
+        },
+        "vue:node_modules/fis3-parser-translate-es3ify/index.js": {
+            "uri": "/app/vue/node_modules/fis3-parser-translate-es3ify/index.js",
+            "type": "js",
+            "subpath": "/app/vue/node_modules/fis3-parser-translate-es3ify/index.js"
+        },
+        "vue:node_modules/fis3-parser-vue-component/index.js": {
+            "uri": "/app/vue/node_modules/fis3-parser-vue-component/index.js",
+            "type": "js",
+            "subpath": "/app/vue/node_modules/fis3-parser-vue-component/index.js"
+        },
+        "vue:node_modules/fis3-parser-vue-component/lib/gen-id.js": {
+            "uri": "/app/vue/node_modules/fis3-parser-vue-component/lib/gen-id.js",
+            "type": "js",
+            "subpath": "/app/vue/node_modules/fis3-parser-vue-component/lib/gen-id.js"
+        },
+        "vue:node_modules/fis3-parser-vue-component/lib/insert-css.js": {
+            "uri": "/app/vue/node_modules/fis3-parser-vue-component/lib/insert-css.js",
+            "type": "js",
+            "subpath": "/app/vue/node_modules/fis3-parser-vue-component/lib/insert-css.js"
+        },
+        "vue:node_modules/fis3-parser-vue-component/lib/replace-scoped-flag.js": {
+            "uri": "/app/vue/node_modules/fis3-parser-vue-component/lib/replace-scoped-flag.js",
+            "type": "js",
+            "subpath": "/app/vue/node_modules/fis3-parser-vue-component/lib/replace-scoped-flag.js"
+        },
+        "vue:node_modules/fis3-parser-vue-component/lib/style-rewriter.js": {
+            "uri": "/app/vue/node_modules/fis3-parser-vue-component/lib/style-rewriter.js",
+            "type": "js",
+            "subpath": "/app/vue/node_modules/fis3-parser-vue-component/lib/style-rewriter.js"
+        },
+        "vue:node_modules/fis3-parser-vue-component/lib/template-compiler.js": {
+            "uri": "/app/vue/node_modules/fis3-parser-vue-component/lib/template-compiler.js",
+            "type": "js",
+            "subpath": "/app/vue/node_modules/fis3-parser-vue-component/lib/template-compiler.js"
+        },
+        "vue:node_modules/fis3-parser-vue-component/test/fis-conf.js": {
+            "uri": "/app/vue/node_modules/fis3-parser-vue-component/test/fis-conf.js",
+            "type": "js",
+            "subpath": "/app/vue/node_modules/fis3-parser-vue-component/test/fis-conf.js"
+        },
+        "vue:node_modules/fis3-parser-vue-component/test/src/js/engine/mod.js": {
+            "uri": "/app/vue/node_modules/fis3-parser-vue-component/test/src/js/engine/mod.js",
+            "type": "js",
+            "subpath": "/app/vue/node_modules/fis3-parser-vue-component/test/src/js/engine/mod.js"
+        },
+        "vue:node_modules/fis3-parser-vue-component/test/src/js/page/index.js": {
+            "uri": "/app/vue/node_modules/fis3-parser-vue-component/test/src/js/page/index.js",
+            "type": "js",
+            "subpath": "/app/vue/node_modules/fis3-parser-vue-component/test/src/js/page/index.js"
+        },
+        "vue:node_modules/fis3-parser-vue-component/test/src/less/index.less": {
+            "uri": "/app/vue/node_modules/fis3-parser-vue-component/test/src/less/index.less",
+            "type": "less",
+            "subpath": "/app/vue/node_modules/fis3-parser-vue-component/test/src/less/index.less"
+        },
+        "vue:node_modules/fis3-parser-vue-component/test/src/less/other.less": {
+            "uri": "/app/vue/node_modules/fis3-parser-vue-component/test/src/less/other.less",
+            "type": "less",
+            "subpath": "/app/vue/node_modules/fis3-parser-vue-component/test/src/less/other.less"
+        },
+        "vue:node_modules/fis3-parser-vue-component/test/src/less/other2.less": {
+            "uri": "/app/vue/node_modules/fis3-parser-vue-component/test/src/less/other2.less",
+            "type": "less",
+            "subpath": "/app/vue/node_modules/fis3-parser-vue-component/test/src/less/other2.less"
+        },
+        "vue:node_modules/fis3-parser-vue-component/test/src/scss/test.scss": {
+            "uri": "/app/vue/node_modules/fis3-parser-vue-component/test/src/scss/test.css",
+            "type": "css",
+            "subpath": "/app/vue/node_modules/fis3-parser-vue-component/test/src/scss/test.css"
+        },
+        "vue:node_modules/fis3-parser-vue-component/test2/fis-conf.js": {
+            "uri": "/app/vue/node_modules/fis3-parser-vue-component/test2/fis-conf.js",
+            "type": "js",
+            "subpath": "/app/vue/node_modules/fis3-parser-vue-component/test2/fis-conf.js"
+        },
+        "vue:node_modules/fis3-parser-vue-component/test2/src/js/engine/mod.js": {
+            "uri": "/app/vue/node_modules/fis3-parser-vue-component/test2/src/js/engine/mod.js",
+            "type": "js",
+            "subpath": "/app/vue/node_modules/fis3-parser-vue-component/test2/src/js/engine/mod.js"
+        },
+        "vue:node_modules/fis3-parser-vue-component/test2/src/js/page/index.js": {
+            "uri": "/app/vue/node_modules/fis3-parser-vue-component/test2/src/js/page/index.js",
+            "type": "js",
+            "subpath": "/app/vue/node_modules/fis3-parser-vue-component/test2/src/js/page/index.js"
+        },
+        "vue:node_modules/fis3-parser-vue-component/test2/src/less/index.less": {
+            "uri": "/app/vue/node_modules/fis3-parser-vue-component/test2/src/less/index.less",
+            "type": "less",
+            "subpath": "/app/vue/node_modules/fis3-parser-vue-component/test2/src/less/index.less"
+        },
+        "vue:node_modules/fis3-parser-vue-component/test2/src/less/other.less": {
+            "uri": "/app/vue/node_modules/fis3-parser-vue-component/test2/src/less/other.less",
+            "type": "less",
+            "subpath": "/app/vue/node_modules/fis3-parser-vue-component/test2/src/less/other.less"
+        },
+        "vue:node_modules/fis3-parser-vue-component/test2/src/less/other2.less": {
+            "uri": "/app/vue/node_modules/fis3-parser-vue-component/test2/src/less/other2.less",
+            "type": "less",
+            "subpath": "/app/vue/node_modules/fis3-parser-vue-component/test2/src/less/other2.less"
+        },
+        "vue:node_modules/fis3-parser-vue-component/test2/src/scss/test.scss": {
+            "uri": "/app/vue/node_modules/fis3-parser-vue-component/test2/src/scss/test.css",
+            "type": "css",
+            "subpath": "/app/vue/node_modules/fis3-parser-vue-component/test2/src/scss/test.css"
+        },
+        "vue:node_modules/flatten/index.js": {
+            "uri": "/app/vue/node_modules/flatten/index.js",
+            "type": "js",
+            "subpath": "/app/vue/node_modules/flatten/index.js"
+        },
+        "vue:node_modules/flatten/test.js": {
+            "uri": "/app/vue/node_modules/flatten/test.js",
+            "type": "js",
+            "subpath": "/app/vue/node_modules/flatten/test.js"
+        },
+        "vue:node_modules/glob/common.js": {
+            "uri": "/app/vue/node_modules/glob/common.js",
+            "type": "js",
+            "subpath": "/app/vue/node_modules/glob/common.js"
+        },
+        "vue:node_modules/glob/glob.js": {
+            "uri": "/app/vue/node_modules/glob/glob.js",
+            "type": "js",
+            "subpath": "/app/vue/node_modules/glob/glob.js"
+        },
+        "vue:node_modules/glob/sync.js": {
+            "uri": "/app/vue/node_modules/glob/sync.js",
+            "type": "js",
+            "subpath": "/app/vue/node_modules/glob/sync.js"
+        },
+        "vue:node_modules/graceful-fs/fs.js": {
+            "uri": "/app/vue/node_modules/graceful-fs/fs.js",
+            "type": "js",
+            "subpath": "/app/vue/node_modules/graceful-fs/fs.js"
+        },
+        "vue:node_modules/graceful-fs/graceful-fs.js": {
+            "uri": "/app/vue/node_modules/graceful-fs/graceful-fs.js",
+            "type": "js",
+            "subpath": "/app/vue/node_modules/graceful-fs/graceful-fs.js"
+        },
+        "vue:node_modules/graceful-fs/legacy-streams.js": {
+            "uri": "/app/vue/node_modules/graceful-fs/legacy-streams.js",
+            "type": "js",
+            "subpath": "/app/vue/node_modules/graceful-fs/legacy-streams.js"
+        },
+        "vue:node_modules/graceful-fs/polyfills.js": {
+            "uri": "/app/vue/node_modules/graceful-fs/polyfills.js",
+            "type": "js",
+            "subpath": "/app/vue/node_modules/graceful-fs/polyfills.js"
+        },
+        "vue:node_modules/has-ansi/index.js": {
+            "uri": "/app/vue/node_modules/has-ansi/index.js",
+            "type": "js",
+            "subpath": "/app/vue/node_modules/has-ansi/index.js"
+        },
+        "vue:node_modules/has-flag/index.js": {
+            "uri": "/app/vue/node_modules/has-flag/index.js",
+            "type": "js",
+            "subpath": "/app/vue/node_modules/has-flag/index.js"
+        },
+        "vue:node_modules/hash-sum/hash-sum.js": {
+            "uri": "/app/vue/node_modules/hash-sum/hash-sum.js",
+            "type": "js",
+            "subpath": "/app/vue/node_modules/hash-sum/hash-sum.js"
+        },
+        "vue:node_modules/hash-sum/test.js": {
+            "uri": "/app/vue/node_modules/hash-sum/test.js",
+            "type": "js",
+            "subpath": "/app/vue/node_modules/hash-sum/test.js"
+        },
+        "vue:node_modules/he/he.js": {
+            "uri": "/app/vue/node_modules/he/he.js",
+            "type": "js",
+            "subpath": "/app/vue/node_modules/he/he.js"
+        },
+        "vue:node_modules/iconv-lite/encodings/dbcs-codec.js": {
+            "uri": "/app/vue/node_modules/iconv-lite/encodings/dbcs-codec.js",
+            "type": "js",
+            "subpath": "/app/vue/node_modules/iconv-lite/encodings/dbcs-codec.js"
+        },
+        "vue:node_modules/iconv-lite/encodings/dbcs-data.js": {
+            "uri": "/app/vue/node_modules/iconv-lite/encodings/dbcs-data.js",
+            "type": "js",
+            "subpath": "/app/vue/node_modules/iconv-lite/encodings/dbcs-data.js"
+        },
+        "vue:node_modules/iconv-lite/encodings/index.js": {
+            "uri": "/app/vue/node_modules/iconv-lite/encodings/index.js",
+            "type": "js",
+            "subpath": "/app/vue/node_modules/iconv-lite/encodings/index.js"
+        },
+        "vue:node_modules/iconv-lite/encodings/internal.js": {
+            "uri": "/app/vue/node_modules/iconv-lite/encodings/internal.js",
+            "type": "js",
+            "subpath": "/app/vue/node_modules/iconv-lite/encodings/internal.js"
+        },
+        "vue:node_modules/iconv-lite/encodings/sbcs-codec.js": {
+            "uri": "/app/vue/node_modules/iconv-lite/encodings/sbcs-codec.js",
+            "type": "js",
+            "subpath": "/app/vue/node_modules/iconv-lite/encodings/sbcs-codec.js"
+        },
+        "vue:node_modules/iconv-lite/encodings/sbcs-data-generated.js": {
+            "uri": "/app/vue/node_modules/iconv-lite/encodings/sbcs-data-generated.js",
+            "type": "js",
+            "subpath": "/app/vue/node_modules/iconv-lite/encodings/sbcs-data-generated.js"
+        },
+        "vue:node_modules/iconv-lite/encodings/sbcs-data.js": {
+            "uri": "/app/vue/node_modules/iconv-lite/encodings/sbcs-data.js",
+            "type": "js",
+            "subpath": "/app/vue/node_modules/iconv-lite/encodings/sbcs-data.js"
+        },
+        "vue:node_modules/iconv-lite/encodings/utf16.js": {
+            "uri": "/app/vue/node_modules/iconv-lite/encodings/utf16.js",
+            "type": "js",
+            "subpath": "/app/vue/node_modules/iconv-lite/encodings/utf16.js"
+        },
+        "vue:node_modules/iconv-lite/encodings/utf7.js": {
+            "uri": "/app/vue/node_modules/iconv-lite/encodings/utf7.js",
+            "type": "js",
+            "subpath": "/app/vue/node_modules/iconv-lite/encodings/utf7.js"
+        },
+        "vue:node_modules/iconv-lite/lib/bom-handling.js": {
+            "uri": "/app/vue/node_modules/iconv-lite/lib/bom-handling.js",
+            "type": "js",
+            "subpath": "/app/vue/node_modules/iconv-lite/lib/bom-handling.js"
+        },
+        "vue:node_modules/iconv-lite/lib/extend-node.js": {
+            "uri": "/app/vue/node_modules/iconv-lite/lib/extend-node.js",
+            "type": "js",
+            "subpath": "/app/vue/node_modules/iconv-lite/lib/extend-node.js"
+        },
+        "vue:node_modules/iconv-lite/lib/index.js": {
+            "uri": "/app/vue/node_modules/iconv-lite/lib/index.js",
+            "type": "js",
+            "subpath": "/app/vue/node_modules/iconv-lite/lib/index.js"
+        },
+        "vue:node_modules/iconv-lite/lib/streams.js": {
+            "uri": "/app/vue/node_modules/iconv-lite/lib/streams.js",
+            "type": "js",
+            "subpath": "/app/vue/node_modules/iconv-lite/lib/streams.js"
+        },
+        "vue:node_modules/indexes-of/index.js": {
+            "uri": "/app/vue/node_modules/indexes-of/index.js",
+            "type": "js",
+            "subpath": "/app/vue/node_modules/indexes-of/index.js"
+        },
+        "vue:node_modules/indexes-of/test.js": {
+            "uri": "/app/vue/node_modules/indexes-of/test.js",
+            "type": "js",
+            "subpath": "/app/vue/node_modules/indexes-of/test.js"
+        },
+        "vue:node_modules/inflight/inflight.js": {
+            "uri": "/app/vue/node_modules/inflight/inflight.js",
+            "type": "js",
+            "subpath": "/app/vue/node_modules/inflight/inflight.js"
+        },
+        "vue:node_modules/inherits/inherits_browser.js": {
+            "uri": "/app/vue/node_modules/inherits/inherits_browser.js",
+            "type": "js",
+            "subpath": "/app/vue/node_modules/inherits/inherits_browser.js"
+        },
+        "vue:node_modules/inherits/inherits.js": {
+            "uri": "/app/vue/node_modules/inherits/inherits.js",
+            "type": "js",
+            "subpath": "/app/vue/node_modules/inherits/inherits.js"
+        },
+        "vue:node_modules/is-buffer/index.js": {
+            "uri": "/app/vue/node_modules/is-buffer/index.js",
+            "type": "js",
+            "subpath": "/app/vue/node_modules/is-buffer/index.js"
+        },
+        "vue:node_modules/is-buffer/test/basic.js": {
+            "uri": "/app/vue/node_modules/is-buffer/test/basic.js",
+            "type": "js",
+            "subpath": "/app/vue/node_modules/is-buffer/test/basic.js"
+        },
+        "vue:node_modules/js-base64/base64.js": {
+            "uri": "/app/vue/node_modules/js-base64/base64.js",
+            "type": "js",
+            "subpath": "/app/vue/node_modules/js-base64/base64.js"
+        },
+        "vue:node_modules/js-base64/base64.min.js": {
+            "uri": "/app/vue/node_modules/js-base64/base64.min.js",
+            "type": "js",
+            "subpath": "/app/vue/node_modules/js-base64/base64.min.js"
+        },
+        "vue:node_modules/js-base64/old/base64-1.7.js": {
+            "uri": "/app/vue/node_modules/js-base64/old/base64-1.7.js",
+            "type": "js",
+            "subpath": "/app/vue/node_modules/js-base64/old/base64-1.7.js"
+        },
+        "vue:node_modules/js-base64/package.js": {
+            "uri": "/app/vue/node_modules/js-base64/package.js",
+            "type": "js",
+            "subpath": "/app/vue/node_modules/js-base64/package.js"
+        },
+        "vue:node_modules/js-base64/test/dankogai.js": {
+            "uri": "/app/vue/node_modules/js-base64/test/dankogai.js",
+            "type": "js",
+            "subpath": "/app/vue/node_modules/js-base64/test/dankogai.js"
+        },
+        "vue:node_modules/js-base64/test/es5.js": {
+            "uri": "/app/vue/node_modules/js-base64/test/es5.js",
+            "type": "js",
+            "subpath": "/app/vue/node_modules/js-base64/test/es5.js"
+        },
+        "vue:node_modules/js-base64/test/large.js": {
+            "uri": "/app/vue/node_modules/js-base64/test/large.js",
+            "type": "js",
+            "subpath": "/app/vue/node_modules/js-base64/test/large.js"
+        },
+        "vue:node_modules/js-base64/test/yoshinoya.js": {
+            "uri": "/app/vue/node_modules/js-base64/test/yoshinoya.js",
+            "type": "js",
+            "subpath": "/app/vue/node_modules/js-base64/test/yoshinoya.js"
+        },
+        "vue:node_modules/jstransform/jestEnvironment.js": {
+            "uri": "/app/vue/node_modules/jstransform/jestEnvironment.js",
+            "type": "js",
+            "subpath": "/app/vue/node_modules/jstransform/jestEnvironment.js"
+        },
+        "vue:node_modules/jstransform/jestPreprocessor.js": {
+            "uri": "/app/vue/node_modules/jstransform/jestPreprocessor.js",
+            "type": "js",
+            "subpath": "/app/vue/node_modules/jstransform/jestPreprocessor.js"
+        },
+        "vue:node_modules/jstransform/node_modules/esprima-fb/bin/esparse.js": {
+            "uri": "/app/vue/node_modules/jstransform/node_modules/esprima-fb/bin/esparse.js",
+            "type": "js",
+            "subpath": "/app/vue/node_modules/jstransform/node_modules/esprima-fb/bin/esparse.js"
+        },
+        "vue:node_modules/jstransform/node_modules/esprima-fb/bin/esvalidate.js": {
+            "uri": "/app/vue/node_modules/jstransform/node_modules/esprima-fb/bin/esvalidate.js",
+            "type": "js",
+            "subpath": "/app/vue/node_modules/jstransform/node_modules/esprima-fb/bin/esvalidate.js"
+        },
+        "vue:node_modules/jstransform/node_modules/esprima-fb/esprima.js": {
+            "uri": "/app/vue/node_modules/jstransform/node_modules/esprima-fb/esprima.js",
+            "type": "js",
+            "subpath": "/app/vue/node_modules/jstransform/node_modules/esprima-fb/esprima.js"
+        },
+        "vue:node_modules/jstransform/node_modules/esprima-fb/test/compat.js": {
+            "uri": "/app/vue/node_modules/jstransform/node_modules/esprima-fb/test/compat.js",
+            "type": "js",
+            "subpath": "/app/vue/node_modules/jstransform/node_modules/esprima-fb/test/compat.js"
+        },
+        "vue:node_modules/jstransform/node_modules/esprima-fb/test/reflect.js": {
+            "uri": "/app/vue/node_modules/jstransform/node_modules/esprima-fb/test/reflect.js",
+            "type": "js",
+            "subpath": "/app/vue/node_modules/jstransform/node_modules/esprima-fb/test/reflect.js"
+        },
+        "vue:node_modules/jstransform/node_modules/esprima-fb/test/run.js": {
+            "uri": "/app/vue/node_modules/jstransform/node_modules/esprima-fb/test/run.js",
+            "type": "js",
+            "subpath": "/app/vue/node_modules/jstransform/node_modules/esprima-fb/test/run.js"
+        },
+        "vue:node_modules/jstransform/node_modules/esprima-fb/test/runner.js": {
+            "uri": "/app/vue/node_modules/jstransform/node_modules/esprima-fb/test/runner.js",
+            "type": "js",
+            "subpath": "/app/vue/node_modules/jstransform/node_modules/esprima-fb/test/runner.js"
+        },
+        "vue:node_modules/jstransform/node_modules/esprima-fb/test/test.js": {
+            "uri": "/app/vue/node_modules/jstransform/node_modules/esprima-fb/test/test.js",
+            "type": "js",
+            "subpath": "/app/vue/node_modules/jstransform/node_modules/esprima-fb/test/test.js"
+        },
+        "vue:node_modules/jstransform/node_modules/object-assign/index.js": {
+            "uri": "/app/vue/node_modules/jstransform/node_modules/object-assign/index.js",
+            "type": "js",
+            "subpath": "/app/vue/node_modules/jstransform/node_modules/object-assign/index.js"
+        },
+        "vue:node_modules/jstransform/node_modules/source-map/build/assert-shim.js": {
+            "uri": "/app/vue/node_modules/jstransform/node_modules/source-map/build/assert-shim.js",
+            "type": "js",
+            "subpath": "/app/vue/node_modules/jstransform/node_modules/source-map/build/assert-shim.js"
+        },
+        "vue:node_modules/jstransform/node_modules/source-map/build/mini-require.js": {
+            "uri": "/app/vue/node_modules/jstransform/node_modules/source-map/build/mini-require.js",
+            "type": "js",
+            "subpath": "/app/vue/node_modules/jstransform/node_modules/source-map/build/mini-require.js"
+        },
+        "vue:node_modules/jstransform/node_modules/source-map/build/suffix-browser.js": {
+            "uri": "/app/vue/node_modules/jstransform/node_modules/source-map/build/suffix-browser.js",
+            "type": "js",
+            "subpath": "/app/vue/node_modules/jstransform/node_modules/source-map/build/suffix-browser.js"
+        },
+        "vue:node_modules/jstransform/node_modules/source-map/build/test-prefix.js": {
+            "uri": "/app/vue/node_modules/jstransform/node_modules/source-map/build/test-prefix.js",
+            "type": "js",
+            "subpath": "/app/vue/node_modules/jstransform/node_modules/source-map/build/test-prefix.js"
+        },
+        "vue:node_modules/jstransform/node_modules/source-map/build/test-suffix.js": {
+            "uri": "/app/vue/node_modules/jstransform/node_modules/source-map/build/test-suffix.js",
+            "type": "js",
+            "subpath": "/app/vue/node_modules/jstransform/node_modules/source-map/build/test-suffix.js"
+        },
+        "vue:node_modules/jstransform/node_modules/source-map/lib/source-map.js": {
+            "uri": "/app/vue/node_modules/jstransform/node_modules/source-map/lib/source-map.js",
+            "type": "js",
+            "subpath": "/app/vue/node_modules/jstransform/node_modules/source-map/lib/source-map.js"
+        },
+        "vue:node_modules/jstransform/node_modules/source-map/lib/source-map/array-set.js": {
+            "uri": "/app/vue/node_modules/jstransform/node_modules/source-map/lib/source-map/array-set.js",
+            "type": "js",
+            "subpath": "/app/vue/node_modules/jstransform/node_modules/source-map/lib/source-map/array-set.js"
+        },
+        "vue:node_modules/jstransform/node_modules/source-map/lib/source-map/base64-vlq.js": {
+            "uri": "/app/vue/node_modules/jstransform/node_modules/source-map/lib/source-map/base64-vlq.js",
+            "type": "js",
+            "subpath": "/app/vue/node_modules/jstransform/node_modules/source-map/lib/source-map/base64-vlq.js"
+        },
+        "vue:node_modules/jstransform/node_modules/source-map/lib/source-map/base64.js": {
+            "uri": "/app/vue/node_modules/jstransform/node_modules/source-map/lib/source-map/base64.js",
+            "type": "js",
+            "subpath": "/app/vue/node_modules/jstransform/node_modules/source-map/lib/source-map/base64.js"
+        },
+        "vue:node_modules/jstransform/node_modules/source-map/lib/source-map/binary-search.js": {
+            "uri": "/app/vue/node_modules/jstransform/node_modules/source-map/lib/source-map/binary-search.js",
+            "type": "js",
+            "subpath": "/app/vue/node_modules/jstransform/node_modules/source-map/lib/source-map/binary-search.js"
+        },
+        "vue:node_modules/jstransform/node_modules/source-map/lib/source-map/mapping-list.js": {
+            "uri": "/app/vue/node_modules/jstransform/node_modules/source-map/lib/source-map/mapping-list.js",
+            "type": "js",
+            "subpath": "/app/vue/node_modules/jstransform/node_modules/source-map/lib/source-map/mapping-list.js"
+        },
+        "vue:node_modules/jstransform/node_modules/source-map/lib/source-map/quick-sort.js": {
+            "uri": "/app/vue/node_modules/jstransform/node_modules/source-map/lib/source-map/quick-sort.js",
+            "type": "js",
+            "subpath": "/app/vue/node_modules/jstransform/node_modules/source-map/lib/source-map/quick-sort.js"
+        },
+        "vue:node_modules/jstransform/node_modules/source-map/lib/source-map/source-map-consumer.js": {
+            "uri": "/app/vue/node_modules/jstransform/node_modules/source-map/lib/source-map/source-map-consumer.js",
+            "type": "js",
+            "subpath": "/app/vue/node_modules/jstransform/node_modules/source-map/lib/source-map/source-map-consumer.js"
+        },
+        "vue:node_modules/jstransform/node_modules/source-map/lib/source-map/source-map-generator.js": {
+            "uri": "/app/vue/node_modules/jstransform/node_modules/source-map/lib/source-map/source-map-generator.js",
+            "type": "js",
+            "subpath": "/app/vue/node_modules/jstransform/node_modules/source-map/lib/source-map/source-map-generator.js"
+        },
+        "vue:node_modules/jstransform/node_modules/source-map/lib/source-map/source-node.js": {
+            "uri": "/app/vue/node_modules/jstransform/node_modules/source-map/lib/source-map/source-node.js",
+            "type": "js",
+            "subpath": "/app/vue/node_modules/jstransform/node_modules/source-map/lib/source-map/source-node.js"
+        },
+        "vue:node_modules/jstransform/node_modules/source-map/lib/source-map/util.js": {
+            "uri": "/app/vue/node_modules/jstransform/node_modules/source-map/lib/source-map/util.js",
+            "type": "js",
+            "subpath": "/app/vue/node_modules/jstransform/node_modules/source-map/lib/source-map/util.js"
+        },
+        "vue:node_modules/jstransform/polyfill/Object.es6.js": {
+            "uri": "/app/vue/node_modules/jstransform/polyfill/Object.es6.js",
+            "type": "js",
+            "subpath": "/app/vue/node_modules/jstransform/polyfill/Object.es6.js"
+        },
+        "vue:node_modules/jstransform/simple.js": {
+            "uri": "/app/vue/node_modules/jstransform/simple.js",
+            "type": "js",
+            "subpath": "/app/vue/node_modules/jstransform/simple.js"
+        },
+        "vue:node_modules/jstransform/src/__tests__/jstransform-test.js": {
+            "uri": "/app/vue/node_modules/jstransform/src/__tests__/jstransform-test.js",
+            "type": "js",
+            "subpath": "/app/vue/node_modules/jstransform/src/__tests__/jstransform-test.js"
+        },
+        "vue:node_modules/jstransform/src/__tests__/jstransform-utils-test.js": {
+            "uri": "/app/vue/node_modules/jstransform/src/__tests__/jstransform-utils-test.js",
+            "type": "js",
+            "subpath": "/app/vue/node_modules/jstransform/src/__tests__/jstransform-utils-test.js"
+        },
+        "vue:node_modules/jstransform/src/cli.js": {
+            "uri": "/app/vue/node_modules/jstransform/src/cli.js",
+            "type": "js",
+            "subpath": "/app/vue/node_modules/jstransform/src/cli.js"
+        },
+        "vue:node_modules/jstransform/src/docblock.js": {
+            "uri": "/app/vue/node_modules/jstransform/src/docblock.js",
+            "type": "js",
+            "subpath": "/app/vue/node_modules/jstransform/src/docblock.js"
+        },
+        "vue:node_modules/jstransform/src/inline-source-map.js": {
+            "uri": "/app/vue/node_modules/jstransform/src/inline-source-map.js",
+            "type": "js",
+            "subpath": "/app/vue/node_modules/jstransform/src/inline-source-map.js"
+        },
+        "vue:node_modules/jstransform/src/jstransform.js": {
+            "uri": "/app/vue/node_modules/jstransform/src/jstransform.js",
+            "type": "js",
+            "subpath": "/app/vue/node_modules/jstransform/src/jstransform.js"
+        },
+        "vue:node_modules/jstransform/src/simple.js": {
+            "uri": "/app/vue/node_modules/jstransform/src/simple.js",
+            "type": "js",
+            "subpath": "/app/vue/node_modules/jstransform/src/simple.js"
+        },
+        "vue:node_modules/jstransform/src/utils.js": {
+            "uri": "/app/vue/node_modules/jstransform/src/utils.js",
+            "type": "js",
+            "subpath": "/app/vue/node_modules/jstransform/src/utils.js"
+        },
+        "vue:node_modules/jstransform/visitors/__tests__/es6-arrow-function-visitors-test.js": {
+            "uri": "/app/vue/node_modules/jstransform/visitors/__tests__/es6-arrow-function-visitors-test.js",
+            "type": "js",
+            "subpath": "/app/vue/node_modules/jstransform/visitors/__tests__/es6-arrow-function-visitors-test.js"
+        },
+        "vue:node_modules/jstransform/visitors/__tests__/es6-call-spread-visitors-test.js": {
+            "uri": "/app/vue/node_modules/jstransform/visitors/__tests__/es6-call-spread-visitors-test.js",
+            "type": "js",
+            "subpath": "/app/vue/node_modules/jstransform/visitors/__tests__/es6-call-spread-visitors-test.js"
+        },
+        "vue:node_modules/jstransform/visitors/__tests__/es6-class-visitors-test.js": {
+            "uri": "/app/vue/node_modules/jstransform/visitors/__tests__/es6-class-visitors-test.js",
+            "type": "js",
+            "subpath": "/app/vue/node_modules/jstransform/visitors/__tests__/es6-class-visitors-test.js"
+        },
+        "vue:node_modules/jstransform/visitors/__tests__/es6-destructuring-visitors-test.js": {
+            "uri": "/app/vue/node_modules/jstransform/visitors/__tests__/es6-destructuring-visitors-test.js",
+            "type": "js",
+            "subpath": "/app/vue/node_modules/jstransform/visitors/__tests__/es6-destructuring-visitors-test.js"
+        },
+        "vue:node_modules/jstransform/visitors/__tests__/es6-es7-object-integration-test.js": {
+            "uri": "/app/vue/node_modules/jstransform/visitors/__tests__/es6-es7-object-integration-test.js",
+            "type": "js",
+            "subpath": "/app/vue/node_modules/jstransform/visitors/__tests__/es6-es7-object-integration-test.js"
+        },
+        "vue:node_modules/jstransform/visitors/__tests__/es6-for-of-visitors-test.js": {
+            "uri": "/app/vue/node_modules/jstransform/visitors/__tests__/es6-for-of-visitors-test.js",
+            "type": "js",
+            "subpath": "/app/vue/node_modules/jstransform/visitors/__tests__/es6-for-of-visitors-test.js"
+        },
+        "vue:node_modules/jstransform/visitors/__tests__/es6-object-computed-property-visitors-test.js": {
+            "uri": "/app/vue/node_modules/jstransform/visitors/__tests__/es6-object-computed-property-visitors-test.js",
+            "type": "js",
+            "subpath": "/app/vue/node_modules/jstransform/visitors/__tests__/es6-object-computed-property-visitors-test.js"
+        },
+        "vue:node_modules/jstransform/visitors/__tests__/es6-object-concise-method-visitors-test.js": {
+            "uri": "/app/vue/node_modules/jstransform/visitors/__tests__/es6-object-concise-method-visitors-test.js",
+            "type": "js",
+            "subpath": "/app/vue/node_modules/jstransform/visitors/__tests__/es6-object-concise-method-visitors-test.js"
+        },
+        "vue:node_modules/jstransform/visitors/__tests__/es6-object-short-notation-visitors-test.js": {
+            "uri": "/app/vue/node_modules/jstransform/visitors/__tests__/es6-object-short-notation-visitors-test.js",
+            "type": "js",
+            "subpath": "/app/vue/node_modules/jstransform/visitors/__tests__/es6-object-short-notation-visitors-test.js"
+        },
+        "vue:node_modules/jstransform/visitors/__tests__/es6-rest-param-visitors-test.js": {
+            "uri": "/app/vue/node_modules/jstransform/visitors/__tests__/es6-rest-param-visitors-test.js",
+            "type": "js",
+            "subpath": "/app/vue/node_modules/jstransform/visitors/__tests__/es6-rest-param-visitors-test.js"
+        },
+        "vue:node_modules/jstransform/visitors/__tests__/es6-template-visitors-test.js": {
+            "uri": "/app/vue/node_modules/jstransform/visitors/__tests__/es6-template-visitors-test.js",
+            "type": "js",
+            "subpath": "/app/vue/node_modules/jstransform/visitors/__tests__/es6-template-visitors-test.js"
+        },
+        "vue:node_modules/jstransform/visitors/__tests__/es7-rest-property-helpers-test.js": {
+            "uri": "/app/vue/node_modules/jstransform/visitors/__tests__/es7-rest-property-helpers-test.js",
+            "type": "js",
+            "subpath": "/app/vue/node_modules/jstransform/visitors/__tests__/es7-rest-property-helpers-test.js"
+        },
+        "vue:node_modules/jstransform/visitors/__tests__/es7-spread-property-visitors-test.js": {
+            "uri": "/app/vue/node_modules/jstransform/visitors/__tests__/es7-spread-property-visitors-test.js",
+            "type": "js",
+            "subpath": "/app/vue/node_modules/jstransform/visitors/__tests__/es7-spread-property-visitors-test.js"
+        },
+        "vue:node_modules/jstransform/visitors/__tests__/es7-trailing-comma-visitors-test.js": {
+            "uri": "/app/vue/node_modules/jstransform/visitors/__tests__/es7-trailing-comma-visitors-test.js",
+            "type": "js",
+            "subpath": "/app/vue/node_modules/jstransform/visitors/__tests__/es7-trailing-comma-visitors-test.js"
+        },
+        "vue:node_modules/jstransform/visitors/__tests__/gen/generate-type-syntax-test.js": {
+            "uri": "/app/vue/node_modules/jstransform/visitors/__tests__/gen/generate-type-syntax-test.js",
+            "type": "js",
+            "subpath": "/app/vue/node_modules/jstransform/visitors/__tests__/gen/generate-type-syntax-test.js"
+        },
+        "vue:node_modules/jstransform/visitors/__tests__/gen/type-syntax-test.rec.js": {
+            "uri": "/app/vue/node_modules/jstransform/visitors/__tests__/gen/type-syntax-test.rec.js",
+            "type": "js",
+            "subpath": "/app/vue/node_modules/jstransform/visitors/__tests__/gen/type-syntax-test.rec.js"
+        },
+        "vue:node_modules/jstransform/visitors/__tests__/jsx-helpers-test.js": {
+            "uri": "/app/vue/node_modules/jstransform/visitors/__tests__/jsx-helpers-test.js",
+            "type": "js",
+            "subpath": "/app/vue/node_modules/jstransform/visitors/__tests__/jsx-helpers-test.js"
+        },
+        "vue:node_modules/jstransform/visitors/__tests__/react-display-name-test.js": {
+            "uri": "/app/vue/node_modules/jstransform/visitors/__tests__/react-display-name-test.js",
+            "type": "js",
+            "subpath": "/app/vue/node_modules/jstransform/visitors/__tests__/react-display-name-test.js"
+        },
+        "vue:node_modules/jstransform/visitors/__tests__/react-jsx-test.js": {
+            "uri": "/app/vue/node_modules/jstransform/visitors/__tests__/react-jsx-test.js",
+            "type": "js",
+            "subpath": "/app/vue/node_modules/jstransform/visitors/__tests__/react-jsx-test.js"
+        },
+        "vue:node_modules/jstransform/visitors/__tests__/reserved-words-test.js": {
+            "uri": "/app/vue/node_modules/jstransform/visitors/__tests__/reserved-words-test.js",
+            "type": "js",
+            "subpath": "/app/vue/node_modules/jstransform/visitors/__tests__/reserved-words-test.js"
+        },
+        "vue:node_modules/jstransform/visitors/__tests__/trailing-comma-visitors-test.js": {
+            "uri": "/app/vue/node_modules/jstransform/visitors/__tests__/trailing-comma-visitors-test.js",
+            "type": "js",
+            "subpath": "/app/vue/node_modules/jstransform/visitors/__tests__/trailing-comma-visitors-test.js"
+        },
+        "vue:node_modules/jstransform/visitors/__tests__/type-alias-syntax-test.js": {
+            "uri": "/app/vue/node_modules/jstransform/visitors/__tests__/type-alias-syntax-test.js",
+            "type": "js",
+            "subpath": "/app/vue/node_modules/jstransform/visitors/__tests__/type-alias-syntax-test.js"
+        },
+        "vue:node_modules/jstransform/visitors/__tests__/type-class-syntax-test.js": {
+            "uri": "/app/vue/node_modules/jstransform/visitors/__tests__/type-class-syntax-test.js",
+            "type": "js",
+            "subpath": "/app/vue/node_modules/jstransform/visitors/__tests__/type-class-syntax-test.js"
+        },
+        "vue:node_modules/jstransform/visitors/__tests__/type-function-syntax-test.js": {
+            "uri": "/app/vue/node_modules/jstransform/visitors/__tests__/type-function-syntax-test.js",
+            "type": "js",
+            "subpath": "/app/vue/node_modules/jstransform/visitors/__tests__/type-function-syntax-test.js"
+        },
+        "vue:node_modules/jstransform/visitors/__tests__/type-interface-syntax-test.js": {
+            "uri": "/app/vue/node_modules/jstransform/visitors/__tests__/type-interface-syntax-test.js",
+            "type": "js",
+            "subpath": "/app/vue/node_modules/jstransform/visitors/__tests__/type-interface-syntax-test.js"
+        },
+        "vue:node_modules/jstransform/visitors/__tests__/type-object-method-syntax-test.js": {
+            "uri": "/app/vue/node_modules/jstransform/visitors/__tests__/type-object-method-syntax-test.js",
+            "type": "js",
+            "subpath": "/app/vue/node_modules/jstransform/visitors/__tests__/type-object-method-syntax-test.js"
+        },
+        "vue:node_modules/jstransform/visitors/__tests__/type-pattern-syntax-test.js": {
+            "uri": "/app/vue/node_modules/jstransform/visitors/__tests__/type-pattern-syntax-test.js",
+            "type": "js",
+            "subpath": "/app/vue/node_modules/jstransform/visitors/__tests__/type-pattern-syntax-test.js"
+        },
+        "vue:node_modules/jstransform/visitors/__tests__/type-syntax-test.js": {
+            "uri": "/app/vue/node_modules/jstransform/visitors/__tests__/type-syntax-test.js",
+            "type": "js",
+            "subpath": "/app/vue/node_modules/jstransform/visitors/__tests__/type-syntax-test.js"
+        },
+        "vue:node_modules/jstransform/visitors/__tests__/type-variable-declaration-syntax-test.js": {
+            "uri": "/app/vue/node_modules/jstransform/visitors/__tests__/type-variable-declaration-syntax-test.js",
+            "type": "js",
+            "subpath": "/app/vue/node_modules/jstransform/visitors/__tests__/type-variable-declaration-syntax-test.js"
+        },
+        "vue:node_modules/jstransform/visitors/__tests__/undefined-to-void-0-visitors-test.js": {
+            "uri": "/app/vue/node_modules/jstransform/visitors/__tests__/undefined-to-void-0-visitors-test.js",
+            "type": "js",
+            "subpath": "/app/vue/node_modules/jstransform/visitors/__tests__/undefined-to-void-0-visitors-test.js"
+        },
+        "vue:node_modules/jstransform/visitors/es6-arrow-function-visitors.js": {
+            "uri": "/app/vue/node_modules/jstransform/visitors/es6-arrow-function-visitors.js",
+            "type": "js",
+            "subpath": "/app/vue/node_modules/jstransform/visitors/es6-arrow-function-visitors.js"
+        },
+        "vue:node_modules/jstransform/visitors/es6-call-spread-visitors.js": {
+            "uri": "/app/vue/node_modules/jstransform/visitors/es6-call-spread-visitors.js",
+            "type": "js",
+            "subpath": "/app/vue/node_modules/jstransform/visitors/es6-call-spread-visitors.js"
+        },
+        "vue:node_modules/jstransform/visitors/es6-class-visitors.js": {
+            "uri": "/app/vue/node_modules/jstransform/visitors/es6-class-visitors.js",
+            "type": "js",
+            "subpath": "/app/vue/node_modules/jstransform/visitors/es6-class-visitors.js"
+        },
+        "vue:node_modules/jstransform/visitors/es6-destructuring-visitors.js": {
+            "uri": "/app/vue/node_modules/jstransform/visitors/es6-destructuring-visitors.js",
+            "type": "js",
+            "subpath": "/app/vue/node_modules/jstransform/visitors/es6-destructuring-visitors.js"
+        },
+        "vue:node_modules/jstransform/visitors/es6-for-of-visitors.js": {
+            "uri": "/app/vue/node_modules/jstransform/visitors/es6-for-of-visitors.js",
+            "type": "js",
+            "subpath": "/app/vue/node_modules/jstransform/visitors/es6-for-of-visitors.js"
+        },
+        "vue:node_modules/jstransform/visitors/es6-object-computed-property-visitors.js": {
+            "uri": "/app/vue/node_modules/jstransform/visitors/es6-object-computed-property-visitors.js",
+            "type": "js",
+            "subpath": "/app/vue/node_modules/jstransform/visitors/es6-object-computed-property-visitors.js"
+        },
+        "vue:node_modules/jstransform/visitors/es6-object-concise-method-visitors.js": {
+            "uri": "/app/vue/node_modules/jstransform/visitors/es6-object-concise-method-visitors.js",
+            "type": "js",
+            "subpath": "/app/vue/node_modules/jstransform/visitors/es6-object-concise-method-visitors.js"
+        },
+        "vue:node_modules/jstransform/visitors/es6-object-short-notation-visitors.js": {
+            "uri": "/app/vue/node_modules/jstransform/visitors/es6-object-short-notation-visitors.js",
+            "type": "js",
+            "subpath": "/app/vue/node_modules/jstransform/visitors/es6-object-short-notation-visitors.js"
+        },
+        "vue:node_modules/jstransform/visitors/es6-rest-param-visitors.js": {
+            "uri": "/app/vue/node_modules/jstransform/visitors/es6-rest-param-visitors.js",
+            "type": "js",
+            "subpath": "/app/vue/node_modules/jstransform/visitors/es6-rest-param-visitors.js"
+        },
+        "vue:node_modules/jstransform/visitors/es6-template-visitors.js": {
+            "uri": "/app/vue/node_modules/jstransform/visitors/es6-template-visitors.js",
+            "type": "js",
+            "subpath": "/app/vue/node_modules/jstransform/visitors/es6-template-visitors.js"
+        },
+        "vue:node_modules/jstransform/visitors/es7-rest-property-helpers.js": {
+            "uri": "/app/vue/node_modules/jstransform/visitors/es7-rest-property-helpers.js",
+            "type": "js",
+            "subpath": "/app/vue/node_modules/jstransform/visitors/es7-rest-property-helpers.js"
+        },
+        "vue:node_modules/jstransform/visitors/es7-spread-property-visitors.js": {
+            "uri": "/app/vue/node_modules/jstransform/visitors/es7-spread-property-visitors.js",
+            "type": "js",
+            "subpath": "/app/vue/node_modules/jstransform/visitors/es7-spread-property-visitors.js"
+        },
+        "vue:node_modules/jstransform/visitors/es7-trailing-comma-visitors.js": {
+            "uri": "/app/vue/node_modules/jstransform/visitors/es7-trailing-comma-visitors.js",
+            "type": "js",
+            "subpath": "/app/vue/node_modules/jstransform/visitors/es7-trailing-comma-visitors.js"
+        },
+        "vue:node_modules/jstransform/visitors/index.js": {
+            "uri": "/app/vue/node_modules/jstransform/visitors/index.js",
+            "type": "js",
+            "subpath": "/app/vue/node_modules/jstransform/visitors/index.js"
+        },
+        "vue:node_modules/jstransform/visitors/jsx-helpers.js": {
+            "uri": "/app/vue/node_modules/jstransform/visitors/jsx-helpers.js",
+            "type": "js",
+            "subpath": "/app/vue/node_modules/jstransform/visitors/jsx-helpers.js"
+        },
+        "vue:node_modules/jstransform/visitors/react-display-name-visitors.js": {
+            "uri": "/app/vue/node_modules/jstransform/visitors/react-display-name-visitors.js",
+            "type": "js",
+            "subpath": "/app/vue/node_modules/jstransform/visitors/react-display-name-visitors.js"
+        },
+        "vue:node_modules/jstransform/visitors/react-jsx-visitors.js": {
+            "uri": "/app/vue/node_modules/jstransform/visitors/react-jsx-visitors.js",
+            "type": "js",
+            "subpath": "/app/vue/node_modules/jstransform/visitors/react-jsx-visitors.js"
+        },
+        "vue:node_modules/jstransform/visitors/reserved-words-helper.js": {
+            "uri": "/app/vue/node_modules/jstransform/visitors/reserved-words-helper.js",
+            "type": "js",
+            "subpath": "/app/vue/node_modules/jstransform/visitors/reserved-words-helper.js"
+        },
+        "vue:node_modules/jstransform/visitors/reserved-words-visitors.js": {
+            "uri": "/app/vue/node_modules/jstransform/visitors/reserved-words-visitors.js",
+            "type": "js",
+            "subpath": "/app/vue/node_modules/jstransform/visitors/reserved-words-visitors.js"
+        },
+        "vue:node_modules/jstransform/visitors/trailing-comma-visitors.js": {
+            "uri": "/app/vue/node_modules/jstransform/visitors/trailing-comma-visitors.js",
+            "type": "js",
+            "subpath": "/app/vue/node_modules/jstransform/visitors/trailing-comma-visitors.js"
+        },
+        "vue:node_modules/jstransform/visitors/type-syntax.js": {
+            "uri": "/app/vue/node_modules/jstransform/visitors/type-syntax.js",
+            "type": "js",
+            "subpath": "/app/vue/node_modules/jstransform/visitors/type-syntax.js"
+        },
+        "vue:node_modules/jstransform/visitors/undefined-to-void-0-visitors.js": {
+            "uri": "/app/vue/node_modules/jstransform/visitors/undefined-to-void-0-visitors.js",
+            "type": "js",
+            "subpath": "/app/vue/node_modules/jstransform/visitors/undefined-to-void-0-visitors.js"
+        },
+        "vue:node_modules/kind-of/index.js": {
+            "uri": "/app/vue/node_modules/kind-of/index.js",
+            "type": "js",
+            "subpath": "/app/vue/node_modules/kind-of/index.js"
+        },
+        "vue:node_modules/lazy-cache/index.js": {
+            "uri": "/app/vue/node_modules/lazy-cache/index.js",
+            "type": "js",
+            "subpath": "/app/vue/node_modules/lazy-cache/index.js"
+        },
+        "vue:node_modules/longest/index.js": {
+            "uri": "/app/vue/node_modules/longest/index.js",
+            "type": "js",
+            "subpath": "/app/vue/node_modules/longest/index.js"
+        },
+        "vue:node_modules/lru-cache/index.js": {
+            "uri": "/app/vue/node_modules/lru-cache/index.js",
+            "type": "js",
+            "subpath": "/app/vue/node_modules/lru-cache/index.js"
+        },
+        "vue:node_modules/minimatch/minimatch.js": {
+            "uri": "/app/vue/node_modules/minimatch/minimatch.js",
+            "type": "js",
+            "subpath": "/app/vue/node_modules/minimatch/minimatch.js"
+        },
+        "vue:node_modules/minimist/example/parse.js": {
+            "uri": "/app/vue/node_modules/minimist/example/parse.js",
+            "type": "js",
+            "subpath": "/app/vue/node_modules/minimist/example/parse.js"
+        },
+        "vue:node_modules/minimist/index.js": {
+            "uri": "/app/vue/node_modules/minimist/index.js",
+            "type": "js",
+            "subpath": "/app/vue/node_modules/minimist/index.js"
+        },
+        "vue:node_modules/minimist/test/dash.js": {
+            "uri": "/app/vue/node_modules/minimist/test/dash.js",
+            "type": "js",
+            "subpath": "/app/vue/node_modules/minimist/test/dash.js"
+        },
+        "vue:node_modules/minimist/test/default_bool.js": {
+            "uri": "/app/vue/node_modules/minimist/test/default_bool.js",
+            "type": "js",
+            "subpath": "/app/vue/node_modules/minimist/test/default_bool.js"
+        },
+        "vue:node_modules/minimist/test/dotted.js": {
+            "uri": "/app/vue/node_modules/minimist/test/dotted.js",
+            "type": "js",
+            "subpath": "/app/vue/node_modules/minimist/test/dotted.js"
+        },
+        "vue:node_modules/minimist/test/long.js": {
+            "uri": "/app/vue/node_modules/minimist/test/long.js",
+            "type": "js",
+            "subpath": "/app/vue/node_modules/minimist/test/long.js"
+        },
+        "vue:node_modules/minimist/test/parse_modified.js": {
+            "uri": "/app/vue/node_modules/minimist/test/parse_modified.js",
+            "type": "js",
+            "subpath": "/app/vue/node_modules/minimist/test/parse_modified.js"
+        },
+        "vue:node_modules/minimist/test/parse.js": {
+            "uri": "/app/vue/node_modules/minimist/test/parse.js",
+            "type": "js",
+            "subpath": "/app/vue/node_modules/minimist/test/parse.js"
+        },
+        "vue:node_modules/minimist/test/short.js": {
+            "uri": "/app/vue/node_modules/minimist/test/short.js",
+            "type": "js",
+            "subpath": "/app/vue/node_modules/minimist/test/short.js"
+        },
+        "vue:node_modules/minimist/test/whitespace.js": {
+            "uri": "/app/vue/node_modules/minimist/test/whitespace.js",
+            "type": "js",
+            "subpath": "/app/vue/node_modules/minimist/test/whitespace.js"
+        },
+        "vue:node_modules/mkdirp/bin/cmd.js": {
+            "uri": "/app/vue/node_modules/mkdirp/bin/cmd.js",
+            "type": "js",
+            "subpath": "/app/vue/node_modules/mkdirp/bin/cmd.js"
+        },
+        "vue:node_modules/mkdirp/examples/pow.js": {
+            "uri": "/app/vue/node_modules/mkdirp/examples/pow.js",
+            "type": "js",
+            "subpath": "/app/vue/node_modules/mkdirp/examples/pow.js"
+        },
+        "vue:node_modules/mkdirp/index.js": {
+            "uri": "/app/vue/node_modules/mkdirp/index.js",
+            "type": "js",
+            "subpath": "/app/vue/node_modules/mkdirp/index.js"
+        },
+        "vue:node_modules/mkdirp/test/chmod.js": {
+            "uri": "/app/vue/node_modules/mkdirp/test/chmod.js",
+            "type": "js",
+            "subpath": "/app/vue/node_modules/mkdirp/test/chmod.js"
+        },
+        "vue:node_modules/mkdirp/test/clobber.js": {
+            "uri": "/app/vue/node_modules/mkdirp/test/clobber.js",
+            "type": "js",
+            "subpath": "/app/vue/node_modules/mkdirp/test/clobber.js"
+        },
+        "vue:node_modules/mkdirp/test/mkdirp.js": {
+            "uri": "/app/vue/node_modules/mkdirp/test/mkdirp.js",
+            "type": "js",
+            "subpath": "/app/vue/node_modules/mkdirp/test/mkdirp.js"
+        },
+        "vue:node_modules/mkdirp/test/opts_fs_sync.js": {
+            "uri": "/app/vue/node_modules/mkdirp/test/opts_fs_sync.js",
+            "type": "js",
+            "subpath": "/app/vue/node_modules/mkdirp/test/opts_fs_sync.js"
+        },
+        "vue:node_modules/mkdirp/test/opts_fs.js": {
+            "uri": "/app/vue/node_modules/mkdirp/test/opts_fs.js",
+            "type": "js",
+            "subpath": "/app/vue/node_modules/mkdirp/test/opts_fs.js"
+        },
+        "vue:node_modules/mkdirp/test/perm_sync.js": {
+            "uri": "/app/vue/node_modules/mkdirp/test/perm_sync.js",
+            "type": "js",
+            "subpath": "/app/vue/node_modules/mkdirp/test/perm_sync.js"
+        },
+        "vue:node_modules/mkdirp/test/perm.js": {
+            "uri": "/app/vue/node_modules/mkdirp/test/perm.js",
+            "type": "js",
+            "subpath": "/app/vue/node_modules/mkdirp/test/perm.js"
+        },
+        "vue:node_modules/mkdirp/test/race.js": {
+            "uri": "/app/vue/node_modules/mkdirp/test/race.js",
+            "type": "js",
+            "subpath": "/app/vue/node_modules/mkdirp/test/race.js"
+        },
+        "vue:node_modules/mkdirp/test/rel.js": {
+            "uri": "/app/vue/node_modules/mkdirp/test/rel.js",
+            "type": "js",
+            "subpath": "/app/vue/node_modules/mkdirp/test/rel.js"
+        },
+        "vue:node_modules/mkdirp/test/return_sync.js": {
+            "uri": "/app/vue/node_modules/mkdirp/test/return_sync.js",
+            "type": "js",
+            "subpath": "/app/vue/node_modules/mkdirp/test/return_sync.js"
+        },
+        "vue:node_modules/mkdirp/test/return.js": {
+            "uri": "/app/vue/node_modules/mkdirp/test/return.js",
+            "type": "js",
+            "subpath": "/app/vue/node_modules/mkdirp/test/return.js"
+        },
+        "vue:node_modules/mkdirp/test/root.js": {
+            "uri": "/app/vue/node_modules/mkdirp/test/root.js",
+            "type": "js",
+            "subpath": "/app/vue/node_modules/mkdirp/test/root.js"
+        },
+        "vue:node_modules/mkdirp/test/sync.js": {
+            "uri": "/app/vue/node_modules/mkdirp/test/sync.js",
+            "type": "js",
+            "subpath": "/app/vue/node_modules/mkdirp/test/sync.js"
+        },
+        "vue:node_modules/mkdirp/test/umask_sync.js": {
+            "uri": "/app/vue/node_modules/mkdirp/test/umask_sync.js",
+            "type": "js",
+            "subpath": "/app/vue/node_modules/mkdirp/test/umask_sync.js"
+        },
+        "vue:node_modules/mkdirp/test/umask.js": {
+            "uri": "/app/vue/node_modules/mkdirp/test/umask.js",
+            "type": "js",
+            "subpath": "/app/vue/node_modules/mkdirp/test/umask.js"
+        },
+        "vue:node_modules/nan/include_dirs.js": {
+            "uri": "/app/vue/node_modules/nan/include_dirs.js",
+            "type": "js",
+            "subpath": "/app/vue/node_modules/nan/include_dirs.js"
+        },
+        "vue:node_modules/nan/tools/1to2.js": {
+            "uri": "/app/vue/node_modules/nan/tools/1to2.js",
+            "type": "js",
+            "subpath": "/app/vue/node_modules/nan/tools/1to2.js"
+        },
+        "vue:node_modules/object-assign/index.js": {
+            "uri": "/app/vue/node_modules/object-assign/index.js",
+            "type": "js",
+            "subpath": "/app/vue/node_modules/object-assign/index.js"
+        },
+        "vue:node_modules/once/once.js": {
+            "uri": "/app/vue/node_modules/once/once.js",
+            "type": "js",
+            "subpath": "/app/vue/node_modules/once/once.js"
+        },
+        "vue:node_modules/path-is-absolute/index.js": {
+            "uri": "/app/vue/node_modules/path-is-absolute/index.js",
+            "type": "js",
+            "subpath": "/app/vue/node_modules/path-is-absolute/index.js"
+        },
+        "vue:node_modules/postcss-selector-parser/dist/index.js": {
+            "uri": "/app/vue/node_modules/postcss-selector-parser/dist/index.js",
+            "type": "js",
+            "subpath": "/app/vue/node_modules/postcss-selector-parser/dist/index.js"
+        },
+        "vue:node_modules/postcss-selector-parser/dist/parser.js": {
+            "uri": "/app/vue/node_modules/postcss-selector-parser/dist/parser.js",
+            "type": "js",
+            "subpath": "/app/vue/node_modules/postcss-selector-parser/dist/parser.js"
+        },
+        "vue:node_modules/postcss-selector-parser/dist/processor.js": {
+            "uri": "/app/vue/node_modules/postcss-selector-parser/dist/processor.js",
+            "type": "js",
+            "subpath": "/app/vue/node_modules/postcss-selector-parser/dist/processor.js"
+        },
+        "vue:node_modules/postcss-selector-parser/dist/selectors/attribute.js": {
+            "uri": "/app/vue/node_modules/postcss-selector-parser/dist/selectors/attribute.js",
+            "type": "js",
+            "subpath": "/app/vue/node_modules/postcss-selector-parser/dist/selectors/attribute.js"
+        },
+        "vue:node_modules/postcss-selector-parser/dist/selectors/className.js": {
+            "uri": "/app/vue/node_modules/postcss-selector-parser/dist/selectors/className.js",
+            "type": "js",
+            "subpath": "/app/vue/node_modules/postcss-selector-parser/dist/selectors/className.js"
+        },
+        "vue:node_modules/postcss-selector-parser/dist/selectors/combinator.js": {
+            "uri": "/app/vue/node_modules/postcss-selector-parser/dist/selectors/combinator.js",
+            "type": "js",
+            "subpath": "/app/vue/node_modules/postcss-selector-parser/dist/selectors/combinator.js"
+        },
+        "vue:node_modules/postcss-selector-parser/dist/selectors/comment.js": {
+            "uri": "/app/vue/node_modules/postcss-selector-parser/dist/selectors/comment.js",
+            "type": "js",
+            "subpath": "/app/vue/node_modules/postcss-selector-parser/dist/selectors/comment.js"
+        },
+        "vue:node_modules/postcss-selector-parser/dist/selectors/container.js": {
+            "uri": "/app/vue/node_modules/postcss-selector-parser/dist/selectors/container.js",
+            "type": "js",
+            "subpath": "/app/vue/node_modules/postcss-selector-parser/dist/selectors/container.js"
+        },
+        "vue:node_modules/postcss-selector-parser/dist/selectors/id.js": {
+            "uri": "/app/vue/node_modules/postcss-selector-parser/dist/selectors/id.js",
+            "type": "js",
+            "subpath": "/app/vue/node_modules/postcss-selector-parser/dist/selectors/id.js"
+        },
+        "vue:node_modules/postcss-selector-parser/dist/selectors/namespace.js": {
+            "uri": "/app/vue/node_modules/postcss-selector-parser/dist/selectors/namespace.js",
+            "type": "js",
+            "subpath": "/app/vue/node_modules/postcss-selector-parser/dist/selectors/namespace.js"
+        },
+        "vue:node_modules/postcss-selector-parser/dist/selectors/nesting.js": {
+            "uri": "/app/vue/node_modules/postcss-selector-parser/dist/selectors/nesting.js",
+            "type": "js",
+            "subpath": "/app/vue/node_modules/postcss-selector-parser/dist/selectors/nesting.js"
+        },
+        "vue:node_modules/postcss-selector-parser/dist/selectors/node.js": {
+            "uri": "/app/vue/node_modules/postcss-selector-parser/dist/selectors/node.js",
+            "type": "js",
+            "subpath": "/app/vue/node_modules/postcss-selector-parser/dist/selectors/node.js"
+        },
+        "vue:node_modules/postcss-selector-parser/dist/selectors/pseudo.js": {
+            "uri": "/app/vue/node_modules/postcss-selector-parser/dist/selectors/pseudo.js",
+            "type": "js",
+            "subpath": "/app/vue/node_modules/postcss-selector-parser/dist/selectors/pseudo.js"
+        },
+        "vue:node_modules/postcss-selector-parser/dist/selectors/root.js": {
+            "uri": "/app/vue/node_modules/postcss-selector-parser/dist/selectors/root.js",
+            "type": "js",
+            "subpath": "/app/vue/node_modules/postcss-selector-parser/dist/selectors/root.js"
+        },
+        "vue:node_modules/postcss-selector-parser/dist/selectors/selector.js": {
+            "uri": "/app/vue/node_modules/postcss-selector-parser/dist/selectors/selector.js",
+            "type": "js",
+            "subpath": "/app/vue/node_modules/postcss-selector-parser/dist/selectors/selector.js"
+        },
+        "vue:node_modules/postcss-selector-parser/dist/selectors/string.js": {
+            "uri": "/app/vue/node_modules/postcss-selector-parser/dist/selectors/string.js",
+            "type": "js",
+            "subpath": "/app/vue/node_modules/postcss-selector-parser/dist/selectors/string.js"
+        },
+        "vue:node_modules/postcss-selector-parser/dist/selectors/tag.js": {
+            "uri": "/app/vue/node_modules/postcss-selector-parser/dist/selectors/tag.js",
+            "type": "js",
+            "subpath": "/app/vue/node_modules/postcss-selector-parser/dist/selectors/tag.js"
+        },
+        "vue:node_modules/postcss-selector-parser/dist/selectors/types.js": {
+            "uri": "/app/vue/node_modules/postcss-selector-parser/dist/selectors/types.js",
+            "type": "js",
+            "subpath": "/app/vue/node_modules/postcss-selector-parser/dist/selectors/types.js"
+        },
+        "vue:node_modules/postcss-selector-parser/dist/selectors/universal.js": {
+            "uri": "/app/vue/node_modules/postcss-selector-parser/dist/selectors/universal.js",
+            "type": "js",
+            "subpath": "/app/vue/node_modules/postcss-selector-parser/dist/selectors/universal.js"
+        },
+        "vue:node_modules/postcss-selector-parser/dist/sortAscending.js": {
+            "uri": "/app/vue/node_modules/postcss-selector-parser/dist/sortAscending.js",
+            "type": "js",
+            "subpath": "/app/vue/node_modules/postcss-selector-parser/dist/sortAscending.js"
+        },
+        "vue:node_modules/postcss-selector-parser/dist/tokenize.js": {
+            "uri": "/app/vue/node_modules/postcss-selector-parser/dist/tokenize.js",
+            "type": "js",
+            "subpath": "/app/vue/node_modules/postcss-selector-parser/dist/tokenize.js"
+        },
+        "vue:node_modules/postcss/lib/at-rule.js": {
+            "uri": "/app/vue/node_modules/postcss/lib/at-rule.js",
+            "type": "js",
+            "subpath": "/app/vue/node_modules/postcss/lib/at-rule.js"
+        },
+        "vue:node_modules/postcss/lib/comment.js": {
+            "uri": "/app/vue/node_modules/postcss/lib/comment.js",
+            "type": "js",
+            "subpath": "/app/vue/node_modules/postcss/lib/comment.js"
+        },
+        "vue:node_modules/postcss/lib/container.js": {
+            "uri": "/app/vue/node_modules/postcss/lib/container.js",
+            "type": "js",
+            "subpath": "/app/vue/node_modules/postcss/lib/container.js"
+        },
+        "vue:node_modules/postcss/lib/css-syntax-error.js": {
+            "uri": "/app/vue/node_modules/postcss/lib/css-syntax-error.js",
+            "type": "js",
+            "subpath": "/app/vue/node_modules/postcss/lib/css-syntax-error.js"
+        },
+        "vue:node_modules/postcss/lib/declaration.js": {
+            "uri": "/app/vue/node_modules/postcss/lib/declaration.js",
+            "type": "js",
+            "subpath": "/app/vue/node_modules/postcss/lib/declaration.js"
+        },
+        "vue:node_modules/postcss/lib/input.js": {
+            "uri": "/app/vue/node_modules/postcss/lib/input.js",
+            "type": "js",
+            "subpath": "/app/vue/node_modules/postcss/lib/input.js"
+        },
+        "vue:node_modules/postcss/lib/lazy-result.js": {
+            "uri": "/app/vue/node_modules/postcss/lib/lazy-result.js",
+            "type": "js",
+            "subpath": "/app/vue/node_modules/postcss/lib/lazy-result.js"
+        },
+        "vue:node_modules/postcss/lib/list.js": {
+            "uri": "/app/vue/node_modules/postcss/lib/list.js",
+            "type": "js",
+            "subpath": "/app/vue/node_modules/postcss/lib/list.js"
+        },
+        "vue:node_modules/postcss/lib/map-generator.js": {
+            "uri": "/app/vue/node_modules/postcss/lib/map-generator.js",
+            "type": "js",
+            "subpath": "/app/vue/node_modules/postcss/lib/map-generator.js"
+        },
+        "vue:node_modules/postcss/lib/node.js": {
+            "uri": "/app/vue/node_modules/postcss/lib/node.js",
+            "type": "js",
+            "subpath": "/app/vue/node_modules/postcss/lib/node.js"
+        },
+        "vue:node_modules/postcss/lib/parse.js": {
+            "uri": "/app/vue/node_modules/postcss/lib/parse.js",
+            "type": "js",
+            "subpath": "/app/vue/node_modules/postcss/lib/parse.js"
+        },
+        "vue:node_modules/postcss/lib/parser.js": {
+            "uri": "/app/vue/node_modules/postcss/lib/parser.js",
+            "type": "js",
+            "subpath": "/app/vue/node_modules/postcss/lib/parser.js"
+        },
+        "vue:node_modules/postcss/lib/postcss.js": {
+            "uri": "/app/vue/node_modules/postcss/lib/postcss.js",
+            "type": "js",
+            "subpath": "/app/vue/node_modules/postcss/lib/postcss.js"
+        },
+        "vue:node_modules/postcss/lib/previous-map.js": {
+            "uri": "/app/vue/node_modules/postcss/lib/previous-map.js",
+            "type": "js",
+            "subpath": "/app/vue/node_modules/postcss/lib/previous-map.js"
+        },
+        "vue:node_modules/postcss/lib/processor.js": {
+            "uri": "/app/vue/node_modules/postcss/lib/processor.js",
+            "type": "js",
+            "subpath": "/app/vue/node_modules/postcss/lib/processor.js"
+        },
+        "vue:node_modules/postcss/lib/result.js": {
+            "uri": "/app/vue/node_modules/postcss/lib/result.js",
+            "type": "js",
+            "subpath": "/app/vue/node_modules/postcss/lib/result.js"
+        },
+        "vue:node_modules/postcss/lib/root.js": {
+            "uri": "/app/vue/node_modules/postcss/lib/root.js",
+            "type": "js",
+            "subpath": "/app/vue/node_modules/postcss/lib/root.js"
+        },
+        "vue:node_modules/postcss/lib/rule.js": {
+            "uri": "/app/vue/node_modules/postcss/lib/rule.js",
+            "type": "js",
+            "subpath": "/app/vue/node_modules/postcss/lib/rule.js"
+        },
+        "vue:node_modules/postcss/lib/stringifier.js": {
+            "uri": "/app/vue/node_modules/postcss/lib/stringifier.js",
+            "type": "js",
+            "subpath": "/app/vue/node_modules/postcss/lib/stringifier.js"
+        },
+        "vue:node_modules/postcss/lib/stringify.js": {
+            "uri": "/app/vue/node_modules/postcss/lib/stringify.js",
+            "type": "js",
+            "subpath": "/app/vue/node_modules/postcss/lib/stringify.js"
+        },
+        "vue:node_modules/postcss/lib/terminal-highlight.js": {
+            "uri": "/app/vue/node_modules/postcss/lib/terminal-highlight.js",
+            "type": "js",
+            "subpath": "/app/vue/node_modules/postcss/lib/terminal-highlight.js"
+        },
+        "vue:node_modules/postcss/lib/tokenize.js": {
+            "uri": "/app/vue/node_modules/postcss/lib/tokenize.js",
+            "type": "js",
+            "subpath": "/app/vue/node_modules/postcss/lib/tokenize.js"
+        },
+        "vue:node_modules/postcss/lib/vendor.js": {
+            "uri": "/app/vue/node_modules/postcss/lib/vendor.js",
+            "type": "js",
+            "subpath": "/app/vue/node_modules/postcss/lib/vendor.js"
+        },
+        "vue:node_modules/postcss/lib/warn-once.js": {
+            "uri": "/app/vue/node_modules/postcss/lib/warn-once.js",
+            "type": "js",
+            "subpath": "/app/vue/node_modules/postcss/lib/warn-once.js"
+        },
+        "vue:node_modules/postcss/lib/warning.js": {
+            "uri": "/app/vue/node_modules/postcss/lib/warning.js",
+            "type": "js",
+            "subpath": "/app/vue/node_modules/postcss/lib/warning.js"
+        },
+        "vue:node_modules/postcss/node_modules/supports-color/browser.js": {
+            "uri": "/app/vue/node_modules/postcss/node_modules/supports-color/browser.js",
+            "type": "js",
+            "subpath": "/app/vue/node_modules/postcss/node_modules/supports-color/browser.js"
+        },
+        "vue:node_modules/postcss/node_modules/supports-color/index.js": {
+            "uri": "/app/vue/node_modules/postcss/node_modules/supports-color/index.js",
+            "type": "js",
+            "subpath": "/app/vue/node_modules/postcss/node_modules/supports-color/index.js"
+        },
+        "vue:node_modules/private/private.js": {
+            "uri": "/app/vue/node_modules/private/private.js",
+            "type": "js",
+            "subpath": "/app/vue/node_modules/private/private.js"
+        },
+        "vue:node_modules/pseudomap/map.js": {
+            "uri": "/app/vue/node_modules/pseudomap/map.js",
+            "type": "js",
+            "subpath": "/app/vue/node_modules/pseudomap/map.js"
+        },
+        "vue:node_modules/pseudomap/pseudomap.js": {
+            "uri": "/app/vue/node_modules/pseudomap/pseudomap.js",
+            "type": "js",
+            "subpath": "/app/vue/node_modules/pseudomap/pseudomap.js"
+        },
+        "vue:node_modules/pseudomap/test/basic.js": {
+            "uri": "/app/vue/node_modules/pseudomap/test/basic.js",
+            "type": "js",
+            "subpath": "/app/vue/node_modules/pseudomap/test/basic.js"
+        },
+        "vue:node_modules/q/q.js": {
+            "uri": "/app/vue/node_modules/q/q.js",
+            "type": "js",
+            "subpath": "/app/vue/node_modules/q/q.js"
+        },
+        "vue:node_modules/q/queue.js": {
+            "uri": "/app/vue/node_modules/q/queue.js",
+            "type": "js",
+            "subpath": "/app/vue/node_modules/q/queue.js"
+        },
+        "vue:node_modules/recast/lib/comments.js": {
+            "uri": "/app/vue/node_modules/recast/lib/comments.js",
+            "type": "js",
+            "subpath": "/app/vue/node_modules/recast/lib/comments.js"
+        },
+        "vue:node_modules/recast/lib/fast-path.js": {
+            "uri": "/app/vue/node_modules/recast/lib/fast-path.js",
+            "type": "js",
+            "subpath": "/app/vue/node_modules/recast/lib/fast-path.js"
+        },
+        "vue:node_modules/recast/lib/lines.js": {
+            "uri": "/app/vue/node_modules/recast/lib/lines.js",
+            "type": "js",
+            "subpath": "/app/vue/node_modules/recast/lib/lines.js"
+        },
+        "vue:node_modules/recast/lib/mapping.js": {
+            "uri": "/app/vue/node_modules/recast/lib/mapping.js",
+            "type": "js",
+            "subpath": "/app/vue/node_modules/recast/lib/mapping.js"
+        },
+        "vue:node_modules/recast/lib/options.js": {
+            "uri": "/app/vue/node_modules/recast/lib/options.js",
+            "type": "js",
+            "subpath": "/app/vue/node_modules/recast/lib/options.js"
+        },
+        "vue:node_modules/recast/lib/parser.js": {
+            "uri": "/app/vue/node_modules/recast/lib/parser.js",
+            "type": "js",
+            "subpath": "/app/vue/node_modules/recast/lib/parser.js"
+        },
+        "vue:node_modules/recast/lib/patcher.js": {
+            "uri": "/app/vue/node_modules/recast/lib/patcher.js",
+            "type": "js",
+            "subpath": "/app/vue/node_modules/recast/lib/patcher.js"
+        },
+        "vue:node_modules/recast/lib/printer.js": {
+            "uri": "/app/vue/node_modules/recast/lib/printer.js",
+            "type": "js",
+            "subpath": "/app/vue/node_modules/recast/lib/printer.js"
+        },
+        "vue:node_modules/recast/lib/types.js": {
+            "uri": "/app/vue/node_modules/recast/lib/types.js",
+            "type": "js",
+            "subpath": "/app/vue/node_modules/recast/lib/types.js"
+        },
+        "vue:node_modules/recast/lib/util.js": {
+            "uri": "/app/vue/node_modules/recast/lib/util.js",
+            "type": "js",
+            "subpath": "/app/vue/node_modules/recast/lib/util.js"
+        },
+        "vue:node_modules/recast/main.js": {
+            "uri": "/app/vue/node_modules/recast/main.js",
+            "type": "js",
+            "subpath": "/app/vue/node_modules/recast/main.js"
+        },
+        "vue:node_modules/recast/node_modules/esprima/bin/esparse.js": {
+            "uri": "/app/vue/node_modules/recast/node_modules/esprima/bin/esparse.js",
+            "type": "js",
+            "subpath": "/app/vue/node_modules/recast/node_modules/esprima/bin/esparse.js"
+        },
+        "vue:node_modules/recast/node_modules/esprima/bin/esvalidate.js": {
+            "uri": "/app/vue/node_modules/recast/node_modules/esprima/bin/esvalidate.js",
+            "type": "js",
+            "subpath": "/app/vue/node_modules/recast/node_modules/esprima/bin/esvalidate.js"
+        },
+        "vue:node_modules/recast/node_modules/esprima/dist/esprima.js": {
+            "uri": "/app/vue/node_modules/recast/node_modules/esprima/dist/esprima.js",
+            "type": "js",
+            "subpath": "/app/vue/node_modules/recast/node_modules/esprima/dist/esprima.js"
+        },
+        "vue:node_modules/repeat-string/index.js": {
+            "uri": "/app/vue/node_modules/repeat-string/index.js",
+            "type": "js",
+            "subpath": "/app/vue/node_modules/repeat-string/index.js"
+        },
+        "vue:node_modules/right-align/index.js": {
+            "uri": "/app/vue/node_modules/right-align/index.js",
+            "type": "js",
+            "subpath": "/app/vue/node_modules/right-align/index.js"
+        },
+        "vue:node_modules/source-map/dist/source-map.debug.js": {
+            "uri": "/app/vue/node_modules/source-map/dist/source-map.debug.js",
+            "type": "js",
+            "subpath": "/app/vue/node_modules/source-map/dist/source-map.debug.js"
+        },
+        "vue:node_modules/source-map/dist/source-map.js": {
+            "uri": "/app/vue/node_modules/source-map/dist/source-map.js",
+            "type": "js",
+            "subpath": "/app/vue/node_modules/source-map/dist/source-map.js"
+        },
+        "vue:node_modules/source-map/dist/source-map.min.js": {
+            "uri": "/app/vue/node_modules/source-map/dist/source-map.min.js",
+            "type": "js",
+            "subpath": "/app/vue/node_modules/source-map/dist/source-map.min.js"
+        },
+        "vue:node_modules/source-map/lib/array-set.js": {
+            "uri": "/app/vue/node_modules/source-map/lib/array-set.js",
+            "type": "js",
+            "subpath": "/app/vue/node_modules/source-map/lib/array-set.js"
+        },
+        "vue:node_modules/source-map/lib/base64-vlq.js": {
+            "uri": "/app/vue/node_modules/source-map/lib/base64-vlq.js",
+            "type": "js",
+            "subpath": "/app/vue/node_modules/source-map/lib/base64-vlq.js"
+        },
+        "vue:node_modules/source-map/lib/base64.js": {
+            "uri": "/app/vue/node_modules/source-map/lib/base64.js",
+            "type": "js",
+            "subpath": "/app/vue/node_modules/source-map/lib/base64.js"
+        },
+        "vue:node_modules/source-map/lib/binary-search.js": {
+            "uri": "/app/vue/node_modules/source-map/lib/binary-search.js",
+            "type": "js",
+            "subpath": "/app/vue/node_modules/source-map/lib/binary-search.js"
+        },
+        "vue:node_modules/source-map/lib/mapping-list.js": {
+            "uri": "/app/vue/node_modules/source-map/lib/mapping-list.js",
+            "type": "js",
+            "subpath": "/app/vue/node_modules/source-map/lib/mapping-list.js"
+        },
+        "vue:node_modules/source-map/lib/quick-sort.js": {
+            "uri": "/app/vue/node_modules/source-map/lib/quick-sort.js",
+            "type": "js",
+            "subpath": "/app/vue/node_modules/source-map/lib/quick-sort.js"
+        },
+        "vue:node_modules/source-map/lib/source-map-consumer.js": {
+            "uri": "/app/vue/node_modules/source-map/lib/source-map-consumer.js",
+            "type": "js",
+            "subpath": "/app/vue/node_modules/source-map/lib/source-map-consumer.js"
+        },
+        "vue:node_modules/source-map/lib/source-map-generator.js": {
+            "uri": "/app/vue/node_modules/source-map/lib/source-map-generator.js",
+            "type": "js",
+            "subpath": "/app/vue/node_modules/source-map/lib/source-map-generator.js"
+        },
+        "vue:node_modules/source-map/lib/source-node.js": {
+            "uri": "/app/vue/node_modules/source-map/lib/source-node.js",
+            "type": "js",
+            "subpath": "/app/vue/node_modules/source-map/lib/source-node.js"
+        },
+        "vue:node_modules/source-map/lib/util.js": {
+            "uri": "/app/vue/node_modules/source-map/lib/util.js",
+            "type": "js",
+            "subpath": "/app/vue/node_modules/source-map/lib/util.js"
+        },
+        "vue:node_modules/source-map/source-map.js": {
+            "uri": "/app/vue/node_modules/source-map/source-map.js",
+            "type": "js",
+            "subpath": "/app/vue/node_modules/source-map/source-map.js"
+        },
+        "vue:node_modules/strip-ansi/index.js": {
+            "uri": "/app/vue/node_modules/strip-ansi/index.js",
+            "type": "js",
+            "subpath": "/app/vue/node_modules/strip-ansi/index.js"
+        },
+        "vue:node_modules/supports-color/index.js": {
+            "uri": "/app/vue/node_modules/supports-color/index.js",
+            "type": "js",
+            "subpath": "/app/vue/node_modules/supports-color/index.js"
+        },
+        "vue:node_modules/through/index.js": {
+            "uri": "/app/vue/node_modules/through/index.js",
+            "type": "js",
+            "subpath": "/app/vue/node_modules/through/index.js"
+        },
+        "vue:node_modules/through/test/async.js": {
+            "uri": "/app/vue/node_modules/through/test/async.js",
+            "type": "js",
+            "subpath": "/app/vue/node_modules/through/test/async.js"
+        },
+        "vue:node_modules/through/test/auto-destroy.js": {
+            "uri": "/app/vue/node_modules/through/test/auto-destroy.js",
+            "type": "js",
+            "subpath": "/app/vue/node_modules/through/test/auto-destroy.js"
+        },
+        "vue:node_modules/through/test/buffering.js": {
+            "uri": "/app/vue/node_modules/through/test/buffering.js",
+            "type": "js",
+            "subpath": "/app/vue/node_modules/through/test/buffering.js"
+        },
+        "vue:node_modules/through/test/end.js": {
+            "uri": "/app/vue/node_modules/through/test/end.js",
+            "type": "js",
+            "subpath": "/app/vue/node_modules/through/test/end.js"
+        },
+        "vue:node_modules/through/test/index.js": {
+            "uri": "/app/vue/node_modules/through/test/index.js",
+            "type": "js",
+            "subpath": "/app/vue/node_modules/through/test/index.js"
+        },
+        "vue:node_modules/uglify-js/bin/extract-props.js": {
+            "uri": "/app/vue/node_modules/uglify-js/bin/extract-props.js",
+            "type": "js",
+            "subpath": "/app/vue/node_modules/uglify-js/bin/extract-props.js"
+        },
+        "vue:node_modules/uglify-js/lib/ast.js": {
+            "uri": "/app/vue/node_modules/uglify-js/lib/ast.js",
+            "type": "js",
+            "subpath": "/app/vue/node_modules/uglify-js/lib/ast.js"
+        },
+        "vue:node_modules/uglify-js/lib/compress.js": {
+            "uri": "/app/vue/node_modules/uglify-js/lib/compress.js",
+            "type": "js",
+            "subpath": "/app/vue/node_modules/uglify-js/lib/compress.js"
+        },
+        "vue:node_modules/uglify-js/lib/mozilla-ast.js": {
+            "uri": "/app/vue/node_modules/uglify-js/lib/mozilla-ast.js",
+            "type": "js",
+            "subpath": "/app/vue/node_modules/uglify-js/lib/mozilla-ast.js"
+        },
+        "vue:node_modules/uglify-js/lib/output.js": {
+            "uri": "/app/vue/node_modules/uglify-js/lib/output.js",
+            "type": "js",
+            "subpath": "/app/vue/node_modules/uglify-js/lib/output.js"
+        },
+        "vue:node_modules/uglify-js/lib/parse.js": {
+            "uri": "/app/vue/node_modules/uglify-js/lib/parse.js",
+            "type": "js",
+            "subpath": "/app/vue/node_modules/uglify-js/lib/parse.js"
+        },
+        "vue:node_modules/uglify-js/lib/propmangle.js": {
+            "uri": "/app/vue/node_modules/uglify-js/lib/propmangle.js",
+            "type": "js",
+            "subpath": "/app/vue/node_modules/uglify-js/lib/propmangle.js"
+        },
+        "vue:node_modules/uglify-js/lib/scope.js": {
+            "uri": "/app/vue/node_modules/uglify-js/lib/scope.js",
+            "type": "js",
+            "subpath": "/app/vue/node_modules/uglify-js/lib/scope.js"
+        },
+        "vue:node_modules/uglify-js/lib/sourcemap.js": {
+            "uri": "/app/vue/node_modules/uglify-js/lib/sourcemap.js",
+            "type": "js",
+            "subpath": "/app/vue/node_modules/uglify-js/lib/sourcemap.js"
+        },
+        "vue:node_modules/uglify-js/lib/transform.js": {
+            "uri": "/app/vue/node_modules/uglify-js/lib/transform.js",
+            "type": "js",
+            "subpath": "/app/vue/node_modules/uglify-js/lib/transform.js"
+        },
+        "vue:node_modules/uglify-js/lib/utils.js": {
+            "uri": "/app/vue/node_modules/uglify-js/lib/utils.js",
+            "type": "js",
+            "subpath": "/app/vue/node_modules/uglify-js/lib/utils.js"
+        },
+        "vue:node_modules/uglify-js/tools/exports.js": {
+            "uri": "/app/vue/node_modules/uglify-js/tools/exports.js",
+            "type": "js",
+            "subpath": "/app/vue/node_modules/uglify-js/tools/exports.js"
+        },
+        "vue:node_modules/uglify-js/tools/node.js": {
+            "uri": "/app/vue/node_modules/uglify-js/tools/node.js",
+            "type": "js",
+            "subpath": "/app/vue/node_modules/uglify-js/tools/node.js"
+        },
+        "vue:node_modules/uglify-to-browserify/index.js": {
+            "uri": "/app/vue/node_modules/uglify-to-browserify/index.js",
+            "type": "js",
+            "subpath": "/app/vue/node_modules/uglify-to-browserify/index.js"
+        },
+        "vue:node_modules/uglify-to-browserify/test/index.js": {
+            "uri": "/app/vue/node_modules/uglify-to-browserify/test/index.js",
+            "type": "js",
+            "subpath": "/app/vue/node_modules/uglify-to-browserify/test/index.js"
+        },
+        "vue:node_modules/uniq/test/test.js": {
+            "uri": "/app/vue/node_modules/uniq/test/test.js",
+            "type": "js",
+            "subpath": "/app/vue/node_modules/uniq/test/test.js"
+        },
+        "vue:node_modules/uniq/uniq.js": {
+            "uri": "/app/vue/node_modules/uniq/uniq.js",
+            "type": "js",
+            "subpath": "/app/vue/node_modules/uniq/uniq.js"
+        },
+        "vue:node_modules/vue-router/dist/vue-router.common.js": {
+            "uri": "/app/vue/node_modules/vue-router/dist/vue-router.common.js",
+            "type": "js",
+            "subpath": "/app/vue/node_modules/vue-router/dist/vue-router.common.js"
+        },
+        "vue:node_modules/vue-router/dist/vue-router.esm.js": {
+            "uri": "/app/vue/node_modules/vue-router/dist/vue-router.esm.js",
+            "type": "js",
+            "subpath": "/app/vue/node_modules/vue-router/dist/vue-router.esm.js"
+        },
+        "vue:node_modules/vue-router/dist/vue-router.js": {
+            "uri": "/app/vue/node_modules/vue-router/dist/vue-router.js",
+            "type": "js",
+            "subpath": "/app/vue/node_modules/vue-router/dist/vue-router.js"
+        },
+        "vue:node_modules/vue-router/dist/vue-router.min.js": {
+            "uri": "/app/vue/node_modules/vue-router/dist/vue-router.min.js",
+            "type": "js",
+            "subpath": "/app/vue/node_modules/vue-router/dist/vue-router.min.js"
+        },
+        "vue:node_modules/vue-router/src/components/link.js": {
+            "uri": "/app/vue/node_modules/vue-router/src/components/link.js",
+            "type": "js",
+            "subpath": "/app/vue/node_modules/vue-router/src/components/link.js"
+        },
+        "vue:node_modules/vue-router/src/components/view.js": {
+            "uri": "/app/vue/node_modules/vue-router/src/components/view.js",
+            "type": "js",
+            "subpath": "/app/vue/node_modules/vue-router/src/components/view.js"
+        },
+        "vue:node_modules/vue-router/src/create-matcher.js": {
+            "uri": "/app/vue/node_modules/vue-router/src/create-matcher.js",
+            "type": "js",
+            "subpath": "/app/vue/node_modules/vue-router/src/create-matcher.js"
+        },
+        "vue:node_modules/vue-router/src/create-route-map.js": {
+            "uri": "/app/vue/node_modules/vue-router/src/create-route-map.js",
+            "type": "js",
+            "subpath": "/app/vue/node_modules/vue-router/src/create-route-map.js"
+        },
+        "vue:node_modules/vue-router/src/history/abstract.js": {
+            "uri": "/app/vue/node_modules/vue-router/src/history/abstract.js",
+            "type": "js",
+            "subpath": "/app/vue/node_modules/vue-router/src/history/abstract.js"
+        },
+        "vue:node_modules/vue-router/src/history/base.js": {
+            "uri": "/app/vue/node_modules/vue-router/src/history/base.js",
+            "type": "js",
+            "subpath": "/app/vue/node_modules/vue-router/src/history/base.js"
+        },
+        "vue:node_modules/vue-router/src/history/hash.js": {
+            "uri": "/app/vue/node_modules/vue-router/src/history/hash.js",
+            "type": "js",
+            "subpath": "/app/vue/node_modules/vue-router/src/history/hash.js"
+        },
+        "vue:node_modules/vue-router/src/history/html5.js": {
+            "uri": "/app/vue/node_modules/vue-router/src/history/html5.js",
+            "type": "js",
+            "subpath": "/app/vue/node_modules/vue-router/src/history/html5.js"
+        },
+        "vue:node_modules/vue-router/src/index.js": {
+            "uri": "/app/vue/node_modules/vue-router/src/index.js",
+            "type": "js",
+            "subpath": "/app/vue/node_modules/vue-router/src/index.js"
+        },
+        "vue:node_modules/vue-router/src/install.js": {
+            "uri": "/app/vue/node_modules/vue-router/src/install.js",
+            "type": "js",
+            "subpath": "/app/vue/node_modules/vue-router/src/install.js"
+        },
+        "vue:node_modules/vue-router/src/util/async.js": {
+            "uri": "/app/vue/node_modules/vue-router/src/util/async.js",
+            "type": "js",
+            "subpath": "/app/vue/node_modules/vue-router/src/util/async.js"
+        },
+        "vue:node_modules/vue-router/src/util/dom.js": {
+            "uri": "/app/vue/node_modules/vue-router/src/util/dom.js",
+            "type": "js",
+            "subpath": "/app/vue/node_modules/vue-router/src/util/dom.js"
+        },
+        "vue:node_modules/vue-router/src/util/location.js": {
+            "uri": "/app/vue/node_modules/vue-router/src/util/location.js",
+            "type": "js",
+            "subpath": "/app/vue/node_modules/vue-router/src/util/location.js"
+        },
+        "vue:node_modules/vue-router/src/util/params.js": {
+            "uri": "/app/vue/node_modules/vue-router/src/util/params.js",
+            "type": "js",
+            "subpath": "/app/vue/node_modules/vue-router/src/util/params.js"
+        },
+        "vue:node_modules/vue-router/src/util/path.js": {
+            "uri": "/app/vue/node_modules/vue-router/src/util/path.js",
+            "type": "js",
+            "subpath": "/app/vue/node_modules/vue-router/src/util/path.js"
+        },
+        "vue:node_modules/vue-router/src/util/push-state.js": {
+            "uri": "/app/vue/node_modules/vue-router/src/util/push-state.js",
+            "type": "js",
+            "subpath": "/app/vue/node_modules/vue-router/src/util/push-state.js"
+        },
+        "vue:node_modules/vue-router/src/util/query.js": {
+            "uri": "/app/vue/node_modules/vue-router/src/util/query.js",
+            "type": "js",
+            "subpath": "/app/vue/node_modules/vue-router/src/util/query.js"
+        },
+        "vue:node_modules/vue-router/src/util/resolve-components.js": {
+            "uri": "/app/vue/node_modules/vue-router/src/util/resolve-components.js",
+            "type": "js",
+            "subpath": "/app/vue/node_modules/vue-router/src/util/resolve-components.js"
+        },
+        "vue:node_modules/vue-router/src/util/route.js": {
+            "uri": "/app/vue/node_modules/vue-router/src/util/route.js",
+            "type": "js",
+            "subpath": "/app/vue/node_modules/vue-router/src/util/route.js"
+        },
+        "vue:node_modules/vue-router/src/util/scroll.js": {
+            "uri": "/app/vue/node_modules/vue-router/src/util/scroll.js",
+            "type": "js",
+            "subpath": "/app/vue/node_modules/vue-router/src/util/scroll.js"
+        },
+        "vue:node_modules/vue-router/src/util/warn.js": {
+            "uri": "/app/vue/node_modules/vue-router/src/util/warn.js",
+            "type": "js",
+            "subpath": "/app/vue/node_modules/vue-router/src/util/warn.js"
+        },
+        "vue:node_modules/vue-template-compiler/build.js": {
+            "uri": "/app/vue/node_modules/vue-template-compiler/build.js",
+            "type": "js",
+            "subpath": "/app/vue/node_modules/vue-template-compiler/build.js"
+        },
+        "vue:node_modules/vue-template-compiler/index.js": {
+            "uri": "/app/vue/node_modules/vue-template-compiler/index.js",
+            "type": "js",
+            "subpath": "/app/vue/node_modules/vue-template-compiler/index.js"
+        },
+        "vue:node_modules/vue-template-es2015-compiler/buble.js": {
+            "uri": "/app/vue/node_modules/vue-template-es2015-compiler/buble.js",
+            "type": "js",
+            "subpath": "/app/vue/node_modules/vue-template-es2015-compiler/buble.js"
+        },
+        "vue:node_modules/vue-template-es2015-compiler/index.js": {
+            "uri": "/app/vue/node_modules/vue-template-es2015-compiler/index.js",
+            "type": "js",
+            "subpath": "/app/vue/node_modules/vue-template-es2015-compiler/index.js"
+        },
+        "vue:node_modules/vue/dist/vue.common.js": {
+            "uri": "/app/vue/node_modules/vue/dist/vue.common.js",
+            "type": "js",
+            "subpath": "/app/vue/node_modules/vue/dist/vue.common.js"
+        },
+        "vue:node_modules/vue/dist/vue.esm.js": {
+            "uri": "/app/vue/node_modules/vue/dist/vue.esm.js",
+            "type": "js",
+            "subpath": "/app/vue/node_modules/vue/dist/vue.esm.js"
+        },
+        "vue:node_modules/vue/dist/vue.js": {
+            "uri": "/app/vue/node_modules/vue/dist/vue.js",
+            "type": "js",
+            "subpath": "/app/vue/node_modules/vue/dist/vue.js"
+        },
+        "vue:node_modules/vue/dist/vue.min.js": {
+            "uri": "/app/vue/node_modules/vue/dist/vue.min.js",
+            "type": "js",
+            "subpath": "/app/vue/node_modules/vue/dist/vue.min.js"
+        },
+        "vue:node_modules/vue/dist/vue.runtime.common.js": {
+            "uri": "/app/vue/node_modules/vue/dist/vue.runtime.common.js",
+            "type": "js",
+            "subpath": "/app/vue/node_modules/vue/dist/vue.runtime.common.js"
+        },
+        "vue:node_modules/vue/dist/vue.runtime.esm.js": {
+            "uri": "/app/vue/node_modules/vue/dist/vue.runtime.esm.js",
+            "type": "js",
+            "subpath": "/app/vue/node_modules/vue/dist/vue.runtime.esm.js"
+        },
+        "vue:node_modules/vue/dist/vue.runtime.js": {
+            "uri": "/app/vue/node_modules/vue/dist/vue.runtime.js",
+            "type": "js",
+            "subpath": "/app/vue/node_modules/vue/dist/vue.runtime.js"
+        },
+        "vue:node_modules/vue/dist/vue.runtime.min.js": {
+            "uri": "/app/vue/node_modules/vue/dist/vue.runtime.min.js",
+            "type": "js",
+            "subpath": "/app/vue/node_modules/vue/dist/vue.runtime.min.js"
+        },
+        "vue:node_modules/vue/src/compiler/codegen/events.js": {
+            "uri": "/app/vue/node_modules/vue/src/compiler/codegen/events.js",
+            "type": "js",
+            "subpath": "/app/vue/node_modules/vue/src/compiler/codegen/events.js"
+        },
+        "vue:node_modules/vue/src/compiler/codegen/index.js": {
+            "uri": "/app/vue/node_modules/vue/src/compiler/codegen/index.js",
+            "type": "js",
+            "subpath": "/app/vue/node_modules/vue/src/compiler/codegen/index.js"
+        },
+        "vue:node_modules/vue/src/compiler/create-compiler.js": {
+            "uri": "/app/vue/node_modules/vue/src/compiler/create-compiler.js",
+            "type": "js",
+            "subpath": "/app/vue/node_modules/vue/src/compiler/create-compiler.js"
+        },
+        "vue:node_modules/vue/src/compiler/directives/bind.js": {
+            "uri": "/app/vue/node_modules/vue/src/compiler/directives/bind.js",
+            "type": "js",
+            "subpath": "/app/vue/node_modules/vue/src/compiler/directives/bind.js"
+        },
+        "vue:node_modules/vue/src/compiler/directives/index.js": {
+            "uri": "/app/vue/node_modules/vue/src/compiler/directives/index.js",
+            "type": "js",
+            "subpath": "/app/vue/node_modules/vue/src/compiler/directives/index.js"
+        },
+        "vue:node_modules/vue/src/compiler/directives/model.js": {
+            "uri": "/app/vue/node_modules/vue/src/compiler/directives/model.js",
+            "type": "js",
+            "subpath": "/app/vue/node_modules/vue/src/compiler/directives/model.js"
+        },
+        "vue:node_modules/vue/src/compiler/directives/on.js": {
+            "uri": "/app/vue/node_modules/vue/src/compiler/directives/on.js",
+            "type": "js",
+            "subpath": "/app/vue/node_modules/vue/src/compiler/directives/on.js"
+        },
+        "vue:node_modules/vue/src/compiler/error-detector.js": {
+            "uri": "/app/vue/node_modules/vue/src/compiler/error-detector.js",
+            "type": "js",
+            "subpath": "/app/vue/node_modules/vue/src/compiler/error-detector.js"
+        },
+        "vue:node_modules/vue/src/compiler/helpers.js": {
+            "uri": "/app/vue/node_modules/vue/src/compiler/helpers.js",
+            "type": "js",
+            "subpath": "/app/vue/node_modules/vue/src/compiler/helpers.js"
+        },
+        "vue:node_modules/vue/src/compiler/index.js": {
+            "uri": "/app/vue/node_modules/vue/src/compiler/index.js",
+            "type": "js",
+            "subpath": "/app/vue/node_modules/vue/src/compiler/index.js"
+        },
+        "vue:node_modules/vue/src/compiler/optimizer.js": {
+            "uri": "/app/vue/node_modules/vue/src/compiler/optimizer.js",
+            "type": "js",
+            "subpath": "/app/vue/node_modules/vue/src/compiler/optimizer.js"
+        },
+        "vue:node_modules/vue/src/compiler/parser/entity-decoder.js": {
+            "uri": "/app/vue/node_modules/vue/src/compiler/parser/entity-decoder.js",
+            "type": "js",
+            "subpath": "/app/vue/node_modules/vue/src/compiler/parser/entity-decoder.js"
+        },
+        "vue:node_modules/vue/src/compiler/parser/filter-parser.js": {
+            "uri": "/app/vue/node_modules/vue/src/compiler/parser/filter-parser.js",
+            "type": "js",
+            "subpath": "/app/vue/node_modules/vue/src/compiler/parser/filter-parser.js"
+        },
+        "vue:node_modules/vue/src/compiler/parser/html-parser.js": {
+            "uri": "/app/vue/node_modules/vue/src/compiler/parser/html-parser.js",
+            "type": "js",
+            "subpath": "/app/vue/node_modules/vue/src/compiler/parser/html-parser.js"
+        },
+        "vue:node_modules/vue/src/compiler/parser/index.js": {
+            "uri": "/app/vue/node_modules/vue/src/compiler/parser/index.js",
+            "type": "js",
+            "subpath": "/app/vue/node_modules/vue/src/compiler/parser/index.js"
+        },
+        "vue:node_modules/vue/src/compiler/parser/text-parser.js": {
+            "uri": "/app/vue/node_modules/vue/src/compiler/parser/text-parser.js",
+            "type": "js",
+            "subpath": "/app/vue/node_modules/vue/src/compiler/parser/text-parser.js"
+        },
+        "vue:node_modules/vue/src/compiler/to-function.js": {
+            "uri": "/app/vue/node_modules/vue/src/compiler/to-function.js",
+            "type": "js",
+            "subpath": "/app/vue/node_modules/vue/src/compiler/to-function.js"
+        },
+        "vue:node_modules/vue/src/core/components/index.js": {
+            "uri": "/app/vue/node_modules/vue/src/core/components/index.js",
+            "type": "js",
+            "subpath": "/app/vue/node_modules/vue/src/core/components/index.js"
+        },
+        "vue:node_modules/vue/src/core/components/keep-alive.js": {
+            "uri": "/app/vue/node_modules/vue/src/core/components/keep-alive.js",
+            "type": "js",
+            "subpath": "/app/vue/node_modules/vue/src/core/components/keep-alive.js"
+        },
+        "vue:node_modules/vue/src/core/config.js": {
+            "uri": "/app/vue/node_modules/vue/src/core/config.js",
+            "type": "js",
+            "subpath": "/app/vue/node_modules/vue/src/core/config.js"
+        },
+        "vue:node_modules/vue/src/core/global-api/assets.js": {
+            "uri": "/app/vue/node_modules/vue/src/core/global-api/assets.js",
+            "type": "js",
+            "subpath": "/app/vue/node_modules/vue/src/core/global-api/assets.js"
+        },
+        "vue:node_modules/vue/src/core/global-api/extend.js": {
+            "uri": "/app/vue/node_modules/vue/src/core/global-api/extend.js",
+            "type": "js",
+            "subpath": "/app/vue/node_modules/vue/src/core/global-api/extend.js"
+        },
+        "vue:node_modules/vue/src/core/global-api/index.js": {
+            "uri": "/app/vue/node_modules/vue/src/core/global-api/index.js",
+            "type": "js",
+            "subpath": "/app/vue/node_modules/vue/src/core/global-api/index.js"
+        },
+        "vue:node_modules/vue/src/core/global-api/mixin.js": {
+            "uri": "/app/vue/node_modules/vue/src/core/global-api/mixin.js",
+            "type": "js",
+            "subpath": "/app/vue/node_modules/vue/src/core/global-api/mixin.js"
+        },
+        "vue:node_modules/vue/src/core/global-api/use.js": {
+            "uri": "/app/vue/node_modules/vue/src/core/global-api/use.js",
+            "type": "js",
+            "subpath": "/app/vue/node_modules/vue/src/core/global-api/use.js"
+        },
+        "vue:node_modules/vue/src/core/index.js": {
+            "uri": "/app/vue/node_modules/vue/src/core/index.js",
+            "type": "js",
+            "subpath": "/app/vue/node_modules/vue/src/core/index.js"
+        },
+        "vue:node_modules/vue/src/core/instance/events.js": {
+            "uri": "/app/vue/node_modules/vue/src/core/instance/events.js",
+            "type": "js",
+            "subpath": "/app/vue/node_modules/vue/src/core/instance/events.js"
+        },
+        "vue:node_modules/vue/src/core/instance/index.js": {
+            "uri": "/app/vue/node_modules/vue/src/core/instance/index.js",
+            "type": "js",
+            "subpath": "/app/vue/node_modules/vue/src/core/instance/index.js"
+        },
+        "vue:node_modules/vue/src/core/instance/init.js": {
+            "uri": "/app/vue/node_modules/vue/src/core/instance/init.js",
+            "type": "js",
+            "subpath": "/app/vue/node_modules/vue/src/core/instance/init.js"
+        },
+        "vue:node_modules/vue/src/core/instance/inject.js": {
+            "uri": "/app/vue/node_modules/vue/src/core/instance/inject.js",
+            "type": "js",
+            "subpath": "/app/vue/node_modules/vue/src/core/instance/inject.js"
+        },
+        "vue:node_modules/vue/src/core/instance/lifecycle.js": {
+            "uri": "/app/vue/node_modules/vue/src/core/instance/lifecycle.js",
+            "type": "js",
+            "subpath": "/app/vue/node_modules/vue/src/core/instance/lifecycle.js"
+        },
+        "vue:node_modules/vue/src/core/instance/proxy.js": {
+            "uri": "/app/vue/node_modules/vue/src/core/instance/proxy.js",
+            "type": "js",
+            "subpath": "/app/vue/node_modules/vue/src/core/instance/proxy.js"
+        },
+        "vue:node_modules/vue/src/core/instance/render-helpers/bind-object-listeners.js": {
+            "uri": "/app/vue/node_modules/vue/src/core/instance/render-helpers/bind-object-listeners.js",
+            "type": "js",
+            "subpath": "/app/vue/node_modules/vue/src/core/instance/render-helpers/bind-object-listeners.js"
+        },
+        "vue:node_modules/vue/src/core/instance/render-helpers/bind-object-props.js": {
+            "uri": "/app/vue/node_modules/vue/src/core/instance/render-helpers/bind-object-props.js",
+            "type": "js",
+            "subpath": "/app/vue/node_modules/vue/src/core/instance/render-helpers/bind-object-props.js"
+        },
+        "vue:node_modules/vue/src/core/instance/render-helpers/check-keycodes.js": {
+            "uri": "/app/vue/node_modules/vue/src/core/instance/render-helpers/check-keycodes.js",
+            "type": "js",
+            "subpath": "/app/vue/node_modules/vue/src/core/instance/render-helpers/check-keycodes.js"
+        },
+        "vue:node_modules/vue/src/core/instance/render-helpers/render-list.js": {
+            "uri": "/app/vue/node_modules/vue/src/core/instance/render-helpers/render-list.js",
+            "type": "js",
+            "subpath": "/app/vue/node_modules/vue/src/core/instance/render-helpers/render-list.js"
+        },
+        "vue:node_modules/vue/src/core/instance/render-helpers/render-slot.js": {
+            "uri": "/app/vue/node_modules/vue/src/core/instance/render-helpers/render-slot.js",
+            "type": "js",
+            "subpath": "/app/vue/node_modules/vue/src/core/instance/render-helpers/render-slot.js"
+        },
+        "vue:node_modules/vue/src/core/instance/render-helpers/render-static.js": {
+            "uri": "/app/vue/node_modules/vue/src/core/instance/render-helpers/render-static.js",
+            "type": "js",
+            "subpath": "/app/vue/node_modules/vue/src/core/instance/render-helpers/render-static.js"
+        },
+        "vue:node_modules/vue/src/core/instance/render-helpers/resolve-filter.js": {
+            "uri": "/app/vue/node_modules/vue/src/core/instance/render-helpers/resolve-filter.js",
+            "type": "js",
+            "subpath": "/app/vue/node_modules/vue/src/core/instance/render-helpers/resolve-filter.js"
+        },
+        "vue:node_modules/vue/src/core/instance/render-helpers/resolve-slots.js": {
+            "uri": "/app/vue/node_modules/vue/src/core/instance/render-helpers/resolve-slots.js",
+            "type": "js",
+            "subpath": "/app/vue/node_modules/vue/src/core/instance/render-helpers/resolve-slots.js"
+        },
+        "vue:node_modules/vue/src/core/instance/render.js": {
+            "uri": "/app/vue/node_modules/vue/src/core/instance/render.js",
+            "type": "js",
+            "subpath": "/app/vue/node_modules/vue/src/core/instance/render.js"
+        },
+        "vue:node_modules/vue/src/core/instance/state.js": {
+            "uri": "/app/vue/node_modules/vue/src/core/instance/state.js",
+            "type": "js",
+            "subpath": "/app/vue/node_modules/vue/src/core/instance/state.js"
+        },
+        "vue:node_modules/vue/src/core/observer/array.js": {
+            "uri": "/app/vue/node_modules/vue/src/core/observer/array.js",
+            "type": "js",
+            "subpath": "/app/vue/node_modules/vue/src/core/observer/array.js"
+        },
+        "vue:node_modules/vue/src/core/observer/dep.js": {
+            "uri": "/app/vue/node_modules/vue/src/core/observer/dep.js",
+            "type": "js",
+            "subpath": "/app/vue/node_modules/vue/src/core/observer/dep.js"
+        },
+        "vue:node_modules/vue/src/core/observer/index.js": {
+            "uri": "/app/vue/node_modules/vue/src/core/observer/index.js",
+            "type": "js",
+            "subpath": "/app/vue/node_modules/vue/src/core/observer/index.js"
+        },
+        "vue:node_modules/vue/src/core/observer/scheduler.js": {
+            "uri": "/app/vue/node_modules/vue/src/core/observer/scheduler.js",
+            "type": "js",
+            "subpath": "/app/vue/node_modules/vue/src/core/observer/scheduler.js"
+        },
+        "vue:node_modules/vue/src/core/observer/watcher.js": {
+            "uri": "/app/vue/node_modules/vue/src/core/observer/watcher.js",
+            "type": "js",
+            "subpath": "/app/vue/node_modules/vue/src/core/observer/watcher.js"
+        },
+        "vue:node_modules/vue/src/core/util/debug.js": {
+            "uri": "/app/vue/node_modules/vue/src/core/util/debug.js",
+            "type": "js",
+            "subpath": "/app/vue/node_modules/vue/src/core/util/debug.js"
+        },
+        "vue:node_modules/vue/src/core/util/env.js": {
+            "uri": "/app/vue/node_modules/vue/src/core/util/env.js",
+            "type": "js",
+            "subpath": "/app/vue/node_modules/vue/src/core/util/env.js"
+        },
+        "vue:node_modules/vue/src/core/util/error.js": {
+            "uri": "/app/vue/node_modules/vue/src/core/util/error.js",
+            "type": "js",
+            "subpath": "/app/vue/node_modules/vue/src/core/util/error.js"
+        },
+        "vue:node_modules/vue/src/core/util/index.js": {
+            "uri": "/app/vue/node_modules/vue/src/core/util/index.js",
+            "type": "js",
+            "subpath": "/app/vue/node_modules/vue/src/core/util/index.js"
+        },
+        "vue:node_modules/vue/src/core/util/lang.js": {
+            "uri": "/app/vue/node_modules/vue/src/core/util/lang.js",
+            "type": "js",
+            "subpath": "/app/vue/node_modules/vue/src/core/util/lang.js"
+        },
+        "vue:node_modules/vue/src/core/util/options.js": {
+            "uri": "/app/vue/node_modules/vue/src/core/util/options.js",
+            "type": "js",
+            "subpath": "/app/vue/node_modules/vue/src/core/util/options.js"
+        },
+        "vue:node_modules/vue/src/core/util/perf.js": {
+            "uri": "/app/vue/node_modules/vue/src/core/util/perf.js",
+            "type": "js",
+            "subpath": "/app/vue/node_modules/vue/src/core/util/perf.js"
+        },
+        "vue:node_modules/vue/src/core/util/props.js": {
+            "uri": "/app/vue/node_modules/vue/src/core/util/props.js",
+            "type": "js",
+            "subpath": "/app/vue/node_modules/vue/src/core/util/props.js"
+        },
+        "vue:node_modules/vue/src/core/vdom/create-component.js": {
+            "uri": "/app/vue/node_modules/vue/src/core/vdom/create-component.js",
+            "type": "js",
+            "subpath": "/app/vue/node_modules/vue/src/core/vdom/create-component.js"
+        },
+        "vue:node_modules/vue/src/core/vdom/create-element.js": {
+            "uri": "/app/vue/node_modules/vue/src/core/vdom/create-element.js",
+            "type": "js",
+            "subpath": "/app/vue/node_modules/vue/src/core/vdom/create-element.js"
+        },
+        "vue:node_modules/vue/src/core/vdom/create-functional-component.js": {
+            "uri": "/app/vue/node_modules/vue/src/core/vdom/create-functional-component.js",
+            "type": "js",
+            "subpath": "/app/vue/node_modules/vue/src/core/vdom/create-functional-component.js"
+        },
+        "vue:node_modules/vue/src/core/vdom/helpers/extract-props.js": {
+            "uri": "/app/vue/node_modules/vue/src/core/vdom/helpers/extract-props.js",
+            "type": "js",
+            "subpath": "/app/vue/node_modules/vue/src/core/vdom/helpers/extract-props.js"
+        },
+        "vue:node_modules/vue/src/core/vdom/helpers/get-first-component-child.js": {
+            "uri": "/app/vue/node_modules/vue/src/core/vdom/helpers/get-first-component-child.js",
+            "type": "js",
+            "subpath": "/app/vue/node_modules/vue/src/core/vdom/helpers/get-first-component-child.js"
+        },
+        "vue:node_modules/vue/src/core/vdom/helpers/index.js": {
+            "uri": "/app/vue/node_modules/vue/src/core/vdom/helpers/index.js",
+            "type": "js",
+            "subpath": "/app/vue/node_modules/vue/src/core/vdom/helpers/index.js"
+        },
+        "vue:node_modules/vue/src/core/vdom/helpers/merge-hook.js": {
+            "uri": "/app/vue/node_modules/vue/src/core/vdom/helpers/merge-hook.js",
+            "type": "js",
+            "subpath": "/app/vue/node_modules/vue/src/core/vdom/helpers/merge-hook.js"
+        },
+        "vue:node_modules/vue/src/core/vdom/helpers/normalize-children.js": {
+            "uri": "/app/vue/node_modules/vue/src/core/vdom/helpers/normalize-children.js",
+            "type": "js",
+            "subpath": "/app/vue/node_modules/vue/src/core/vdom/helpers/normalize-children.js"
+        },
+        "vue:node_modules/vue/src/core/vdom/helpers/resolve-async-component.js": {
+            "uri": "/app/vue/node_modules/vue/src/core/vdom/helpers/resolve-async-component.js",
+            "type": "js",
+            "subpath": "/app/vue/node_modules/vue/src/core/vdom/helpers/resolve-async-component.js"
+        },
+        "vue:node_modules/vue/src/core/vdom/helpers/update-listeners.js": {
+            "uri": "/app/vue/node_modules/vue/src/core/vdom/helpers/update-listeners.js",
+            "type": "js",
+            "subpath": "/app/vue/node_modules/vue/src/core/vdom/helpers/update-listeners.js"
+        },
+        "vue:node_modules/vue/src/core/vdom/modules/directives.js": {
+            "uri": "/app/vue/node_modules/vue/src/core/vdom/modules/directives.js",
+            "type": "js",
+            "subpath": "/app/vue/node_modules/vue/src/core/vdom/modules/directives.js"
+        },
+        "vue:node_modules/vue/src/core/vdom/modules/index.js": {
+            "uri": "/app/vue/node_modules/vue/src/core/vdom/modules/index.js",
+            "type": "js",
+            "subpath": "/app/vue/node_modules/vue/src/core/vdom/modules/index.js"
+        },
+        "vue:node_modules/vue/src/core/vdom/modules/ref.js": {
+            "uri": "/app/vue/node_modules/vue/src/core/vdom/modules/ref.js",
+            "type": "js",
+            "subpath": "/app/vue/node_modules/vue/src/core/vdom/modules/ref.js"
+        },
+        "vue:node_modules/vue/src/core/vdom/patch.js": {
+            "uri": "/app/vue/node_modules/vue/src/core/vdom/patch.js",
+            "type": "js",
+            "subpath": "/app/vue/node_modules/vue/src/core/vdom/patch.js"
+        },
+        "vue:node_modules/vue/src/core/vdom/vnode.js": {
+            "uri": "/app/vue/node_modules/vue/src/core/vdom/vnode.js",
+            "type": "js",
+            "subpath": "/app/vue/node_modules/vue/src/core/vdom/vnode.js"
+        },
+        "vue:node_modules/vue/src/platforms/web/compiler/directives/html.js": {
+            "uri": "/app/vue/node_modules/vue/src/platforms/web/compiler/directives/html.js",
+            "type": "js",
+            "subpath": "/app/vue/node_modules/vue/src/platforms/web/compiler/directives/html.js"
+        },
+        "vue:node_modules/vue/src/platforms/web/compiler/directives/index.js": {
+            "uri": "/app/vue/node_modules/vue/src/platforms/web/compiler/directives/index.js",
+            "type": "js",
+            "subpath": "/app/vue/node_modules/vue/src/platforms/web/compiler/directives/index.js"
+        },
+        "vue:node_modules/vue/src/platforms/web/compiler/directives/model.js": {
+            "uri": "/app/vue/node_modules/vue/src/platforms/web/compiler/directives/model.js",
+            "type": "js",
+            "subpath": "/app/vue/node_modules/vue/src/platforms/web/compiler/directives/model.js"
+        },
+        "vue:node_modules/vue/src/platforms/web/compiler/directives/text.js": {
+            "uri": "/app/vue/node_modules/vue/src/platforms/web/compiler/directives/text.js",
+            "type": "js",
+            "subpath": "/app/vue/node_modules/vue/src/platforms/web/compiler/directives/text.js"
+        },
+        "vue:node_modules/vue/src/platforms/web/compiler/index.js": {
+            "uri": "/app/vue/node_modules/vue/src/platforms/web/compiler/index.js",
+            "type": "js",
+            "subpath": "/app/vue/node_modules/vue/src/platforms/web/compiler/index.js"
+        },
+        "vue:node_modules/vue/src/platforms/web/compiler/modules/class.js": {
+            "uri": "/app/vue/node_modules/vue/src/platforms/web/compiler/modules/class.js",
+            "type": "js",
+            "subpath": "/app/vue/node_modules/vue/src/platforms/web/compiler/modules/class.js"
+        },
+        "vue:node_modules/vue/src/platforms/web/compiler/modules/index.js": {
+            "uri": "/app/vue/node_modules/vue/src/platforms/web/compiler/modules/index.js",
+            "type": "js",
+            "subpath": "/app/vue/node_modules/vue/src/platforms/web/compiler/modules/index.js"
+        },
+        "vue:node_modules/vue/src/platforms/web/compiler/modules/style.js": {
+            "uri": "/app/vue/node_modules/vue/src/platforms/web/compiler/modules/style.js",
+            "type": "js",
+            "subpath": "/app/vue/node_modules/vue/src/platforms/web/compiler/modules/style.js"
+        },
+        "vue:node_modules/vue/src/platforms/web/compiler/options.js": {
+            "uri": "/app/vue/node_modules/vue/src/platforms/web/compiler/options.js",
+            "type": "js",
+            "subpath": "/app/vue/node_modules/vue/src/platforms/web/compiler/options.js"
+        },
+        "vue:node_modules/vue/src/platforms/web/compiler/util.js": {
+            "uri": "/app/vue/node_modules/vue/src/platforms/web/compiler/util.js",
+            "type": "js",
+            "subpath": "/app/vue/node_modules/vue/src/platforms/web/compiler/util.js"
+        },
+        "vue:node_modules/vue/src/platforms/web/entry-compiler.js": {
+            "uri": "/app/vue/node_modules/vue/src/platforms/web/entry-compiler.js",
+            "type": "js",
+            "subpath": "/app/vue/node_modules/vue/src/platforms/web/entry-compiler.js"
+        },
+        "vue:node_modules/vue/src/platforms/web/entry-runtime-with-compiler.js": {
+            "uri": "/app/vue/node_modules/vue/src/platforms/web/entry-runtime-with-compiler.js",
+            "type": "js",
+            "subpath": "/app/vue/node_modules/vue/src/platforms/web/entry-runtime-with-compiler.js"
+        },
+        "vue:node_modules/vue/src/platforms/web/entry-runtime.js": {
+            "uri": "/app/vue/node_modules/vue/src/platforms/web/entry-runtime.js",
+            "type": "js",
+            "subpath": "/app/vue/node_modules/vue/src/platforms/web/entry-runtime.js"
+        },
+        "vue:node_modules/vue/src/platforms/web/entry-server-basic-renderer.js": {
+            "uri": "/app/vue/node_modules/vue/src/platforms/web/entry-server-basic-renderer.js",
+            "type": "js",
+            "subpath": "/app/vue/node_modules/vue/src/platforms/web/entry-server-basic-renderer.js"
+        },
+        "vue:node_modules/vue/src/platforms/web/entry-server-renderer.js": {
+            "uri": "/app/vue/node_modules/vue/src/platforms/web/entry-server-renderer.js",
+            "type": "js",
+            "subpath": "/app/vue/node_modules/vue/src/platforms/web/entry-server-renderer.js"
+        },
+        "vue:node_modules/vue/src/platforms/web/runtime/class-util.js": {
+            "uri": "/app/vue/node_modules/vue/src/platforms/web/runtime/class-util.js",
+            "type": "js",
+            "subpath": "/app/vue/node_modules/vue/src/platforms/web/runtime/class-util.js"
+        },
+        "vue:node_modules/vue/src/platforms/web/runtime/components/index.js": {
+            "uri": "/app/vue/node_modules/vue/src/platforms/web/runtime/components/index.js",
+            "type": "js",
+            "subpath": "/app/vue/node_modules/vue/src/platforms/web/runtime/components/index.js"
+        },
+        "vue:node_modules/vue/src/platforms/web/runtime/components/transition-group.js": {
+            "uri": "/app/vue/node_modules/vue/src/platforms/web/runtime/components/transition-group.js",
+            "type": "js",
+            "subpath": "/app/vue/node_modules/vue/src/platforms/web/runtime/components/transition-group.js"
+        },
+        "vue:node_modules/vue/src/platforms/web/runtime/components/transition.js": {
+            "uri": "/app/vue/node_modules/vue/src/platforms/web/runtime/components/transition.js",
+            "type": "js",
+            "subpath": "/app/vue/node_modules/vue/src/platforms/web/runtime/components/transition.js"
+        },
+        "vue:node_modules/vue/src/platforms/web/runtime/directives/index.js": {
+            "uri": "/app/vue/node_modules/vue/src/platforms/web/runtime/directives/index.js",
+            "type": "js",
+            "subpath": "/app/vue/node_modules/vue/src/platforms/web/runtime/directives/index.js"
+        },
+        "vue:node_modules/vue/src/platforms/web/runtime/directives/model.js": {
+            "uri": "/app/vue/node_modules/vue/src/platforms/web/runtime/directives/model.js",
+            "type": "js",
+            "subpath": "/app/vue/node_modules/vue/src/platforms/web/runtime/directives/model.js"
+        },
+        "vue:node_modules/vue/src/platforms/web/runtime/directives/show.js": {
+            "uri": "/app/vue/node_modules/vue/src/platforms/web/runtime/directives/show.js",
+            "type": "js",
+            "subpath": "/app/vue/node_modules/vue/src/platforms/web/runtime/directives/show.js"
+        },
+        "vue:node_modules/vue/src/platforms/web/runtime/index.js": {
+            "uri": "/app/vue/node_modules/vue/src/platforms/web/runtime/index.js",
+            "type": "js",
+            "subpath": "/app/vue/node_modules/vue/src/platforms/web/runtime/index.js"
+        },
+        "vue:node_modules/vue/src/platforms/web/runtime/modules/attrs.js": {
+            "uri": "/app/vue/node_modules/vue/src/platforms/web/runtime/modules/attrs.js",
+            "type": "js",
+            "subpath": "/app/vue/node_modules/vue/src/platforms/web/runtime/modules/attrs.js"
+        },
+        "vue:node_modules/vue/src/platforms/web/runtime/modules/class.js": {
+            "uri": "/app/vue/node_modules/vue/src/platforms/web/runtime/modules/class.js",
+            "type": "js",
+            "subpath": "/app/vue/node_modules/vue/src/platforms/web/runtime/modules/class.js"
+        },
+        "vue:node_modules/vue/src/platforms/web/runtime/modules/dom-props.js": {
+            "uri": "/app/vue/node_modules/vue/src/platforms/web/runtime/modules/dom-props.js",
+            "type": "js",
+            "subpath": "/app/vue/node_modules/vue/src/platforms/web/runtime/modules/dom-props.js"
+        },
+        "vue:node_modules/vue/src/platforms/web/runtime/modules/events.js": {
+            "uri": "/app/vue/node_modules/vue/src/platforms/web/runtime/modules/events.js",
+            "type": "js",
+            "subpath": "/app/vue/node_modules/vue/src/platforms/web/runtime/modules/events.js"
+        },
+        "vue:node_modules/vue/src/platforms/web/runtime/modules/index.js": {
+            "uri": "/app/vue/node_modules/vue/src/platforms/web/runtime/modules/index.js",
+            "type": "js",
+            "subpath": "/app/vue/node_modules/vue/src/platforms/web/runtime/modules/index.js"
+        },
+        "vue:node_modules/vue/src/platforms/web/runtime/modules/style.js": {
+            "uri": "/app/vue/node_modules/vue/src/platforms/web/runtime/modules/style.js",
+            "type": "js",
+            "subpath": "/app/vue/node_modules/vue/src/platforms/web/runtime/modules/style.js"
+        },
+        "vue:node_modules/vue/src/platforms/web/runtime/modules/transition.js": {
+            "uri": "/app/vue/node_modules/vue/src/platforms/web/runtime/modules/transition.js",
+            "type": "js",
+            "subpath": "/app/vue/node_modules/vue/src/platforms/web/runtime/modules/transition.js"
+        },
+        "vue:node_modules/vue/src/platforms/web/runtime/node-ops.js": {
+            "uri": "/app/vue/node_modules/vue/src/platforms/web/runtime/node-ops.js",
+            "type": "js",
+            "subpath": "/app/vue/node_modules/vue/src/platforms/web/runtime/node-ops.js"
+        },
+        "vue:node_modules/vue/src/platforms/web/runtime/patch.js": {
+            "uri": "/app/vue/node_modules/vue/src/platforms/web/runtime/patch.js",
+            "type": "js",
+            "subpath": "/app/vue/node_modules/vue/src/platforms/web/runtime/patch.js"
+        },
+        "vue:node_modules/vue/src/platforms/web/runtime/transition-util.js": {
+            "uri": "/app/vue/node_modules/vue/src/platforms/web/runtime/transition-util.js",
+            "type": "js",
+            "subpath": "/app/vue/node_modules/vue/src/platforms/web/runtime/transition-util.js"
+        },
+        "vue:node_modules/vue/src/platforms/web/server/compiler.js": {
+            "uri": "/app/vue/node_modules/vue/src/platforms/web/server/compiler.js",
+            "type": "js",
+            "subpath": "/app/vue/node_modules/vue/src/platforms/web/server/compiler.js"
+        },
+        "vue:node_modules/vue/src/platforms/web/server/directives/index.js": {
+            "uri": "/app/vue/node_modules/vue/src/platforms/web/server/directives/index.js",
+            "type": "js",
+            "subpath": "/app/vue/node_modules/vue/src/platforms/web/server/directives/index.js"
+        },
+        "vue:node_modules/vue/src/platforms/web/server/directives/show.js": {
+            "uri": "/app/vue/node_modules/vue/src/platforms/web/server/directives/show.js",
+            "type": "js",
+            "subpath": "/app/vue/node_modules/vue/src/platforms/web/server/directives/show.js"
+        },
+        "vue:node_modules/vue/src/platforms/web/server/modules/attrs.js": {
+            "uri": "/app/vue/node_modules/vue/src/platforms/web/server/modules/attrs.js",
+            "type": "js",
+            "subpath": "/app/vue/node_modules/vue/src/platforms/web/server/modules/attrs.js"
+        },
+        "vue:node_modules/vue/src/platforms/web/server/modules/class.js": {
+            "uri": "/app/vue/node_modules/vue/src/platforms/web/server/modules/class.js",
+            "type": "js",
+            "subpath": "/app/vue/node_modules/vue/src/platforms/web/server/modules/class.js"
+        },
+        "vue:node_modules/vue/src/platforms/web/server/modules/dom-props.js": {
+            "uri": "/app/vue/node_modules/vue/src/platforms/web/server/modules/dom-props.js",
+            "type": "js",
+            "subpath": "/app/vue/node_modules/vue/src/platforms/web/server/modules/dom-props.js"
+        },
+        "vue:node_modules/vue/src/platforms/web/server/modules/index.js": {
+            "uri": "/app/vue/node_modules/vue/src/platforms/web/server/modules/index.js",
+            "type": "js",
+            "subpath": "/app/vue/node_modules/vue/src/platforms/web/server/modules/index.js"
+        },
+        "vue:node_modules/vue/src/platforms/web/server/modules/style.js": {
+            "uri": "/app/vue/node_modules/vue/src/platforms/web/server/modules/style.js",
+            "type": "js",
+            "subpath": "/app/vue/node_modules/vue/src/platforms/web/server/modules/style.js"
+        },
+        "vue:node_modules/vue/src/platforms/web/server/util.js": {
+            "uri": "/app/vue/node_modules/vue/src/platforms/web/server/util.js",
+            "type": "js",
+            "subpath": "/app/vue/node_modules/vue/src/platforms/web/server/util.js"
+        },
+        "vue:node_modules/vue/src/platforms/web/util/attrs.js": {
+            "uri": "/app/vue/node_modules/vue/src/platforms/web/util/attrs.js",
+            "type": "js",
+            "subpath": "/app/vue/node_modules/vue/src/platforms/web/util/attrs.js"
+        },
+        "vue:node_modules/vue/src/platforms/web/util/class.js": {
+            "uri": "/app/vue/node_modules/vue/src/platforms/web/util/class.js",
+            "type": "js",
+            "subpath": "/app/vue/node_modules/vue/src/platforms/web/util/class.js"
+        },
+        "vue:node_modules/vue/src/platforms/web/util/compat.js": {
+            "uri": "/app/vue/node_modules/vue/src/platforms/web/util/compat.js",
+            "type": "js",
+            "subpath": "/app/vue/node_modules/vue/src/platforms/web/util/compat.js"
+        },
+        "vue:node_modules/vue/src/platforms/web/util/element.js": {
+            "uri": "/app/vue/node_modules/vue/src/platforms/web/util/element.js",
+            "type": "js",
+            "subpath": "/app/vue/node_modules/vue/src/platforms/web/util/element.js"
+        },
+        "vue:node_modules/vue/src/platforms/web/util/index.js": {
+            "uri": "/app/vue/node_modules/vue/src/platforms/web/util/index.js",
+            "type": "js",
+            "subpath": "/app/vue/node_modules/vue/src/platforms/web/util/index.js"
+        },
+        "vue:node_modules/vue/src/platforms/web/util/style.js": {
+            "uri": "/app/vue/node_modules/vue/src/platforms/web/util/style.js",
+            "type": "js",
+            "subpath": "/app/vue/node_modules/vue/src/platforms/web/util/style.js"
+        },
+        "vue:node_modules/vue/src/platforms/weex/compiler/directives/index.js": {
+            "uri": "/app/vue/node_modules/vue/src/platforms/weex/compiler/directives/index.js",
+            "type": "js",
+            "subpath": "/app/vue/node_modules/vue/src/platforms/weex/compiler/directives/index.js"
+        },
+        "vue:node_modules/vue/src/platforms/weex/compiler/directives/model.js": {
+            "uri": "/app/vue/node_modules/vue/src/platforms/weex/compiler/directives/model.js",
+            "type": "js",
+            "subpath": "/app/vue/node_modules/vue/src/platforms/weex/compiler/directives/model.js"
+        },
+        "vue:node_modules/vue/src/platforms/weex/compiler/index.js": {
+            "uri": "/app/vue/node_modules/vue/src/platforms/weex/compiler/index.js",
+            "type": "js",
+            "subpath": "/app/vue/node_modules/vue/src/platforms/weex/compiler/index.js"
+        },
+        "vue:node_modules/vue/src/platforms/weex/compiler/modules/append.js": {
+            "uri": "/app/vue/node_modules/vue/src/platforms/weex/compiler/modules/append.js",
+            "type": "js",
+            "subpath": "/app/vue/node_modules/vue/src/platforms/weex/compiler/modules/append.js"
+        },
+        "vue:node_modules/vue/src/platforms/weex/compiler/modules/class.js": {
+            "uri": "/app/vue/node_modules/vue/src/platforms/weex/compiler/modules/class.js",
+            "type": "js",
+            "subpath": "/app/vue/node_modules/vue/src/platforms/weex/compiler/modules/class.js"
+        },
+        "vue:node_modules/vue/src/platforms/weex/compiler/modules/index.js": {
+            "uri": "/app/vue/node_modules/vue/src/platforms/weex/compiler/modules/index.js",
+            "type": "js",
+            "subpath": "/app/vue/node_modules/vue/src/platforms/weex/compiler/modules/index.js"
+        },
+        "vue:node_modules/vue/src/platforms/weex/compiler/modules/props.js": {
+            "uri": "/app/vue/node_modules/vue/src/platforms/weex/compiler/modules/props.js",
+            "type": "js",
+            "subpath": "/app/vue/node_modules/vue/src/platforms/weex/compiler/modules/props.js"
+        },
+        "vue:node_modules/vue/src/platforms/weex/compiler/modules/style.js": {
+            "uri": "/app/vue/node_modules/vue/src/platforms/weex/compiler/modules/style.js",
+            "type": "js",
+            "subpath": "/app/vue/node_modules/vue/src/platforms/weex/compiler/modules/style.js"
+        },
+        "vue:node_modules/vue/src/platforms/weex/entry-compiler.js": {
+            "uri": "/app/vue/node_modules/vue/src/platforms/weex/entry-compiler.js",
+            "type": "js",
+            "subpath": "/app/vue/node_modules/vue/src/platforms/weex/entry-compiler.js"
+        },
+        "vue:node_modules/vue/src/platforms/weex/entry-framework.js": {
+            "uri": "/app/vue/node_modules/vue/src/platforms/weex/entry-framework.js",
+            "type": "js",
+            "subpath": "/app/vue/node_modules/vue/src/platforms/weex/entry-framework.js"
+        },
+        "vue:node_modules/vue/src/platforms/weex/entry-runtime-factory.js": {
+            "uri": "/app/vue/node_modules/vue/src/platforms/weex/entry-runtime-factory.js",
+            "type": "js",
+            "subpath": "/app/vue/node_modules/vue/src/platforms/weex/entry-runtime-factory.js"
+        },
+        "vue:node_modules/vue/src/platforms/weex/runtime/components/index.js": {
+            "uri": "/app/vue/node_modules/vue/src/platforms/weex/runtime/components/index.js",
+            "type": "js",
+            "subpath": "/app/vue/node_modules/vue/src/platforms/weex/runtime/components/index.js"
+        },
+        "vue:node_modules/vue/src/platforms/weex/runtime/components/transition-group.js": {
+            "uri": "/app/vue/node_modules/vue/src/platforms/weex/runtime/components/transition-group.js",
+            "type": "js",
+            "subpath": "/app/vue/node_modules/vue/src/platforms/weex/runtime/components/transition-group.js"
+        },
+        "vue:node_modules/vue/src/platforms/weex/runtime/components/transition.js": {
+            "uri": "/app/vue/node_modules/vue/src/platforms/weex/runtime/components/transition.js",
+            "type": "js",
+            "subpath": "/app/vue/node_modules/vue/src/platforms/weex/runtime/components/transition.js"
+        },
+        "vue:node_modules/vue/src/platforms/weex/runtime/directives/index.js": {
+            "uri": "/app/vue/node_modules/vue/src/platforms/weex/runtime/directives/index.js",
+            "type": "js",
+            "subpath": "/app/vue/node_modules/vue/src/platforms/weex/runtime/directives/index.js"
+        },
+        "vue:node_modules/vue/src/platforms/weex/runtime/index.js": {
+            "uri": "/app/vue/node_modules/vue/src/platforms/weex/runtime/index.js",
+            "type": "js",
+            "subpath": "/app/vue/node_modules/vue/src/platforms/weex/runtime/index.js"
+        },
+        "vue:node_modules/vue/src/platforms/weex/runtime/modules/attrs.js": {
+            "uri": "/app/vue/node_modules/vue/src/platforms/weex/runtime/modules/attrs.js",
+            "type": "js",
+            "subpath": "/app/vue/node_modules/vue/src/platforms/weex/runtime/modules/attrs.js"
+        },
+        "vue:node_modules/vue/src/platforms/weex/runtime/modules/class.js": {
+            "uri": "/app/vue/node_modules/vue/src/platforms/weex/runtime/modules/class.js",
+            "type": "js",
+            "subpath": "/app/vue/node_modules/vue/src/platforms/weex/runtime/modules/class.js"
+        },
+        "vue:node_modules/vue/src/platforms/weex/runtime/modules/events.js": {
+            "uri": "/app/vue/node_modules/vue/src/platforms/weex/runtime/modules/events.js",
+            "type": "js",
+            "subpath": "/app/vue/node_modules/vue/src/platforms/weex/runtime/modules/events.js"
+        },
+        "vue:node_modules/vue/src/platforms/weex/runtime/modules/index.js": {
+            "uri": "/app/vue/node_modules/vue/src/platforms/weex/runtime/modules/index.js",
+            "type": "js",
+            "subpath": "/app/vue/node_modules/vue/src/platforms/weex/runtime/modules/index.js"
+        },
+        "vue:node_modules/vue/src/platforms/weex/runtime/modules/style.js": {
+            "uri": "/app/vue/node_modules/vue/src/platforms/weex/runtime/modules/style.js",
+            "type": "js",
+            "subpath": "/app/vue/node_modules/vue/src/platforms/weex/runtime/modules/style.js"
+        },
+        "vue:node_modules/vue/src/platforms/weex/runtime/modules/transition.js": {
+            "uri": "/app/vue/node_modules/vue/src/platforms/weex/runtime/modules/transition.js",
+            "type": "js",
+            "subpath": "/app/vue/node_modules/vue/src/platforms/weex/runtime/modules/transition.js"
+        },
+        "vue:node_modules/vue/src/platforms/weex/runtime/node-ops.js": {
+            "uri": "/app/vue/node_modules/vue/src/platforms/weex/runtime/node-ops.js",
+            "type": "js",
+            "subpath": "/app/vue/node_modules/vue/src/platforms/weex/runtime/node-ops.js"
+        },
+        "vue:node_modules/vue/src/platforms/weex/runtime/patch.js": {
+            "uri": "/app/vue/node_modules/vue/src/platforms/weex/runtime/patch.js",
+            "type": "js",
+            "subpath": "/app/vue/node_modules/vue/src/platforms/weex/runtime/patch.js"
+        },
+        "vue:node_modules/vue/src/platforms/weex/runtime/text-node.js": {
+            "uri": "/app/vue/node_modules/vue/src/platforms/weex/runtime/text-node.js",
+            "type": "js",
+            "subpath": "/app/vue/node_modules/vue/src/platforms/weex/runtime/text-node.js"
+        },
+        "vue:node_modules/vue/src/platforms/weex/util/index.js": {
+            "uri": "/app/vue/node_modules/vue/src/platforms/weex/util/index.js",
+            "type": "js",
+            "subpath": "/app/vue/node_modules/vue/src/platforms/weex/util/index.js"
+        },
+        "vue:node_modules/vue/src/server/bundle-renderer/create-bundle-renderer.js": {
+            "uri": "/app/vue/node_modules/vue/src/server/bundle-renderer/create-bundle-renderer.js",
+            "type": "js",
+            "subpath": "/app/vue/node_modules/vue/src/server/bundle-renderer/create-bundle-renderer.js"
+        },
+        "vue:node_modules/vue/src/server/bundle-renderer/create-bundle-runner.js": {
+            "uri": "/app/vue/node_modules/vue/src/server/bundle-renderer/create-bundle-runner.js",
+            "type": "js",
+            "subpath": "/app/vue/node_modules/vue/src/server/bundle-renderer/create-bundle-runner.js"
+        },
+        "vue:node_modules/vue/src/server/bundle-renderer/source-map-support.js": {
+            "uri": "/app/vue/node_modules/vue/src/server/bundle-renderer/source-map-support.js",
+            "type": "js",
+            "subpath": "/app/vue/node_modules/vue/src/server/bundle-renderer/source-map-support.js"
+        },
+        "vue:node_modules/vue/src/server/create-basic-renderer.js": {
+            "uri": "/app/vue/node_modules/vue/src/server/create-basic-renderer.js",
+            "type": "js",
+            "subpath": "/app/vue/node_modules/vue/src/server/create-basic-renderer.js"
+        },
+        "vue:node_modules/vue/src/server/create-renderer.js": {
+            "uri": "/app/vue/node_modules/vue/src/server/create-renderer.js",
+            "type": "js",
+            "subpath": "/app/vue/node_modules/vue/src/server/create-renderer.js"
+        },
+        "vue:node_modules/vue/src/server/optimizing-compiler/codegen.js": {
+            "uri": "/app/vue/node_modules/vue/src/server/optimizing-compiler/codegen.js",
+            "type": "js",
+            "subpath": "/app/vue/node_modules/vue/src/server/optimizing-compiler/codegen.js"
+        },
+        "vue:node_modules/vue/src/server/optimizing-compiler/index.js": {
+            "uri": "/app/vue/node_modules/vue/src/server/optimizing-compiler/index.js",
+            "type": "js",
+            "subpath": "/app/vue/node_modules/vue/src/server/optimizing-compiler/index.js"
+        },
+        "vue:node_modules/vue/src/server/optimizing-compiler/modules.js": {
+            "uri": "/app/vue/node_modules/vue/src/server/optimizing-compiler/modules.js",
+            "type": "js",
+            "subpath": "/app/vue/node_modules/vue/src/server/optimizing-compiler/modules.js"
+        },
+        "vue:node_modules/vue/src/server/optimizing-compiler/optimizer.js": {
+            "uri": "/app/vue/node_modules/vue/src/server/optimizing-compiler/optimizer.js",
+            "type": "js",
+            "subpath": "/app/vue/node_modules/vue/src/server/optimizing-compiler/optimizer.js"
+        },
+        "vue:node_modules/vue/src/server/optimizing-compiler/runtime-helpers.js": {
+            "uri": "/app/vue/node_modules/vue/src/server/optimizing-compiler/runtime-helpers.js",
+            "type": "js",
+            "subpath": "/app/vue/node_modules/vue/src/server/optimizing-compiler/runtime-helpers.js"
+        },
+        "vue:node_modules/vue/src/server/render-context.js": {
+            "uri": "/app/vue/node_modules/vue/src/server/render-context.js",
+            "type": "js",
+            "subpath": "/app/vue/node_modules/vue/src/server/render-context.js"
+        },
+        "vue:node_modules/vue/src/server/render-stream.js": {
+            "uri": "/app/vue/node_modules/vue/src/server/render-stream.js",
+            "type": "js",
+            "subpath": "/app/vue/node_modules/vue/src/server/render-stream.js"
+        },
+        "vue:node_modules/vue/src/server/render.js": {
+            "uri": "/app/vue/node_modules/vue/src/server/render.js",
+            "type": "js",
+            "subpath": "/app/vue/node_modules/vue/src/server/render.js"
+        },
+        "vue:node_modules/vue/src/server/template-renderer/create-async-file-mapper.js": {
+            "uri": "/app/vue/node_modules/vue/src/server/template-renderer/create-async-file-mapper.js",
+            "type": "js",
+            "subpath": "/app/vue/node_modules/vue/src/server/template-renderer/create-async-file-mapper.js"
+        },
+        "vue:node_modules/vue/src/server/template-renderer/index.js": {
+            "uri": "/app/vue/node_modules/vue/src/server/template-renderer/index.js",
+            "type": "js",
+            "subpath": "/app/vue/node_modules/vue/src/server/template-renderer/index.js"
+        },
+        "vue:node_modules/vue/src/server/template-renderer/parse-template.js": {
+            "uri": "/app/vue/node_modules/vue/src/server/template-renderer/parse-template.js",
+            "type": "js",
+            "subpath": "/app/vue/node_modules/vue/src/server/template-renderer/parse-template.js"
+        },
+        "vue:node_modules/vue/src/server/template-renderer/template-stream.js": {
+            "uri": "/app/vue/node_modules/vue/src/server/template-renderer/template-stream.js",
+            "type": "js",
+            "subpath": "/app/vue/node_modules/vue/src/server/template-renderer/template-stream.js"
+        },
+        "vue:node_modules/vue/src/server/util.js": {
+            "uri": "/app/vue/node_modules/vue/src/server/util.js",
+            "type": "js",
+            "subpath": "/app/vue/node_modules/vue/src/server/util.js"
+        },
+        "vue:node_modules/vue/src/server/webpack-plugin/client.js": {
+            "uri": "/app/vue/node_modules/vue/src/server/webpack-plugin/client.js",
+            "type": "js",
+            "subpath": "/app/vue/node_modules/vue/src/server/webpack-plugin/client.js"
+        },
+        "vue:node_modules/vue/src/server/webpack-plugin/server.js": {
+            "uri": "/app/vue/node_modules/vue/src/server/webpack-plugin/server.js",
+            "type": "js",
+            "subpath": "/app/vue/node_modules/vue/src/server/webpack-plugin/server.js"
+        },
+        "vue:node_modules/vue/src/server/webpack-plugin/util.js": {
+            "uri": "/app/vue/node_modules/vue/src/server/webpack-plugin/util.js",
+            "type": "js",
+            "subpath": "/app/vue/node_modules/vue/src/server/webpack-plugin/util.js"
+        },
+        "vue:node_modules/vue/src/server/write.js": {
+            "uri": "/app/vue/node_modules/vue/src/server/write.js",
+            "type": "js",
+            "subpath": "/app/vue/node_modules/vue/src/server/write.js"
+        },
+        "vue:node_modules/vue/src/sfc/parser.js": {
+            "uri": "/app/vue/node_modules/vue/src/sfc/parser.js",
+            "type": "js",
+            "subpath": "/app/vue/node_modules/vue/src/sfc/parser.js"
+        },
+        "vue:node_modules/vue/src/shared/constants.js": {
+            "uri": "/app/vue/node_modules/vue/src/shared/constants.js",
+            "type": "js",
+            "subpath": "/app/vue/node_modules/vue/src/shared/constants.js"
+        },
+        "vue:node_modules/vue/src/shared/util.js": {
+            "uri": "/app/vue/node_modules/vue/src/shared/util.js",
+            "type": "js",
+            "subpath": "/app/vue/node_modules/vue/src/shared/util.js"
+        },
+        "vue:node_modules/vuex/dist/logger.js": {
+            "uri": "/app/vue/node_modules/vuex/dist/logger.js",
+            "type": "js",
+            "subpath": "/app/vue/node_modules/vuex/dist/logger.js"
+        },
+        "vue:node_modules/vuex/dist/vuex.common.js": {
+            "uri": "/app/vue/node_modules/vuex/dist/vuex.common.js",
+            "type": "js",
+            "subpath": "/app/vue/node_modules/vuex/dist/vuex.common.js"
+        },
+        "vue:node_modules/vuex/dist/vuex.esm.js": {
+            "uri": "/app/vue/node_modules/vuex/dist/vuex.esm.js",
+            "type": "js",
+            "subpath": "/app/vue/node_modules/vuex/dist/vuex.esm.js"
+        },
+        "vue:node_modules/vuex/dist/vuex.js": {
+            "uri": "/app/vue/node_modules/vuex/dist/vuex.js",
+            "type": "js",
+            "subpath": "/app/vue/node_modules/vuex/dist/vuex.js"
+        },
+        "vue:node_modules/vuex/dist/vuex.min.js": {
+            "uri": "/app/vue/node_modules/vuex/dist/vuex.min.js",
+            "type": "js",
+            "subpath": "/app/vue/node_modules/vuex/dist/vuex.min.js"
+        },
+        "vue:node_modules/window-size/index.js": {
+            "uri": "/app/vue/node_modules/window-size/index.js",
+            "type": "js",
+            "subpath": "/app/vue/node_modules/window-size/index.js"
+        },
+        "vue:node_modules/wordwrap/example/center.js": {
+            "uri": "/app/vue/node_modules/wordwrap/example/center.js",
+            "type": "js",
+            "subpath": "/app/vue/node_modules/wordwrap/example/center.js"
+        },
+        "vue:node_modules/wordwrap/example/meat.js": {
+            "uri": "/app/vue/node_modules/wordwrap/example/meat.js",
+            "type": "js",
+            "subpath": "/app/vue/node_modules/wordwrap/example/meat.js"
+        },
+        "vue:node_modules/wordwrap/index.js": {
+            "uri": "/app/vue/node_modules/wordwrap/index.js",
+            "type": "js",
+            "subpath": "/app/vue/node_modules/wordwrap/index.js"
+        },
+        "vue:node_modules/wordwrap/test/break.js": {
+            "uri": "/app/vue/node_modules/wordwrap/test/break.js",
+            "type": "js",
+            "subpath": "/app/vue/node_modules/wordwrap/test/break.js"
+        },
+        "vue:node_modules/wordwrap/test/wrap.js": {
+            "uri": "/app/vue/node_modules/wordwrap/test/wrap.js",
+            "type": "js",
+            "subpath": "/app/vue/node_modules/wordwrap/test/wrap.js"
+        },
+        "vue:node_modules/wrappy/wrappy.js": {
+            "uri": "/app/vue/node_modules/wrappy/wrappy.js",
+            "type": "js",
+            "subpath": "/app/vue/node_modules/wrappy/wrappy.js"
+        },
+        "vue:node_modules/yallist/iterator.js": {
+            "uri": "/app/vue/node_modules/yallist/iterator.js",
+            "type": "js",
+            "subpath": "/app/vue/node_modules/yallist/iterator.js"
+        },
+        "vue:node_modules/yallist/yallist.js": {
+            "uri": "/app/vue/node_modules/yallist/yallist.js",
+            "type": "js",
+            "subpath": "/app/vue/node_modules/yallist/yallist.js"
+        },
+        "vue:node_modules/yargs/index.js": {
+            "uri": "/app/vue/node_modules/yargs/index.js",
+            "type": "js",
+            "subpath": "/app/vue/node_modules/yargs/index.js"
+        },
+        "vue:node_modules/yargs/lib/completion.js": {
+            "uri": "/app/vue/node_modules/yargs/lib/completion.js",
+            "type": "js",
+            "subpath": "/app/vue/node_modules/yargs/lib/completion.js"
+        },
+        "vue:node_modules/yargs/lib/parser.js": {
+            "uri": "/app/vue/node_modules/yargs/lib/parser.js",
+            "type": "js",
+            "subpath": "/app/vue/node_modules/yargs/lib/parser.js"
+        },
+        "vue:node_modules/yargs/lib/usage.js": {
+            "uri": "/app/vue/node_modules/yargs/lib/usage.js",
+            "type": "js",
+            "subpath": "/app/vue/node_modules/yargs/lib/usage.js"
+        },
+        "vue:node_modules/yargs/lib/validation.js": {
+            "uri": "/app/vue/node_modules/yargs/lib/validation.js",
+            "type": "js",
+            "subpath": "/app/vue/node_modules/yargs/lib/validation.js"
+        },
+        "vue:prod.js": {
+            "uri": "/static/vue/prod.js",
+            "type": "js",
+            "deps": [
+                "vue:widget/config.js",
+                "../yog/config.js",
+                "path",
+                "fs",
+                "node-upyun-sdk"
+            ],
+            "subpath": "/static/vue/prod.js"
+        }
+    },
+    "pkg": {}
+}

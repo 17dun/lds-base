@@ -1,0 +1,6 @@
+::ffff:127.0.0.1 - - [30/Aug/2017:10:44:01 ] "GET /trans HTTP/1.1" 200 - - - Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36 187.248
+::ffff:127.0.0.1 - - [30/Aug/2017:10:44:47 ] "GET /trans HTTP/1.1" 200 - - - Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36 51.476
+::ffff:127.0.0.1 - - [30/Aug/2017:10:46:23 ] "GET /trans HTTP/1.1" 200 - - - Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36 96.662
+::ffff:127.0.0.1 - - [30/Aug/2017:10:46:43 ] "GET /trans HTTP/1.1" 200 - - - Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36 5.940
+::ffff:127.0.0.1 - - [30/Aug/2017:10:51:41 ] "GET /trans HTTP/1.1" 200 - - - Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36 24.292
+::ffff:127.0.0.1 - - [30/Aug/2017:10:51:54 ] "POST /trans/putVideo HTTP/1.1" 200 56 http://127.0.0.1:8085/trans - Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36 215.958

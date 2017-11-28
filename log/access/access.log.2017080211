@@ -1,0 +1,8 @@
+::ffff:127.0.0.1 - - [02/Aug/2017:11:42:40 ] "GET / HTTP/1.1" 404 13 - - Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36 14.418
+::ffff:127.0.0.1 - - [02/Aug/2017:11:44:07 ] "GET / HTTP/1.1" 404 13 - - Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36 3.203
+::ffff:127.0.0.1 - - [02/Aug/2017:11:49:55 ] "GET / HTTP/1.1" 404 13 - - Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36 4.838
+::ffff:127.0.0.1 - - [02/Aug/2017:11:49:56 ] "GET / HTTP/1.1" 404 13 - - Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36 2.045
+::ffff:127.0.0.1 - - [02/Aug/2017:11:49:57 ] "GET / HTTP/1.1" 404 13 - - Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36 1.258
+::ffff:127.0.0.1 - - [02/Aug/2017:11:49:59 ] "GET / HTTP/1.1" 404 13 - - Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36 1.207
+::ffff:127.0.0.1 - - [02/Aug/2017:11:50:00 ] "GET / HTTP/1.1" 404 13 - - Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36 0.777
+::ffff:127.0.0.1 - - [02/Aug/2017:11:50:48 ] "GET / HTTP/1.1" 404 13 - - Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36 2.282

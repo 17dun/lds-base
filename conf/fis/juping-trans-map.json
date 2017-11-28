@@ -1,0 +1,54 @@
+{
+    "res": {
+        "juping-trans:page/index.tpl": {
+            "uri": "juping-trans/page/index.tpl",
+            "type": "tpl",
+            "extras": {
+                "isPage": true
+            },
+            "subpath": "/views/juping-trans/page/index.tpl"
+        },
+        "juping-trans:page/layout.tpl": {
+            "uri": "juping-trans/page/layout.tpl",
+            "type": "tpl",
+            "extras": {
+                "isPage": true
+            },
+            "subpath": "/views/juping-trans/page/layout.tpl"
+        },
+        "juping-trans:static/js/bigpipe.js": {
+            "uri": "/static/juping-trans/static/js/bigpipe.js",
+            "type": "js",
+            "subpath": "/static/juping-trans/static/js/bigpipe.js"
+        },
+        "juping-trans:static/js/index.js": {
+            "uri": "/static/juping-trans/static/js/index.js",
+            "type": "js",
+            "subpath": "/static/juping-trans/static/js/index.js"
+        },
+        "juping-trans:static/js/lazyload.js": {
+            "uri": "/static/juping-trans/static/js/lazyload.js",
+            "type": "js",
+            "subpath": "/static/juping-trans/static/js/lazyload.js"
+        },
+        "juping-trans:static/js/mod.js": {
+            "uri": "/static/juping-trans/static/js/mod.js",
+            "type": "js",
+            "subpath": "/static/juping-trans/static/js/mod.js"
+        },
+        "juping-trans:static/js/page.js": {
+            "uri": "/static/juping-trans/static/js/page.js",
+            "type": "js",
+            "deps": [
+                "juping-trans:static/js/bigpipe.js"
+            ],
+            "subpath": "/static/juping-trans/static/js/page.js"
+        },
+        "juping-trans:widget/message/message.tpl": {
+            "uri": "juping-trans/widget/message/message.tpl",
+            "type": "tpl",
+            "subpath": "/views/juping-trans/widget/message/message.tpl"
+        }
+    },
+    "pkg": {}
+}

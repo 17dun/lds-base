@@ -1,0 +1,11 @@
+NOTICE: 17-08-30 18:42:20 [-:-] errno[0] logId[1368361470] uri[/trans/putVideo] user[-] refer[http://127.0.0.1:8085/trans] cookie[-] custom[-]  Current eventLoop delay is 24
+NOTICE: 17-08-30 18:44:31 [-:-] errno[0] logId[1368361470] uri[/trans/putVideo] user[-] refer[http://127.0.0.1:8085/trans] cookie[-] custom[-]  Current eventLoop delay is 84
+NOTICE: 17-08-30 18:44:37 [-:-] errno[0] logId[1368361470] uri[/trans/putVideo] user[-] refer[http://127.0.0.1:8085/trans] cookie[-] custom[-]  Current eventLoop delay is 26
+NOTICE: 17-08-30 18:44:44 [-:-] errno[0] logId[1368361470] uri[/trans/putVideo] user[-] refer[http://127.0.0.1:8085/trans] cookie[-] custom[-]  Current eventLoop delay is 80
+NOTICE: 17-08-30 18:46:58 [-:-] errno[0] logId[1368361470] uri[/trans/putVideo] user[-] refer[http://127.0.0.1:8085/trans] cookie[-] custom[-]  Current eventLoop delay is 40
+NOTICE: 17-08-30 18:46:58 [-:-] errno[0] logId[1368361470] uri[/trans/putVideo] user[-] refer[http://127.0.0.1:8085/trans] cookie[-] custom[-]  Current eventLoop delay is 18
+NOTICE: 17-08-30 18:52:37 [-:-] errno[0] logId[1368361470] uri[/trans/putVideo] user[-] refer[http://127.0.0.1:8085/trans] cookie[-] custom[-]  Current eventLoop delay is 24
+NOTICE: 17-08-30 18:55:47 [-:-] errno[0] logId[1368361470] uri[/trans/putVideo] user[-] refer[http://127.0.0.1:8085/trans] cookie[-] custom[-]  Current eventLoop delay is 21
+NOTICE: 17-08-30 18:57:17 [-:-] errno[0] logId[1368361470] uri[/trans/putVideo] user[-] refer[http://127.0.0.1:8085/trans] cookie[-] custom[-]  Current eventLoop delay is 27
+NOTICE: 17-08-30 18:57:18 [-:-] errno[0] logId[1368361470] uri[/trans/putVideo] user[-] refer[http://127.0.0.1:8085/trans] cookie[-] custom[-]  Current eventLoop delay is 32
+NOTICE: 17-08-30 18:58:33 [-:-] errno[0] logId[1368361470] uri[/trans/putVideo] user[-] refer[http://127.0.0.1:8085/trans] cookie[-] custom[-]  Current eventLoop delay is 19

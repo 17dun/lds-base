@@ -1,0 +1,4 @@
+NOTICE: 17-08-21 18:36:03 [-:-] errno[0] logId[410089180] uri[/trans/putVideo] user[-] refer[http://127.0.0.1:8085/trans] cookie[-] custom[-]  Current eventLoop delay is 31
+NOTICE: 17-08-21 18:36:15 [-:-] errno[0] logId[410089180] uri[/trans/putVideo] user[-] refer[http://127.0.0.1:8085/trans] cookie[-] custom[-]  Current eventLoop delay is 42
+NOTICE: 17-08-21 18:36:22 [-:-] errno[0] logId[410089180] uri[/trans/putVideo] user[-] refer[http://127.0.0.1:8085/trans] cookie[-] custom[-]  Current eventLoop delay is 52
+NOTICE: 17-08-21 18:38:10 [-:-] errno[0] logId[410089180] uri[/trans/putVideo] user[-] refer[http://127.0.0.1:8085/trans] cookie[-] custom[-]  Current eventLoop delay is 22

@@ -1,0 +1,622 @@
+{
+    "res": {
+        "trans:page/index.tpl": {
+            "uri": "trans/page/index.tpl",
+            "type": "tpl",
+            "extras": {
+                "isPage": true
+            },
+            "subpath": "/views/trans/page/index.tpl"
+        },
+        "trans:page/layout.tpl": {
+            "uri": "trans/page/layout.tpl",
+            "type": "tpl",
+            "extras": {
+                "isPage": true
+            },
+            "deps": [
+                "trans:widget/app.js"
+            ],
+            "subpath": "/views/trans/page/layout.tpl"
+        },
+        "trans:static/js/bigpipe.js": {
+            "uri": "/static/trans/static/js/bigpipe.js",
+            "type": "js",
+            "subpath": "/static/trans/static/js/bigpipe.js"
+        },
+        "trans:static/js/index.js": {
+            "uri": "/static/trans/static/js/index.js",
+            "type": "js",
+            "subpath": "/static/trans/static/js/index.js"
+        },
+        "trans:static/js/lazyload.js": {
+            "uri": "/static/trans/static/js/lazyload.js",
+            "type": "js",
+            "subpath": "/static/trans/static/js/lazyload.js"
+        },
+        "trans:static/js/mod.js": {
+            "uri": "/static/trans/static/js/mod.js",
+            "type": "js",
+            "subpath": "/static/trans/static/js/mod.js"
+        },
+        "trans:static/js/page.js": {
+            "uri": "/static/trans/static/js/page.js",
+            "type": "js",
+            "deps": [
+                "trans:static/js/bigpipe.js"
+            ],
+            "subpath": "/static/trans/static/js/page.js"
+        },
+        "trans:static/js/vue.js": {
+            "uri": "/static/trans/static/js/vue.js",
+            "type": "js",
+            "subpath": "/static/trans/static/js/vue.js"
+        },
+        "trans:static/js/vue.min.js": {
+            "uri": "/static/trans/static/js/vue.min.js",
+            "type": "js",
+            "subpath": "/static/trans/static/js/vue.min.js"
+        },
+        "trans:static/js/vue.upload.js": {
+            "uri": "/static/trans/static/js/vue.upload.js",
+            "type": "js",
+            "subpath": "/static/trans/static/js/vue.upload.js"
+        },
+        "trans:widget/app.js": {
+            "uri": "/static/trans/widget/app.js",
+            "type": "js",
+            "subpath": "/static/trans/widget/app.js"
+        },
+        "trans:deploy.config.js": {
+            "uri": "/static/trans/deploy.config.js",
+            "type": "js",
+            "subpath": "/static/trans/deploy.config.js"
+        },
+        "trans:node_modules/async/dist/async.js": {
+            "uri": "/app/trans/node_modules/async/dist/async.js",
+            "type": "js",
+            "subpath": "/app/trans/node_modules/async/dist/async.js"
+        },
+        "trans:node_modules/async/dist/async.min.js": {
+            "uri": "/app/trans/node_modules/async/dist/async.min.js",
+            "type": "js",
+            "subpath": "/app/trans/node_modules/async/dist/async.min.js"
+        },
+        "trans:node_modules/async/lib/async.js": {
+            "uri": "/app/trans/node_modules/async/lib/async.js",
+            "type": "js",
+            "subpath": "/app/trans/node_modules/async/lib/async.js"
+        },
+        "trans:node_modules/bce-sdk-js/baidubce-sdk.bundle.js": {
+            "uri": "/app/trans/node_modules/bce-sdk-js/baidubce-sdk.bundle.js",
+            "type": "js",
+            "subpath": "/app/trans/node_modules/bce-sdk-js/baidubce-sdk.bundle.js"
+        },
+        "trans:node_modules/bce-sdk-js/baidubce-sdk.bundle.min.js": {
+            "uri": "/app/trans/node_modules/bce-sdk-js/baidubce-sdk.bundle.min.js",
+            "type": "js",
+            "subpath": "/app/trans/node_modules/bce-sdk-js/baidubce-sdk.bundle.min.js"
+        },
+        "trans:node_modules/bce-sdk-js/index.js": {
+            "uri": "/app/trans/node_modules/bce-sdk-js/index.js",
+            "type": "js",
+            "subpath": "/app/trans/node_modules/bce-sdk-js/index.js"
+        },
+        "trans:node_modules/bce-sdk-js/src/auth.js": {
+            "uri": "/app/trans/node_modules/bce-sdk-js/src/auth.js",
+            "type": "js",
+            "subpath": "/app/trans/node_modules/bce-sdk-js/src/auth.js"
+        },
+        "trans:node_modules/bce-sdk-js/src/bcc_client.js": {
+            "uri": "/app/trans/node_modules/bce-sdk-js/src/bcc_client.js",
+            "type": "js",
+            "subpath": "/app/trans/node_modules/bce-sdk-js/src/bcc_client.js"
+        },
+        "trans:node_modules/bce-sdk-js/src/bce_base_client.js": {
+            "uri": "/app/trans/node_modules/bce-sdk-js/src/bce_base_client.js",
+            "type": "js",
+            "subpath": "/app/trans/node_modules/bce-sdk-js/src/bce_base_client.js"
+        },
+        "trans:node_modules/bce-sdk-js/src/bcs_client.js": {
+            "uri": "/app/trans/node_modules/bce-sdk-js/src/bcs_client.js",
+            "type": "js",
+            "subpath": "/app/trans/node_modules/bce-sdk-js/src/bcs_client.js"
+        },
+        "trans:node_modules/bce-sdk-js/src/bos_client.js": {
+            "uri": "/app/trans/node_modules/bce-sdk-js/src/bos_client.js",
+            "type": "js",
+            "subpath": "/app/trans/node_modules/bce-sdk-js/src/bos_client.js"
+        },
+        "trans:node_modules/bce-sdk-js/src/config.js": {
+            "uri": "/app/trans/node_modules/bce-sdk-js/src/config.js",
+            "type": "js",
+            "subpath": "/app/trans/node_modules/bce-sdk-js/src/config.js"
+        },
+        "trans:node_modules/bce-sdk-js/src/crypto.js": {
+            "uri": "/app/trans/node_modules/bce-sdk-js/src/crypto.js",
+            "type": "js",
+            "subpath": "/app/trans/node_modules/bce-sdk-js/src/crypto.js"
+        },
+        "trans:node_modules/bce-sdk-js/src/doc_client.js": {
+            "uri": "/app/trans/node_modules/bce-sdk-js/src/doc_client.js",
+            "type": "js",
+            "subpath": "/app/trans/node_modules/bce-sdk-js/src/doc_client.js"
+        },
+        "trans:node_modules/bce-sdk-js/src/face_client.js": {
+            "uri": "/app/trans/node_modules/bce-sdk-js/src/face_client.js",
+            "type": "js",
+            "subpath": "/app/trans/node_modules/bce-sdk-js/src/face_client.js"
+        },
+        "trans:node_modules/bce-sdk-js/src/headers.js": {
+            "uri": "/app/trans/node_modules/bce-sdk-js/src/headers.js",
+            "type": "js",
+            "subpath": "/app/trans/node_modules/bce-sdk-js/src/headers.js"
+        },
+        "trans:node_modules/bce-sdk-js/src/helper.js": {
+            "uri": "/app/trans/node_modules/bce-sdk-js/src/helper.js",
+            "type": "js",
+            "subpath": "/app/trans/node_modules/bce-sdk-js/src/helper.js"
+        },
+        "trans:node_modules/bce-sdk-js/src/http_client.js": {
+            "uri": "/app/trans/node_modules/bce-sdk-js/src/http_client.js",
+            "type": "js",
+            "subpath": "/app/trans/node_modules/bce-sdk-js/src/http_client.js"
+        },
+        "trans:node_modules/bce-sdk-js/src/lss_client.js": {
+            "uri": "/app/trans/node_modules/bce-sdk-js/src/lss_client.js",
+            "type": "js",
+            "subpath": "/app/trans/node_modules/bce-sdk-js/src/lss_client.js"
+        },
+        "trans:node_modules/bce-sdk-js/src/mct_client.js": {
+            "uri": "/app/trans/node_modules/bce-sdk-js/src/mct_client.js",
+            "type": "js",
+            "subpath": "/app/trans/node_modules/bce-sdk-js/src/mct_client.js"
+        },
+        "trans:node_modules/bce-sdk-js/src/media_client.js": {
+            "uri": "/app/trans/node_modules/bce-sdk-js/src/media_client.js",
+            "type": "js",
+            "subpath": "/app/trans/node_modules/bce-sdk-js/src/media_client.js"
+        },
+        "trans:node_modules/bce-sdk-js/src/mime.types.js": {
+            "uri": "/app/trans/node_modules/bce-sdk-js/src/mime.types.js",
+            "type": "js",
+            "subpath": "/app/trans/node_modules/bce-sdk-js/src/mime.types.js"
+        },
+        "trans:node_modules/bce-sdk-js/src/multipart.js": {
+            "uri": "/app/trans/node_modules/bce-sdk-js/src/multipart.js",
+            "type": "js",
+            "subpath": "/app/trans/node_modules/bce-sdk-js/src/multipart.js"
+        },
+        "trans:node_modules/bce-sdk-js/src/ocr_client.js": {
+            "uri": "/app/trans/node_modules/bce-sdk-js/src/ocr_client.js",
+            "type": "js",
+            "subpath": "/app/trans/node_modules/bce-sdk-js/src/ocr_client.js"
+        },
+        "trans:node_modules/bce-sdk-js/src/qns_client.js": {
+            "uri": "/app/trans/node_modules/bce-sdk-js/src/qns_client.js",
+            "type": "js",
+            "subpath": "/app/trans/node_modules/bce-sdk-js/src/qns_client.js"
+        },
+        "trans:node_modules/bce-sdk-js/src/ses_client.js": {
+            "uri": "/app/trans/node_modules/bce-sdk-js/src/ses_client.js",
+            "type": "js",
+            "subpath": "/app/trans/node_modules/bce-sdk-js/src/ses_client.js"
+        },
+        "trans:node_modules/bce-sdk-js/src/strings.js": {
+            "uri": "/app/trans/node_modules/bce-sdk-js/src/strings.js",
+            "type": "js",
+            "subpath": "/app/trans/node_modules/bce-sdk-js/src/strings.js"
+        },
+        "trans:node_modules/bce-sdk-js/src/sts.js": {
+            "uri": "/app/trans/node_modules/bce-sdk-js/src/sts.js",
+            "type": "js",
+            "subpath": "/app/trans/node_modules/bce-sdk-js/src/sts.js"
+        },
+        "trans:node_modules/bce-sdk-js/src/vod_client.js": {
+            "uri": "/app/trans/node_modules/bce-sdk-js/src/vod_client.js",
+            "type": "js",
+            "subpath": "/app/trans/node_modules/bce-sdk-js/src/vod_client.js"
+        },
+        "trans:node_modules/bce-sdk-js/src/vod/Media.js": {
+            "uri": "/app/trans/node_modules/bce-sdk-js/src/vod/Media.js",
+            "type": "js",
+            "subpath": "/app/trans/node_modules/bce-sdk-js/src/vod/Media.js"
+        },
+        "trans:node_modules/bce-sdk-js/src/vod/Notification.js": {
+            "uri": "/app/trans/node_modules/bce-sdk-js/src/vod/Notification.js",
+            "type": "js",
+            "subpath": "/app/trans/node_modules/bce-sdk-js/src/vod/Notification.js"
+        },
+        "trans:node_modules/bce-sdk-js/src/vod/Player.js": {
+            "uri": "/app/trans/node_modules/bce-sdk-js/src/vod/Player.js",
+            "type": "js",
+            "subpath": "/app/trans/node_modules/bce-sdk-js/src/vod/Player.js"
+        },
+        "trans:node_modules/bce-sdk-js/src/vod/PresetGroup.js": {
+            "uri": "/app/trans/node_modules/bce-sdk-js/src/vod/PresetGroup.js",
+            "type": "js",
+            "subpath": "/app/trans/node_modules/bce-sdk-js/src/vod/PresetGroup.js"
+        },
+        "trans:node_modules/bce-sdk-js/src/vod/Statistic.js": {
+            "uri": "/app/trans/node_modules/bce-sdk-js/src/vod/Statistic.js",
+            "type": "js",
+            "subpath": "/app/trans/node_modules/bce-sdk-js/src/vod/Statistic.js"
+        },
+        "trans:node_modules/bce-sdk-js/src/vod/StrategyGroup.js": {
+            "uri": "/app/trans/node_modules/bce-sdk-js/src/vod/StrategyGroup.js",
+            "type": "js",
+            "subpath": "/app/trans/node_modules/bce-sdk-js/src/vod/StrategyGroup.js"
+        },
+        "trans:node_modules/bce-sdk-js/src/wm_stream.js": {
+            "uri": "/app/trans/node_modules/bce-sdk-js/src/wm_stream.js",
+            "type": "js",
+            "subpath": "/app/trans/node_modules/bce-sdk-js/src/wm_stream.js"
+        },
+        "trans:node_modules/brain/brain-0.5.0.js": {
+            "uri": "/app/trans/node_modules/brain/brain-0.5.0.js",
+            "type": "js",
+            "subpath": "/app/trans/node_modules/brain/brain-0.5.0.js"
+        },
+        "trans:node_modules/brain/browser.js": {
+            "uri": "/app/trans/node_modules/brain/browser.js",
+            "type": "js",
+            "subpath": "/app/trans/node_modules/brain/browser.js"
+        },
+        "trans:node_modules/brain/Gruntfile.js": {
+            "uri": "/app/trans/node_modules/brain/Gruntfile.js",
+            "type": "js",
+            "subpath": "/app/trans/node_modules/brain/Gruntfile.js"
+        },
+        "trans:node_modules/brain/lib/brain-0.6.0.js": {
+            "uri": "/app/trans/node_modules/brain/lib/brain-0.6.0.js",
+            "type": "js",
+            "subpath": "/app/trans/node_modules/brain/lib/brain-0.6.0.js"
+        },
+        "trans:node_modules/brain/lib/brain-0.6.0.min.js": {
+            "uri": "/app/trans/node_modules/brain/lib/brain-0.6.0.min.js",
+            "type": "js",
+            "subpath": "/app/trans/node_modules/brain/lib/brain-0.6.0.min.js"
+        },
+        "trans:node_modules/brain/lib/brain.js": {
+            "uri": "/app/trans/node_modules/brain/lib/brain.js",
+            "type": "js",
+            "subpath": "/app/trans/node_modules/brain/lib/brain.js"
+        },
+        "trans:node_modules/brain/lib/cross-validate.js": {
+            "uri": "/app/trans/node_modules/brain/lib/cross-validate.js",
+            "type": "js",
+            "subpath": "/app/trans/node_modules/brain/lib/cross-validate.js"
+        },
+        "trans:node_modules/brain/lib/lookup.js": {
+            "uri": "/app/trans/node_modules/brain/lib/lookup.js",
+            "type": "js",
+            "subpath": "/app/trans/node_modules/brain/lib/lookup.js"
+        },
+        "trans:node_modules/brain/lib/neuralnetwork.js": {
+            "uri": "/app/trans/node_modules/brain/lib/neuralnetwork.js",
+            "type": "js",
+            "subpath": "/app/trans/node_modules/brain/lib/neuralnetwork.js"
+        },
+        "trans:node_modules/brain/stream-example.js": {
+            "uri": "/app/trans/node_modules/brain/stream-example.js",
+            "type": "js",
+            "subpath": "/app/trans/node_modules/brain/stream-example.js"
+        },
+        "trans:node_modules/brain/test.js": {
+            "uri": "/app/trans/node_modules/brain/test.js",
+            "type": "js",
+            "subpath": "/app/trans/node_modules/brain/test.js"
+        },
+        "trans:node_modules/brain/test/cross-validation/ocr.js": {
+            "uri": "/app/trans/node_modules/brain/test/cross-validation/ocr.js",
+            "type": "js",
+            "subpath": "/app/trans/node_modules/brain/test/cross-validation/ocr.js"
+        },
+        "trans:node_modules/brain/test/unit/bitwise.js": {
+            "uri": "/app/trans/node_modules/brain/test/unit/bitwise.js",
+            "type": "js",
+            "subpath": "/app/trans/node_modules/brain/test/unit/bitwise.js"
+        },
+        "trans:node_modules/brain/test/unit/hash.js": {
+            "uri": "/app/trans/node_modules/brain/test/unit/hash.js",
+            "type": "js",
+            "subpath": "/app/trans/node_modules/brain/test/unit/hash.js"
+        },
+        "trans:node_modules/brain/test/unit/json.js": {
+            "uri": "/app/trans/node_modules/brain/test/unit/json.js",
+            "type": "js",
+            "subpath": "/app/trans/node_modules/brain/test/unit/json.js"
+        },
+        "trans:node_modules/brain/test/unit/lookup.js": {
+            "uri": "/app/trans/node_modules/brain/test/unit/lookup.js",
+            "type": "js",
+            "subpath": "/app/trans/node_modules/brain/test/unit/lookup.js"
+        },
+        "trans:node_modules/brain/test/unit/options.js": {
+            "uri": "/app/trans/node_modules/brain/test/unit/options.js",
+            "type": "js",
+            "subpath": "/app/trans/node_modules/brain/test/unit/options.js"
+        },
+        "trans:node_modules/brain/test/unit/stream-bitwise.js": {
+            "uri": "/app/trans/node_modules/brain/test/unit/stream-bitwise.js",
+            "type": "js",
+            "subpath": "/app/trans/node_modules/brain/test/unit/stream-bitwise.js"
+        },
+        "trans:node_modules/brain/test/unit/trainopts.js": {
+            "uri": "/app/trans/node_modules/brain/test/unit/trainopts.js",
+            "type": "js",
+            "subpath": "/app/trans/node_modules/brain/test/unit/trainopts.js"
+        },
+        "trans:node_modules/cross-spawn/index.js": {
+            "uri": "/app/trans/node_modules/cross-spawn/index.js",
+            "type": "js",
+            "subpath": "/app/trans/node_modules/cross-spawn/index.js"
+        },
+        "trans:node_modules/cross-spawn/lib/enoent.js": {
+            "uri": "/app/trans/node_modules/cross-spawn/lib/enoent.js",
+            "type": "js",
+            "subpath": "/app/trans/node_modules/cross-spawn/lib/enoent.js"
+        },
+        "trans:node_modules/cross-spawn/lib/parse.js": {
+            "uri": "/app/trans/node_modules/cross-spawn/lib/parse.js",
+            "type": "js",
+            "subpath": "/app/trans/node_modules/cross-spawn/lib/parse.js"
+        },
+        "trans:node_modules/cross-spawn/lib/util/escapeArgument.js": {
+            "uri": "/app/trans/node_modules/cross-spawn/lib/util/escapeArgument.js",
+            "type": "js",
+            "subpath": "/app/trans/node_modules/cross-spawn/lib/util/escapeArgument.js"
+        },
+        "trans:node_modules/cross-spawn/lib/util/escapeCommand.js": {
+            "uri": "/app/trans/node_modules/cross-spawn/lib/util/escapeCommand.js",
+            "type": "js",
+            "subpath": "/app/trans/node_modules/cross-spawn/lib/util/escapeCommand.js"
+        },
+        "trans:node_modules/cross-spawn/lib/util/hasEmptyArgumentBug.js": {
+            "uri": "/app/trans/node_modules/cross-spawn/lib/util/hasEmptyArgumentBug.js",
+            "type": "js",
+            "subpath": "/app/trans/node_modules/cross-spawn/lib/util/hasEmptyArgumentBug.js"
+        },
+        "trans:node_modules/cross-spawn/lib/util/readShebang.js": {
+            "uri": "/app/trans/node_modules/cross-spawn/lib/util/readShebang.js",
+            "type": "js",
+            "subpath": "/app/trans/node_modules/cross-spawn/lib/util/readShebang.js"
+        },
+        "trans:node_modules/cross-spawn/lib/util/resolveCommand.js": {
+            "uri": "/app/trans/node_modules/cross-spawn/lib/util/resolveCommand.js",
+            "type": "js",
+            "subpath": "/app/trans/node_modules/cross-spawn/lib/util/resolveCommand.js"
+        },
+        "trans:node_modules/debug/karma.conf.js": {
+            "uri": "/app/trans/node_modules/debug/karma.conf.js",
+            "type": "js",
+            "subpath": "/app/trans/node_modules/debug/karma.conf.js"
+        },
+        "trans:node_modules/debug/node.js": {
+            "uri": "/app/trans/node_modules/debug/node.js",
+            "type": "js",
+            "subpath": "/app/trans/node_modules/debug/node.js"
+        },
+        "trans:node_modules/debug/src/browser.js": {
+            "uri": "/app/trans/node_modules/debug/src/browser.js",
+            "type": "js",
+            "subpath": "/app/trans/node_modules/debug/src/browser.js"
+        },
+        "trans:node_modules/debug/src/debug.js": {
+            "uri": "/app/trans/node_modules/debug/src/debug.js",
+            "type": "js",
+            "subpath": "/app/trans/node_modules/debug/src/debug.js"
+        },
+        "trans:node_modules/debug/src/index.js": {
+            "uri": "/app/trans/node_modules/debug/src/index.js",
+            "type": "js",
+            "subpath": "/app/trans/node_modules/debug/src/index.js"
+        },
+        "trans:node_modules/debug/src/node.js": {
+            "uri": "/app/trans/node_modules/debug/src/node.js",
+            "type": "js",
+            "subpath": "/app/trans/node_modules/debug/src/node.js"
+        },
+        "trans:node_modules/execa/index.js": {
+            "uri": "/app/trans/node_modules/execa/index.js",
+            "type": "js",
+            "subpath": "/app/trans/node_modules/execa/index.js"
+        },
+        "trans:node_modules/execa/lib/errname.js": {
+            "uri": "/app/trans/node_modules/execa/lib/errname.js",
+            "type": "js",
+            "subpath": "/app/trans/node_modules/execa/lib/errname.js"
+        },
+        "trans:node_modules/execa/lib/stdio.js": {
+            "uri": "/app/trans/node_modules/execa/lib/stdio.js",
+            "type": "js",
+            "subpath": "/app/trans/node_modules/execa/lib/stdio.js"
+        },
+        "trans:node_modules/formidable/index.js": {
+            "uri": "/app/trans/node_modules/formidable/index.js",
+            "type": "js",
+            "subpath": "/app/trans/node_modules/formidable/index.js"
+        },
+        "trans:node_modules/formidable/lib/file.js": {
+            "uri": "/app/trans/node_modules/formidable/lib/file.js",
+            "type": "js",
+            "subpath": "/app/trans/node_modules/formidable/lib/file.js"
+        },
+        "trans:node_modules/formidable/lib/incoming_form.js": {
+            "uri": "/app/trans/node_modules/formidable/lib/incoming_form.js",
+            "type": "js",
+            "subpath": "/app/trans/node_modules/formidable/lib/incoming_form.js"
+        },
+        "trans:node_modules/formidable/lib/index.js": {
+            "uri": "/app/trans/node_modules/formidable/lib/index.js",
+            "type": "js",
+            "subpath": "/app/trans/node_modules/formidable/lib/index.js"
+        },
+        "trans:node_modules/formidable/lib/json_parser.js": {
+            "uri": "/app/trans/node_modules/formidable/lib/json_parser.js",
+            "type": "js",
+            "subpath": "/app/trans/node_modules/formidable/lib/json_parser.js"
+        },
+        "trans:node_modules/formidable/lib/multipart_parser.js": {
+            "uri": "/app/trans/node_modules/formidable/lib/multipart_parser.js",
+            "type": "js",
+            "subpath": "/app/trans/node_modules/formidable/lib/multipart_parser.js"
+        },
+        "trans:node_modules/formidable/lib/octet_parser.js": {
+            "uri": "/app/trans/node_modules/formidable/lib/octet_parser.js",
+            "type": "js",
+            "subpath": "/app/trans/node_modules/formidable/lib/octet_parser.js"
+        },
+        "trans:node_modules/formidable/lib/querystring_parser.js": {
+            "uri": "/app/trans/node_modules/formidable/lib/querystring_parser.js",
+            "type": "js",
+            "subpath": "/app/trans/node_modules/formidable/lib/querystring_parser.js"
+        },
+        "trans:node_modules/get-stream/buffer-stream.js": {
+            "uri": "/app/trans/node_modules/get-stream/buffer-stream.js",
+            "type": "js",
+            "subpath": "/app/trans/node_modules/get-stream/buffer-stream.js"
+        },
+        "trans:node_modules/get-stream/index.js": {
+            "uri": "/app/trans/node_modules/get-stream/index.js",
+            "type": "js",
+            "subpath": "/app/trans/node_modules/get-stream/index.js"
+        },
+        "trans:node_modules/inherits/inherits_browser.js": {
+            "uri": "/app/trans/node_modules/inherits/inherits_browser.js",
+            "type": "js",
+            "subpath": "/app/trans/node_modules/inherits/inherits_browser.js"
+        },
+        "trans:node_modules/inherits/inherits.js": {
+            "uri": "/app/trans/node_modules/inherits/inherits.js",
+            "type": "js",
+            "subpath": "/app/trans/node_modules/inherits/inherits.js"
+        },
+        "trans:node_modules/is-stream/index.js": {
+            "uri": "/app/trans/node_modules/is-stream/index.js",
+            "type": "js",
+            "subpath": "/app/trans/node_modules/is-stream/index.js"
+        },
+        "trans:node_modules/isexe/index.js": {
+            "uri": "/app/trans/node_modules/isexe/index.js",
+            "type": "js",
+            "subpath": "/app/trans/node_modules/isexe/index.js"
+        },
+        "trans:node_modules/isexe/mode.js": {
+            "uri": "/app/trans/node_modules/isexe/mode.js",
+            "type": "js",
+            "subpath": "/app/trans/node_modules/isexe/mode.js"
+        },
+        "trans:node_modules/isexe/test/basic.js": {
+            "uri": "/app/trans/node_modules/isexe/test/basic.js",
+            "type": "js",
+            "subpath": "/app/trans/node_modules/isexe/test/basic.js"
+        },
+        "trans:node_modules/isexe/windows.js": {
+            "uri": "/app/trans/node_modules/isexe/windows.js",
+            "type": "js",
+            "subpath": "/app/trans/node_modules/isexe/windows.js"
+        },
+        "trans:node_modules/lru-cache/index.js": {
+            "uri": "/app/trans/node_modules/lru-cache/index.js",
+            "type": "js",
+            "subpath": "/app/trans/node_modules/lru-cache/index.js"
+        },
+        "trans:node_modules/ms/index.js": {
+            "uri": "/app/trans/node_modules/ms/index.js",
+            "type": "js",
+            "subpath": "/app/trans/node_modules/ms/index.js"
+        },
+        "trans:node_modules/npm-run-path/index.js": {
+            "uri": "/app/trans/node_modules/npm-run-path/index.js",
+            "type": "js",
+            "subpath": "/app/trans/node_modules/npm-run-path/index.js"
+        },
+        "trans:node_modules/p-finally/index.js": {
+            "uri": "/app/trans/node_modules/p-finally/index.js",
+            "type": "js",
+            "subpath": "/app/trans/node_modules/p-finally/index.js"
+        },
+        "trans:node_modules/path-key/index.js": {
+            "uri": "/app/trans/node_modules/path-key/index.js",
+            "type": "js",
+            "subpath": "/app/trans/node_modules/path-key/index.js"
+        },
+        "trans:node_modules/pseudomap/map.js": {
+            "uri": "/app/trans/node_modules/pseudomap/map.js",
+            "type": "js",
+            "subpath": "/app/trans/node_modules/pseudomap/map.js"
+        },
+        "trans:node_modules/pseudomap/pseudomap.js": {
+            "uri": "/app/trans/node_modules/pseudomap/pseudomap.js",
+            "type": "js",
+            "subpath": "/app/trans/node_modules/pseudomap/pseudomap.js"
+        },
+        "trans:node_modules/pseudomap/test/basic.js": {
+            "uri": "/app/trans/node_modules/pseudomap/test/basic.js",
+            "type": "js",
+            "subpath": "/app/trans/node_modules/pseudomap/test/basic.js"
+        },
+        "trans:node_modules/q/q.js": {
+            "uri": "/app/trans/node_modules/q/q.js",
+            "type": "js",
+            "subpath": "/app/trans/node_modules/q/q.js"
+        },
+        "trans:node_modules/q/queue.js": {
+            "uri": "/app/trans/node_modules/q/queue.js",
+            "type": "js",
+            "subpath": "/app/trans/node_modules/q/queue.js"
+        },
+        "trans:node_modules/shebang-command/index.js": {
+            "uri": "/app/trans/node_modules/shebang-command/index.js",
+            "type": "js",
+            "subpath": "/app/trans/node_modules/shebang-command/index.js"
+        },
+        "trans:node_modules/shebang-regex/index.js": {
+            "uri": "/app/trans/node_modules/shebang-regex/index.js",
+            "type": "js",
+            "subpath": "/app/trans/node_modules/shebang-regex/index.js"
+        },
+        "trans:node_modules/signal-exit/index.js": {
+            "uri": "/app/trans/node_modules/signal-exit/index.js",
+            "type": "js",
+            "subpath": "/app/trans/node_modules/signal-exit/index.js"
+        },
+        "trans:node_modules/signal-exit/signals.js": {
+            "uri": "/app/trans/node_modules/signal-exit/signals.js",
+            "type": "js",
+            "subpath": "/app/trans/node_modules/signal-exit/signals.js"
+        },
+        "trans:node_modules/strip-eof/index.js": {
+            "uri": "/app/trans/node_modules/strip-eof/index.js",
+            "type": "js",
+            "subpath": "/app/trans/node_modules/strip-eof/index.js"
+        },
+        "trans:node_modules/underscore/underscore-min.js": {
+            "uri": "/app/trans/node_modules/underscore/underscore-min.js",
+            "type": "js",
+            "subpath": "/app/trans/node_modules/underscore/underscore-min.js"
+        },
+        "trans:node_modules/underscore/underscore.js": {
+            "uri": "/app/trans/node_modules/underscore/underscore.js",
+            "type": "js",
+            "subpath": "/app/trans/node_modules/underscore/underscore.js"
+        },
+        "trans:node_modules/which/which.js": {
+            "uri": "/app/trans/node_modules/which/which.js",
+            "type": "js",
+            "subpath": "/app/trans/node_modules/which/which.js"
+        },
+        "trans:node_modules/yallist/iterator.js": {
+            "uri": "/app/trans/node_modules/yallist/iterator.js",
+            "type": "js",
+            "subpath": "/app/trans/node_modules/yallist/iterator.js"
+        },
+        "trans:node_modules/yallist/yallist.js": {
+            "uri": "/app/trans/node_modules/yallist/yallist.js",
+            "type": "js",
+            "subpath": "/app/trans/node_modules/yallist/yallist.js"
+        }
+    },
+    "pkg": {}
+}

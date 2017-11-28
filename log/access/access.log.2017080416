@@ -1,0 +1,6 @@
+::ffff:127.0.0.1 - - [04/Aug/2017:16:55:02 ] "GET / HTTP/1.1" 404 13 - - Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36 16.190
+::ffff:127.0.0.1 - - [04/Aug/2017:16:55:37 ] "GET /trans/video HTTP/1.1" 200 - - - Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36 84.328
+::ffff:127.0.0.1 - - [04/Aug/2017:16:55:45 ] "POST /trans/putVideo HTTP/1.1" 200 258 http://127.0.0.1:8085/trans/video - Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36 269.867
+::ffff:127.0.0.1 - - [04/Aug/2017:16:57:37 ] "POST /trans/putVideo HTTP/1.1" 200 53 http://127.0.0.1:8085/trans/video - Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36 155.732
+::ffff:127.0.0.1 - - [04/Aug/2017:16:59:32 ] "GET /trans/video HTTP/1.1" 200 - - - Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36 84.026
+::ffff:127.0.0.1 - - [04/Aug/2017:16:59:36 ] "POST /trans/putVideo HTTP/1.1" 200 258 http://127.0.0.1:8085/trans/video - Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36 448.703
